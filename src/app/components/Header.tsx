@@ -2,7 +2,7 @@ const Header = () => {
     return <header>
         ini header guys
 
-        jadiiii
+        project stomil
     </header>
 }
 export default Header
