@@ -1,6 +1,6 @@
 const Footer = () => {
     return <footer>
-        ini footer buy
+        ini footer guyyyyyyyyy
     </footer>
 }
 export default Footer
