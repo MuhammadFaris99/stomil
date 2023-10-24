@@ -1,0 +1,20 @@
+{
+    "products": [
+      {
+        "title": "YOKOHAMA",
+        "href": "/products/yokohama"
+      },
+      {
+        "title": "MECAL",
+        "href": "/products/mecal"
+      },
+      {
+        "title": "ALL RUBBER",
+        "href": "/products/all-rubber"
+      },
+      {
+        "title": "MULTOTEC",
+        "href": "/products/multotec"
+      }
+    ]
+}

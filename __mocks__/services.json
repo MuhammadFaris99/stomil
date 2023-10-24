@@ -1,0 +1,24 @@
+{
+    "services": [
+      {
+        "title": "EPC Material Handling Facility",
+        "href": "/services/epc-material-handling-facility"
+      },
+      {
+        "title": "Conveyor Maintenance System",
+        "href": "/services/conveyor-maintenance-system"
+      },
+      {
+        "title": "Operation & Maintenance Contract",
+        "href": "/services/operation-maintenance-contract"
+      },
+      {
+        "title": "Tire Management System",
+        "href": "/services/tire-management-system"
+      },
+      {
+        "title": "Crusher Rental",
+        "href": "/services/crusher-rental"
+      }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "socmed": [
+      {
+        "title": "Facebook",
+        "href": "/socmed/Facebook"
+      },
+      {
+        "title": "Instagram",
+        "href": "/socmed/Instagram"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/socmed/LinkedIn"
+      }
+    ]
+}
