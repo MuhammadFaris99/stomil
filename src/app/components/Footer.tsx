@@ -11,8 +11,7 @@ const Footer = () => {
                             <div className="mr-12">
                                 <h4 className="text-white mb-6 text-[23px]">Jobcy</h4>
                                 <p className="text-white/50 dark:text-gray-300">
-                                    It is a long established fact that a reader will be of a page reader
-                                    will be of at its layout.
+                                Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, Jakarta Barat – 11830
                                 </p>
                                 <p className="mt-3 text-white dark:text-gray-50">Follow Us on:</p>
                                 <div className="mt-5">
@@ -96,9 +95,7 @@ const Footer = () => {
                     <div className="text-center">
                         <p className="mb-0 text-center text-white/50">
                             <script>document.write(new Date().getFullYear())</script>
-                            © Jobcy - Job Listing Page
-                            Template by
-                            <a href="https://themeforest.net/search/themesdesign" target="_blank" className="underline transition-all duration-300 hover:text-gray-50">Themesdesign</a>
+                            Copyright 2023 © PT STOMIL INDONESIA. All Rights Reserved.
                         </p>
                     </div>
                 </div>
