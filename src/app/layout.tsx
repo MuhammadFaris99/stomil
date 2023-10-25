@@ -1,4 +1,6 @@
-import './globals.css'
+import '../../public/styles/globals.css'
+import '../../public/styles/navbar.css'
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from './components/Header'
@@ -20,9 +22,7 @@ export default function RootLayout({
     <html lang="id">
       <body className={inter.className}>
         <Header />
-
-          {children}
-        
+        {children}
         <Footer />
       </body>
     </html>
