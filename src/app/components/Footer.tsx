@@ -1,89 +1,109 @@
-import services from "../../../__mocks__/services.json"
-import products from "../../../__mocks__/products.json"
-import socmed from "../../../__mocks__/socmed.json"
+import items from "../../../__mocks__/items.json"
+import Link from "next/link"
 
 const Footer = () => {
-    return <footer className="w-full text-gray-700 bg-gray-100 body-font">
-        <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
-            <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-                <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
-                    <svg className="w-auto h-5 text-gray-900 fill-current" viewBox="0 0 202 69"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M57.44.672s6.656 1.872 6.656 5.72c0 0-1.56 2.6-3.744 6.552 8.424 1.248 16.744 1.248 23.816-1.976-1.352 7.904-12.688 8.008-26.208 6.136-7.696 13.624-19.656 36.192-19.656 42.848 0 .416.208.624.52.624 4.576 0 17.888-14.352 21.112-18.824 1.144-1.456 4.264.728 3.12 2.392C56.608 53.088 42.152 69 36.432 69c-4.472 0-8.216-5.928-8.216-10.4 0-6.552 11.752-28.08 20.28-42.952-9.984-1.664-20.176-3.64-27.976-3.848-13.936 0-16.64 3.536-17.576 6.032-.104.312-.52.52-.832.312-3.744-7.072-1.456-14.56 14.144-14.56 9.36 0 22.048 4.576 34.944 7.592C54.736 5.04 57.44.672 57.44.672zm46.124 41.08c1.144-1.456 4.264.728 3.016 2.392C100.236 53.088 85.78 69 80.06 69c-4.576 0-8.32-5.928-8.32-10.4v-.208C67.58 64.32 63.524 69 61.34 69c-4.472 0-8.944-4.992-8.944-11.856 0-10.608 15.704-33.072 24.96-33.072 4.992 0 7.384 2.392 8.528 4.576l2.6-4.576s6.656 1.976 6.656 5.824c0 0-13.312 24.336-13.312 30.056 0 .208 0 .624.52.624 4.472 0 17.888-14.352 21.216-18.824zm-40.56 18.72c2.184 0 11.752-13.312 17.368-22.048l4.16-7.488c-8.008-7.904-27.248 29.536-21.528 29.536zm57.564-38.168c-2.184 0-4.992-2.808-4.992-4.784 0-2.912 5.824-14.872 7.28-14.872 2.6 0 6.136 2.808 6.136 6.344 0 2.08-7.176 12.064-8.424 13.312zm-17.68 46.592c-4.472 0-8.216-5.928-8.216-10.4 0-6.656 16.744-34.528 16.744-34.528s6.552 1.976 6.552 5.824c0 0-13.312 24.336-13.312 30.056 0 .208.104.624.624.624 4.472 0 17.888-14.352 21.112-18.824 1.144-1.456 4.264.728 3.12 2.392-6.448 8.944-20.904 24.856-26.624 24.856zM147.244.672s6.656 1.872 6.656 5.72c0 0-25.792 43.784-25.792 53.56 0 .416.208.624.52.624 4.576 0 17.888-14.352 21.112-18.824 1.144-1.456 4.264.728 3.12 2.392C146.412 53.088 131.956 69 126.236 69c-4.472 0-8.216-5.928-8.216-10.4 0-10.4 29.224-57.928 29.224-57.928zM169.7 60.16c3.848-2.392 7.904-6.864 10.816-10.92 6.656-9.464 11.544-20.696 10.504-27.352-.312-3.432-.104-4.056 3.12-2.704 5.2 2.392 11.336 8.632 2.184 22.88-5.2 8.008-12.48 15.288-19.344 19.76-2.704 1.768-6.344 3.328-9.984 4.16-.52.416-1.04.728-1.456.936-1.872 1.352-4.264 2.08-7.592 2.08-14.664 0-16.848-12.272-16.848-16.016 0-2.392 3.224-4.68 4.784-3.744.208.104.312.416.312.624 0 2.808 1.872 13.104 9.984 13.104 7.904 0 3.432-18.304 2.288-27.144-1.456 2.288-3.432 4.992-5.616 8.32-2.6 3.744-5.72 1.456-4.784 0 5.824-8.424 9.152-13.832 11.856-18.616 1.248-2.08 3.328-3.328 6.448-3.328 2.704 0 5.824 3.016 6.864 4.784.312.52 0 1.04-.52 1.144a5.44 5.44 0 00-4.368 5.408c0 6.968 2.6 17.16 1.664 24.856l-.312 1.768z"
-                            fill-rule="nonzero" /></svg>
-                </a>
-                <div className="mt-4">
-                    <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                        <a className="text-gray-500 cursor-pointer hover:text-gray-700">
-                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                className="w-5 h-5" viewBox="0 0 24 24">
-                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                            </svg>
-                        </a>
+    return (
+        <footer className="footer ">
+            <section className="py-12 bg-zinc-800 dark:bg-neutral-900">
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-12 lg:gap-10">
+                        <div className="col-span-12 xl:col-span-4">
+                            <div className="mr-12">
+                                <h4 className="text-white mb-6 text-[23px]">Jobcy</h4>
+                                <p className="text-white/50 dark:text-gray-300">
+                                    It is a long established fact that a reader will be of a page reader
+                                    will be of at its layout.
+                                </p>
+                                <p className="mt-3 text-white dark:text-gray-50">Follow Us on:</p>
+                                <div className="mt-5">
+                                    <ul className="flex gap-3">
+                                        <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
+                                            <a href="#">
+                                                <i className="uil uil-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
+                                            <a href="#">
+                                                <i className="uil uil-linkedin-alt"></i>
+                                            </a>
+                                        </li>
+                                        <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
+                                            <a href="#">
+                                                <i className="uil uil-google"></i>
+                                            </a>
+                                        </li>
+                                        <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
+                                            <a href="#">
+                                                <i className="uil uil-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
+                            {/* <p className="mb-6 text-white text-16">Company</p>
+                                <ul className="space-y-4">
+                                    <li className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50">
+                                        <a href="about.html">
+                                            <i className="mdi mdi-chevron-right"></i> About Us
+                                        </a>
+                                    </li>
+                                </ul> */}
+                        </div>
+                        <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
+                            <p className="mb-6 text-white text-16">Products</p>
+                            <ul className="space-y-4">
+                                {items.products.map((item, i) => (
+                                    <li key={i} className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50">
+                                        <Link href={item.href}>
+                                            <i className="mdi mdi-chevron-right"></i> {item.title}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
+                            <p className="mb-6 text-white text-16">Services</p>
+                            <ul className="space-y-4">
+                                {items.services.map((item, i) => (
+                                    <li key={i} className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50">
+                                        <Link href={item.href}>
+                                            <i className="mdi mdi-chevron-right"></i> {item.title}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
+                            <p className="mb-6 text-white text-16">Social Media</p>
+                            <ul className="space-y-4">
+                                {items.socmed.map((item, i) => (
+                                    <li key={i} className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50">
+                                        <Link href={item.href}>
+                                            <i className="mdi mdi-chevron-right"></i> {item.title}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                        <a className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                            </svg>
-                        </a>
-                        <a className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700">
-                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
-                                <path stroke="none"
-                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
-                                </path>
-                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                            </svg>
-                        </a>
-                    </span>
+            <section className="py-6 border-t bg-zinc-800 border-gray-100/10 dark:bg-neutral-900">
+                <div className="container mx-auto">
+                    <div className="text-center">
+                        <p className="mb-0 text-center text-white/50">
+                            <script>document.write(new Date().getFullYear())</script>
+                            © Jobcy - Job Listing Page
+                            Template by
+                            <a href="https://themeforest.net/search/themesdesign" target="_blank" className="underline transition-all duration-300 hover:text-gray-50">Themesdesign</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
-
-            <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
-                <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                </div>
-
-                <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Product</h2>
-                    <nav className="mb-10 list-none">
-                        {products.products.map((item, i) => (
-                            <li key={i} className="mt-3">
-                                <a href={item.href} className="text-gray-500 cursor-pointer hover:text-gray-900">{item.title} Products</a>
-                            </li>
-                        ))}
-                    </nav>
-                </div>
-
-                <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Service</h2>
-                    <nav className="mb-10 list-none">
-                        {services.services.map((item, i) => (
-                            <li key={i} className="mt-3">
-                                <a href={item.href} className="text-gray-500 cursor-pointer hover:text-gray-900">{item.title}</a>
-                            </li>
-                        ))} 
-                    </nav>
-                </div>
-                <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Social Media</h2>
-                    <nav className="mb-10 list-none">
-                        {socmed.socmed.map((item, i) => (
-                            <li key={i} className="mt-3">
-                                <a href={item.href} className="text-gray-500 cursor-pointer hover:text-gray-900">{item.title}</a>
-                            </li>
-                        ))}
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <div className="bg-gray-300">
-            <div className="container px-5 py-4 mx-auto">
-                <p className="text-sm text-gray-700 capitalize xl:text-center">Copyright 2023 © PT STOMIL INDONESIA. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+            </section>
+        </footer>
+    )
 }
 export default Footer
