@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="grid grid-cols-12 lg:gap-10">
                         <div className="col-span-12 xl:col-span-4">
                             <div className="mr-12">
-                                <h4 className="text-white mb-6 text-[23px]">Jobcy</h4>
+                                <h4 className="text-white mb-6 text-[23px]">Logo</h4>
                                 <p className="text-white/50 dark:text-gray-300">
                                 Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, Jakarta Barat – 11830
                                 </p>
