@@ -29,3 +29,55 @@ body {
 #homeBanner {
   background: url('../../public/images/1.jpg') center;
 }
+
+.dropdown-menu{
+  display: none;
+}
+.dropdown:focus .dropdown-menu{
+  position: relative;
+  display: block;
+}
+@media (min-width:992px) {
+    .dropdown-menu{
+    display: none;
+  }
+    .dropdown:hover .dropdown-menu{
+    display: block !important;
+  }
+}
+@media (max-width:959px) {
+  
+    .navbar-res {
+        height: 400px;
+        overflow-y: auto;
+    }
+}
+/* dropdown show */
+.dropdown-menu {
+   -webkit-animation: DropDownSlide !important;
+           animation: DropDownSlide !important;
+   -webkit-animation-duration: .3s !important;
+           animation-duration: .3s !important;
+   -webkit-animation-fill-mode: both !important;
+           animation-fill-mode: both !important;
+}
+@-webkit-keyframes DropDownSlide {
+   100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+   }
+   0% {
+      -webkit-transform: translateY(10px);
+              transform: translateY(10px);
+   }
+}
+@keyframes DropDownSlide {
+   100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+   }
+   0% {
+      -webkit-transform: translateY(10px);
+              transform: translateY(10px);
+   }
+}
