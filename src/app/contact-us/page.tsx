@@ -4,7 +4,8 @@ const PageContactUs = () => {
     // const [setSubmittedValue, submittedValue] = useState ("");
     return (
         <section className="pt-16">
-            <div className="container mx-auto">
+            {/* flex/grid */}
+            <div className="container mx-auto ">
                 <div className="grid items-center grid-cols-12 mt-5 lg:gap-8 gap-y-8">
                     <div className="col-span-12 lg:col-span-6">
                         <div className="mt-4">
