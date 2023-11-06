@@ -12,9 +12,6 @@ function RunningText(){
 
                 <p className="text-white opacity-50 mb-0 max-w-2xl text-lg">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS html page.</p>
 
-                <div className="relative mt-10">
-                    <a href="" className="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Get Started</a>
-                </div>
             </div>
         </div>
     )
