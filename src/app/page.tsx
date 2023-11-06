@@ -3,14 +3,14 @@ import SliderCandidate from "./components/SliderCandidate";
 
 export default function Home() {
     return (
-        <main>
-            <section className="py-36 lg:py-64 w-full table relative px-24" id="homeBanner">
+        <main className="mt-[80px] max-w-screen-2xl mx-auto">
+            <section className="py-4 lg:py-36 lg:py-64 w-full table relative px-4 lg:px-24" id="homeBanner">
                 <div className="absolute inset-0 bg-black opacity-80"></div>
                 <RunningText />
             </section>
 
 
-            <section className="relative md:py-24 py-16 bg-zinc-50 dark:bg-gray-800" id="about">
+            <section className="relative md:py-24 py-16 bg-zinc-50 dark:bg-gray-800 px-4 lg:px-0" id="about">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 gap-10 items-center">
                         <div className="lg:col-span-5">
@@ -40,7 +40,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="py-10 dark:bg-neutral-800">
+            {/* <section className="py-10 dark:bg-neutral-800">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-12 gap-5">
                         <div className="col-span-12 lg:col-span-2">
@@ -67,9 +67,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section className="py-20 dark:bg-neutral-800">
+            <section className="px-4 lg:px-0 py-20 dark:bg-neutral-800">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 gap-5">
                         <div className="mb-5 text-center">
@@ -82,55 +82,6 @@ export default function Home() {
                             <SliderCandidate />
                         </div>
                     </div>
-                    {/* <div className="grid grid-cols-12 mt-8">
-                        <div className="col-span-12 lg:col-span-8 lg:col-start-3">
-                            <div className="pb-5 swiper testimonialSlider">
-                                <div className="mb-12 swiper-wrapper">
-                                    <div className="swiper-slide">
-                                        <div className="text-center">
-                                            <div className="mb-4">
-                                                <img src="../../public/images/Instagram.svg" className="h-12 mx-auto" alt="" />
-                                            </div>
-                                            <p className="mb-4 text-lg font-thin text-gray-500 dark:text-gray-200">&quot; Very well thought out and articulate communication.
-                                                Clear milestones, deadlines and fast work. Patience. Infinite patience. No
-                                                shortcuts. Even if the client is being careless. &quot;</p>
-                                            <h5 className="mb-0 dark:text-gray-50">Jeffrey Montgomery</h5>
-                                            <p className="mb-0 text-gray-500 dark:text-gray-300">Product Manager</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="swiper-slide">
-                                        <div className="text-center">
-                                            <div className="mb-4">
-                                                <img src="../../public/images/Instagram.svg" className="h-12 mx-auto" alt="" />
-                                            </div>
-                                            <p className="mb-4 text-lg font-thin text-gray-500 dark:text-gray-200">&quot; Very well thought out and articulate communication.
-                                                Clear milestones, deadlines and fast work. Patience. Infinite patience. No
-                                                shortcuts. Even if the client is being careless. &quot;</p>
-                                            <h5 className="mb-0 dark:text-gray-50">Rebecca Swartz</h5>
-                                            <p className="mb-0 text-gray-500 dark:text-gray-300">Creative Designer</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="swiper-slide">
-                                        <div className="text-center">
-                                            <div className="mb-4">
-                                                <img src="../../public/images/Instagram.svg" className="h-12 mx-auto" alt="" />
-                                            </div>
-                                            <p className="mb-4 text-lg font-thin text-gray-500 dark:text-gray-200">&quot; Very well thought out and articulate communication.
-                                                Clear milestones, deadlines and fast work. Patience. Infinite patience. No
-                                                shortcuts. Even if the client is being careless. &quot;</p>
-                                            <h5 className="mb-0 dark:text-gray-50">Charles Dickens</h5>
-                                            <p className="mb-0 text-gray-500 dark:text-gray-300">Store Assistant</p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div className="swiper-pagination"></div>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </section>
         </main>
