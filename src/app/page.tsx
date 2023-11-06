@@ -69,10 +69,6 @@ export default function Home() {
                 </div>
             </section>
 
-            <section>
-                <SliderCandidate />
-            </section>
-
             <section className="py-20 dark:bg-neutral-800">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 gap-5">
@@ -82,6 +78,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="grid grid-cols-12 mt-8">
+                        <div className="col-span-12 lg:col-span-8 lg:col-start-3">
+                            <SliderCandidate />
+                        </div>
+                    </div>
+                    {/* <div className="grid grid-cols-12 mt-8">
                         <div className="col-span-12 lg:col-span-8 lg:col-start-3">
                             <div className="pb-5 swiper testimonialSlider">
                                 <div className="mb-12 swiper-wrapper">
@@ -129,7 +130,7 @@ export default function Home() {
                                 <div className="swiper-pagination"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </main>

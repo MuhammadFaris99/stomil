@@ -9,30 +9,57 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+const data = [
+  {
+    text: '&quot; Very well thought out and articulate communication. Clear milestones, deadlines and fast work.Patience.Infinite patience.No shortcuts.Even if the client is being careless. &quot; ',
+    name: 'Jeffrey Montgomery',
+    title: 'Product Manager',
+    image: ''
+  },
+  {
+    text: '&quot; Very well thought out and articulate communication. Clear milestones, deadlines and fast work.Patience.Infinite patience.No shortcuts.Even if the client is being careless. &quot; ',
+    name: 'Rebecca Swartz',
+    title: 'Creative Designe',
+    image: ''
+  },
+  {
+    text: '&quot; Very well thought out and articulate communication. Clear milestones, deadlines and fast work.Patience.Infinite patience.No shortcuts.Even if the client is being careless. &quot; ',
+    name: 'Charles Dickens',
+    title: 'Store Assistant',
+    image: ''
+  }
+]
 
 export default function SliderCandidate() {
   return (
     <>
       <Swiper
         pagination={{
-          type: 'fraction',
+          dynamicBullets: true,
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper"
+        loop
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {data.map((item) => (
+          <SwiperSlide key={item.text}>
+            <div className="text-center py-10">
+              <div className="mb-4">
+                <img src={item.image} className="h-12 mx-auto" alt="" />
+              </div>
+              <p className="mb-4 text-lg font-thin text-gray-500 dark:text-gray-200" dangerouslySetInnerHTML={{__html: item.text}}></p>
+              <h5 className="mb-0 dark:text-gray-50">{item.name}</h5>
+              <p className="mb-0 text-gray-500 dark:text-gray-300">{item.title}</p>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
