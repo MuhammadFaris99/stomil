@@ -59,15 +59,16 @@ const PageContactUs = () => {
                                     </div>
                                 </div>
                                 <div className="text-right">
-                                    <button type="submit" id="submit" name="submit" className="text-white border-transparent btn group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500"> Send Message <i className="uil uil-message ms-1"></i></button>
+                                    <button type="submit" id="submit" name="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> Send Message <i className="uil uil-message ms-1"></i></button>
                                 </div>
                             </form>
                             {/* <div>{"Submitted Value: " + submittedValue}</div> */}
                         </div>
                     </div>
-                    <div className="col-span-12 lg:col-span-5 lg:ml-20">
+
+                    <div className="col-span-12 lg:col-span-6 lg:ml-20">
                         <div className="text-center">
-                            <img src="images/a.jpeg" alt="" className="img-fluid"/>
+                            <img src="images/a.jpeg" alt="" className="img-fluid h-425 w-331 mt-6" />
                         </div>
                         <div className="pt-3 mt-4">
                             <div className="flex items-center mt-2 text-gray-500">
@@ -75,7 +76,7 @@ const PageContactUs = () => {
                                     <i className="uil uil-map-marker"></i>
                                 </div>
                                 <div className="ltr:ml-2 rtl:mr-2 grow-1">
-                                    <p className="mb-0 dark:text-gray-300">Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, Jakarta Barat – 11830</p>
+                                    <p className="mb-0 dark:text-gray-300">Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, <br/>Jakarta Barat – 11830</p>
                                 </div>
                             </div>
                             <div className="flex items-center mt-2 text-gray-500">
