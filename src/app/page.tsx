@@ -3,7 +3,7 @@ import SliderCandidate from "./components/SliderCandidate";
 
 export default function Home() {
     return (
-        <main className="mt-[80px] max-w-screen-2xl mx-auto">
+        <div className="relative">
             <section className="py-4 lg:py-36 lg:py-64 w-full table relative px-4 lg:px-24" id="homeBanner">
                 <div className="absolute inset-0 bg-black opacity-80"></div>
                 <RunningText />
@@ -84,6 +84,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     )
 }
