@@ -10,9 +10,10 @@ const PageProduct = ({ params }: Props) => {
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                     <div className="lg:col-span-5 md:col-span-6">
                         <div className="grid grid-cols-1 gap-[30px]">
-                            <img src="assets/images/portfolio/1.jpg" className="rounded-md" alt="" />
-                            <img src="assets/images/portfolio/2.jpg" className="rounded-md" alt="" />
-                            <img src="assets/images/portfolio/3.jpg" className="rounded-md" alt="" />
+                            <img src="/images/yokohama1.jpg" className="rounded-md" alt="" />
+                            <img src="/images/yokohama2.png" className="rounded-md" alt="" />
+                            <img src="/images/yokohama3.png" className="rounded-md" alt="" />
+                            <img src="/images/yokohama4.png" className="rounded-md" alt="" />
                         </div>
                     </div>
 
@@ -24,6 +25,28 @@ const PageProduct = ({ params }: Props) => {
                                         <h4 className="text-xl font-medium mb-3 border-b border-gray-100 dark:border-gray-700 pb-3">Project Detail :</h4>
                                         <p className="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p>
                                         <p className="text-slate-400 mt-2">Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>
+                                    </div>
+                                </div>
+
+                                <div className="lg:col-span-7">
+                                    <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
+                                        <h5 className="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-3 mb-3">Project Info :</h5>
+                                        <dl className="grid grid-cols-12 mb-0">
+                                            <dt className="md:col-span-4 col-span-5 mt-2">Client :</dt>
+                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Calvin Carlo</dd>
+
+                                            <dt className="md:col-span-4 col-span-5 mt-2">Category :</dt>
+                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Web Design</dd>
+
+                                            <dt className="md:col-span-4 col-span-5 mt-2">Date :</dt>
+                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">23rd July, 2023</dd>
+
+                                            <dt className="md:col-span-4 col-span-5 mt-2">Website :</dt>
+                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">www.yourdomain.com</dd>
+
+                                            <dt className="md:col-span-4 col-span-5 mt-2">Location :</dt>
+                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">3/2/64 Mongus Street, UK</dd>
+                                        </dl>
                                     </div>
                                 </div>
 

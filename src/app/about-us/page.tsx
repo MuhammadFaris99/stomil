@@ -35,7 +35,7 @@ const PageAboutUs = () => {
                     </div>
                     <div className="col-span-12 lg:col-span-6">
                         <div className="lg:w-[180%]">
-                            <img src="assets/images/about/img-01.jpg" alt="" className="h-auto rounded" />
+                            <img src="/images/billboards2.jpg" alt="" className="h-auto rounded" />
                         </div>
                     </div>
                 </div>

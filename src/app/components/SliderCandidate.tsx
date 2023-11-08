@@ -17,19 +17,19 @@ const data = [
     text: '&quot; Very well thought out and articulate communication. Clear milestones, deadlines and fast work.Patience.Infinite patience.No shortcuts.Even if the client is being careless. &quot; ',
     name: 'Jeffrey Montgomery',
     title: 'Product Manager',
-    image: '../../../public/images/personrandom.png'
+    image: '/images/personrandom.png'
   },
   {
     text: '&quot; Very well thought out and articulate communication. Clear milestones, deadlines and fast work.Patience.Infinite patience.No shortcuts.Even if the client is being careless. &quot; ',
     name: 'Rebecca Swartz',
     title: 'Creative Designe',
-    image: '../../../public/images/personrandom.png'
+    image: '/images/personrandom.png'
   },
   {
     text: '&quot; Very well thought out and articulate communication. Clear milestones, deadlines and fast work.Patience.Infinite patience.No shortcuts.Even if the client is being careless. &quot; ',
     name: 'Charles Dickens',
     title: 'Store Assistant',
-    image: '../../../public/images/personrandom.png'
+    image: '/images/personrandom.png'
   }
 ]
 

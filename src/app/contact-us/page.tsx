@@ -68,7 +68,7 @@ const PageContactUs = () => {
 
                     <div className="col-span-12 lg:col-span-6 lg:ml-20">
                         <div className="text-center">
-                            <img src="images/a.jpeg" alt="" className="img-fluid h-425 w-331 mt-6" />
+                            <img src="/images/personrandom.png" alt="" className="img-fluid h-425 w-331 mt-6" />
                         </div>
                         <div className="pt-3 mt-4">
                             <div className="flex items-center mt-2 text-gray-500">
