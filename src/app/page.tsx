@@ -1,3 +1,4 @@
+import Link from "next/link";
 import RunningText from "./components/RunningText";
 import SliderCandidate from "./components/SliderCandidate";
 
@@ -32,7 +33,7 @@ export default function Home() {
                                 <p className="text-slate-400 dark:text-slate-300 max-w-2xl mx-auto">Start working with Upwind that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with &apos;real&apos; content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
 
                                 <div className="relative mt-10">
-                                    <a href="#portfolio" className="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">About Us</a>
+                                    <Link href="/about-us" className="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md px-4 py-2">About Us</Link>
                                 </div>
                             </div>
                         </div>

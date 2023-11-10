@@ -1,19 +1,24 @@
+import { redirect } from "next/navigation"
+import items from "../../../../__mocks__/items.json"
 interface Props {
     params: { [key: string]: string }
 }
 
 const PageProduct = ({ params }: Props) => {
-    // return `product ${params.slug}`
+    const products = items.products
+    const product = products.find(x => x.slug === params.slug.toLowerCase())
+    if (!product) {
+        return redirect('/')
+    }
     return (
         <section className="relative md:py-24 py-16">
             <div className="container">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                     <div className="lg:col-span-5 md:col-span-6">
                         <div className="grid grid-cols-1 gap-[30px]">
-                            <img src="/images/yokohama1.jpg" className="rounded-md" alt="" />
-                            <img src="/images/yokohama2.png" className="rounded-md" alt="" />
-                            <img src="/images/yokohama3.png" className="rounded-md" alt="" />
-                            <img src="/images/yokohama4.png" className="rounded-md" alt="" />
+                            {product.imagesProduct.map(item => (
+                                <img src={item} key={item} className="rounded-md w-full object-cover" alt="" />
+                            ))}
                         </div>
                     </div>
 
@@ -23,8 +28,7 @@ const PageProduct = ({ params }: Props) => {
                                 <div className="lg:col-span-12">
                                     <div className="work-details">
                                         <h4 className="text-xl font-medium mb-3 border-b border-gray-100 dark:border-gray-700 pb-3">Project Detail :</h4>
-                                        <p className="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p>
-                                        <p className="text-slate-400 mt-2">Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>
+                                        <div dangerouslySetInnerHTML={{__html: product.description}}></div>
                                     </div>
                                 </div>
 

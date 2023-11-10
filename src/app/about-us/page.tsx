@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const PageAboutUs = () => {
     return (
         <section className="py-16 px-4 lg:px-0 overflow-hidden dark:bg-neutral-800">
@@ -21,21 +23,11 @@ const PageAboutUs = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-span-12 md:col-span-6">
-                                <div className="relative">
-                                    {/* <ul className="space-y-4 text-gray-700 about-list dark:text-gray-300">
-                                        <li className="ltr:pl-8 rtl:pr-8"> Digital Marketing Solutions</li>
-                                        <li className="ltr:pl-8 rtl:pr-8"> Our Talented &amp; Experienced Marketing Agency</li>
-                                        <li className="ltr:pl-8 rtl:pr-8"> Creative Design</li>
-                                        <li className="ltr:pl-8 rtl:pr-8"> New jobs Innovation</li>
-                                    </ul> */}
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="col-span-12 lg:col-span-6">
-                        <div className="lg:w-[180%]">
-                            <img src="/images/billboards2.jpg" alt="" className="h-auto rounded" />
+                        <div className="lg:w-[100%] h-[50vh] relative">
+                            <Image fill src="/images/billboards2.jpg" alt="" className="rounded-lg" />
                         </div>
                     </div>
                 </div>

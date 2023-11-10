@@ -1,56 +1,73 @@
 {
-    "products": [
-      {
-        "title": "YOKOHAMA",
-        "href": "/products/yokohama"
-      },
-      {
-        "title": "MECAL",
-        "href": "/products/mecal"
-      },
-      {
-        "title": "ALL RUBBER",
-        "href": "/products/all-rubber"
-      },
-      {
-        "title": "MULTOTEC",
-        "href": "/products/multotec"
-      }
-    ],
-    "services": [
-      {
-        "title": "EPC Material Handling Facility",
-        "href": "/services/epc-material-handling-facility"
-      },
-      {
-        "title": "Conveyor Maintenance System",
-        "href": "/services/conveyor-maintenance-system"
-      },
-      {
-        "title": "Operation & Maintenance Contract",
-        "href": "/services/operation-maintenance-contract"
-      },
-      {
-        "title": "Tire Management System",
-        "href": "/services/tire-management-system"
-      },
-      {
-        "title": "Crusher Rental",
-        "href": "/services/crusher-rental"
-      }
-    ],
-    "socmed": [
-      {
-        "title": "Facebook",
-        "href": "/socmed/Facebook"
-      },
-      {
-        "title": "Instagram",
-        "href": "/socmed/Instagram"
-      },
-      {
-        "title": "LinkedIn",
-        "href": "/socmed/LinkedIn"
-      }
-    ]
+  "products": [
+    {
+      "title": "YOKOHAMA",
+      "slug": "yokohama",
+      "href": "/products/yokohama",
+      "imagesProduct": [
+        "/images/yokohama1.jpg",
+        "/images/yokohama2.png",
+        "/images/yokohama3.png",
+        "/images/yokohama4.png"
+      ],
+      "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>"
+    },
+    {
+      "title": "MECAL",
+      "slug": "mecal",
+      "href": "/products/mecal",
+      "imagesProduct": [],
+      "description": ""
+    },
+    {
+      "title": "ALL RUBBER",
+      "slug": "all-rubber",
+      "href": "/products/all-rubber",
+      "imagesProduct": [],
+      "description": ""
+    },
+    {
+      "title": "MULTOTEC",
+      "slug": "multotec",
+      "href": "/products/multotec",
+      "imagesProduct": [],
+      "description": ""
+    }
+  ],
+  "services": [
+    {
+      "title": "EPC Material Handling Facility",
+      "href": "/services/epc-material-handling-facility"
+    },
+    {
+      "title": "Conveyor Maintenance System",
+      "href": "/services/conveyor-maintenance-system"
+    },
+    {
+      "title": "Operation & Maintenance Contract",
+      "href": "/services/operation-maintenance-contract"
+    },
+    {
+      "title": "Tire Management System",
+      "href": "/services/tire-management-system"
+    },
+    {
+      "title": "Crusher Rental",
+      "href": "/services/crusher-rental"
+    }
+  ],
+  "socmed": [
+    {
+      "title": "Facebook",
+      "href": "/socmed/Facebook"
+    },
+    {
+      "title": "Instagram",
+      "href": "/socmed/Instagram"
+    },
+    {
+      "title": "LinkedIn",
+      "href": "/socmed/LinkedIn"
+    }
+  ]
 }
