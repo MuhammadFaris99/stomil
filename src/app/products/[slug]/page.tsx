@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { redirect } from "next/navigation"
 import items from "../../../../__mocks__/items.json"
 interface Props {
@@ -28,75 +29,44 @@ const PageProduct = ({ params }: Props) => {
                                 <div className="lg:col-span-12">
                                     <div className="work-details">
                                         <h4 className="text-xl font-medium mb-3 border-b border-gray-100 dark:border-gray-700 pb-3">Project Detail :</h4>
-                                        <div dangerouslySetInnerHTML={{__html: product.description}}></div>
+                                        <div dangerouslySetInnerHTML={{ __html: product.description }}></div>
                                     </div>
                                 </div>
-
-                                <div className="lg:col-span-7">
-                                    <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
-                                        <h5 className="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-3 mb-3">Project Info :</h5>
-                                        <dl className="grid grid-cols-12 mb-0">
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Client :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Calvin Carlo</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Category :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Web Design</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Date :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">23rd July, 2023</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Website :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">www.yourdomain.com</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Location :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">3/2/64 Mongus Street, UK</dd>
-                                        </dl>
+                                {product.listInfo.map(info => (
+                                    <div className="lg:col-span-12" key={info.title}>
+                                        <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
+                                            <h5 className="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-3 mb-3">{info.title}</h5>
+                                            <dl className="grid grid-cols-12 mb-0">
+                                                {info.range && (<div className="lg:col-span-4 px-4">
+                                                    <strong>{info.range?.subTitle}</strong>
+                                                    <ul style={{ listStyle: "initial" }}>
+                                                        {info.range?.list.map(range => (
+                                                            <li key={range} className="ml-4">{range}</li>
+                                                        ))}
+                                                    </ul>
+                                                </div>
+                                                )}
+                                                {info.feature && (
+                                                    <div className="lg:col-span-4 px-4">
+                                                        <strong>{info.feature?.subTitle}</strong>
+                                                        <ul style={{ listStyle: "initial" }}>
+                                                            {info.feature?.list.map(feature => (
+                                                                <li key={feature} className="ml-4">{feature}</li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                )}
+                                                <div className="lg:col-span-4">
+                                                    {info.image?.map(image => (
+                                                        <div key={image} className="relative h-20 w-20">
+                                                            <Image fill alt="img product list" src={image} />
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </dl>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div className="lg:col-span-7">
-                                    <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
-                                        <h5 className="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-3 mb-3">Project Info :</h5>
-                                        <dl className="grid grid-cols-12 mb-0">
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Client :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Calvin Carlo</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Category :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Web Design</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Date :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">23rd July, 2023</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Website :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">www.yourdomain.com</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Location :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">3/2/64 Mongus Street, UK</dd>
-                                        </dl>
-                                    </div>
-                                </div>
-
-                                <div className="lg:col-span-7">
-                                    <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
-                                        <h5 className="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-3 mb-3">Project Info :</h5>
-                                        <dl className="grid grid-cols-12 mb-0">
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Client :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Calvin Carlo</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Category :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">Web Design</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Date :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">23rd July, 2023</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Website :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">www.yourdomain.com</dd>
-
-                                            <dt className="md:col-span-4 col-span-5 mt-2">Location :</dt>
-                                            <dd className="md:col-span-8 col-span-7 mt-2 text-slate-400">3/2/64 Mongus Street, UK</dd>
-                                        </dl>
-                                    </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
                     </div>

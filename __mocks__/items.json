@@ -4,42 +4,96 @@
       "title": "YOKOHAMA",
       "slug": "yokohama",
       "href": "/products/yokohama",
+      "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>",
       "imagesProduct": [
         "/images/yokohama1.jpg",
         "/images/yokohama2.png",
         "/images/yokohama3.png",
         "/images/yokohama4.png"
       ],
-      "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>",
       "listInfo": [
-        {"title": "STEEL CORD BELT", "subTitle": ["Production Range", "Features & Benefits"], 
-        "range": ["Tensile strength: 500 to 5,400 N/mm", "Max. Belt width: 3,200 mm"], 
-        "feature": ["High Belt Strength", "Available Cover Compounds", "Low Elongation", "Superior Trough ability", "Excellent Durability"],
-        "image": ["/images/yokohama1.jpg"]},
-
-        {"title": "GENERAL FABRIC BELT", "subTitle": ["Production Range", "Features & Benefits"], 
-        "range": ["Carcasses : Polyester/Nylon (EP) & Nylon/Nylon (NN)", "Belt Strength : 100 to 2,500 N/mm", "Belt width : 300 to 2,400 mm"], 
-        "feature": ["Wide Selection of Belt Strengths", "Cover Compounds and Cover Gauges", "Excellent Durability", "Perfect Load Support", "Reliable Vulcanized Splices"],
-        "image": ["/images/yokohama1.jpg"]},
-
-        {"title": "MJ-FABRIC BELT", "subTitle": ["Features & Benefits"], 
-        "feature": ["Excellent Fastener Holding", "Easy and Quick Installation", "Easy Maintenance", "Perfect Load Support", "Excellent Flexibility"]},
-        
-        {"title": "PROTEX-MF FABRIC BELT", "subTitle": ["Features & Benefits"], "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>",
-        "feature": ["Excellent Resistance to Trapped Material and Build-up on Pulleys", "Excellent impact resistance and cut & gouge resistance", "Superior abrasion & wear resistance under extreme conditions", "Less permanent elongation & belt stretch", "Best choice in rough operating conditions. i.e. Portable Cone & Jaw Crushers"],
-        "image": ["/images/yokohama1.jpg", "/images/yokohama2.jpg", "/images/yokohama3.jpg"]},
-
-        {"title": "COMPOUNDS", "parTitle": ["Heavy Duty Compounds Belt", "Energy Saving Belt", "Heat Resistant Belt", "Non-Stick Belt", "Oil Resistant Belt", "Flame Resistant Belt"],
-        "subTitle": ["Yokohama Original Compound", "International Standards"],
-        "yokohamaCompound": ["SWR - High abrasion resistance", "UWR - Ultimate abrasion resistance", "UR - Impact resistant for heavy ore and high chutes", "IceGuard AR - High impact and abrasion resistance under extreme low temperature"],
-        "standard": ["RMA Grade I, II", "DIN-X, Y, W, Z, X", "AS-A, M, M+, N, F", "JIS-H, S, L, A, G, P, D", "BS/IS-M24, N17"],
-        "heatResistant": ["Hamaheat #2110", "Hamaheat Super 50", "Hamaheat Super 100"],
-        "nonStick": ["Super Non-Stick", "Heat Resistant Non-Stick", "Non-Stick"],
-        "description": [
-          "YOKOHAMA has developed Energy Saving Conveyor Belt, which extends the advantages of conveyor belts, allowing reduced power consumption and reduced operational cost of the conveyors with innovative and highly engineered cover compound technology.",
-          "YOKOHAMA superior oil resistant belt is designed to withstand the maximum degree of oil resistance for various applications and industries.",
-          "With advanced technology in flame resistant polymer, YOKOHAMA offers a wide selection of compounds which meet most of the international standards."  
-        ]
+        {
+          "type": 1,
+          "title": "STEEL CORD BELT",
+          "range": {
+            "subTitle": "Production Range",
+            "list": [
+              "Tensile strength: 500 to 5,400 N/mm",
+              "Max. Belt width: 3,200 mm"
+            ]
+          },
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "High Belt Strength",
+              "Available Cover Compounds",
+              "Low Elongation",
+              "Superior Trough ability",
+              "Excellent Durability"
+            ]
+          },
+          "image": [
+            "/images/yokohama1.jpg"
+          ]
+        },
+        {
+          "type": 1,
+          "title": "GENERAL FABRIC BELT",
+          "range": {
+            "subTitle": "Production Range",
+            "list": [
+              "Carcasses : Polyester/Nylon (EP) & Nylon/Nylon (NN)",
+              "Belt Strength : 100 to 2,500 N/mm",
+              "Belt width : 300 to 2,400 mm"
+            ]
+          },
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "Wide Selection of Belt Strengths",
+              "Cover Compounds and Cover Gauges",
+              "Excellent Durability",
+              "Perfect Load Support",
+              "Reliable Vulcanized Splices"
+            ]
+          },
+          "image": [
+            "/images/yokohama1.jpg"
+          ]
+        },
+        {
+          "type": 1,
+          "title": "MJ-FABRIC BELT",
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "Excellent Fastener Holding",
+              "Easy and Quick Installation",
+              "Easy Maintenance",
+              "Perfect Load Support",
+              "Excellent Flexibility"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "title": "PROTEX-MF FABRIC BELT",
+          "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>",
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "Excellent Resistance to Trapped Material and Build-up on Pulleys",
+              "Excellent impact resistance and cut & gouge resistance",
+              "Superior abrasion & wear resistance under extreme conditions",
+              "Less permanent elongation & belt stretch",
+              "Best choice in rough operating conditions. i.e. Portable Cone & Jaw Crushers"
+            ]
+          },
+          "image": [
+            "/images/yokohama1.jpg",
+            "/images/yokohama2.jpg",
+            "/images/yokohama3.jpg"
+          ]
         }
       ]
     },
@@ -47,6 +101,7 @@
       "title": "MECAL",
       "slug": "mecal",
       "href": "/products/mecal",
+      "description": "",
       "imagesProduct": [
         "/images/yokohama1.jpg",
         "/images/yokohama2.png",
@@ -54,25 +109,76 @@
         "/images/yokohama4.png"
       ],
       "listInfo": [
-        {"title": "MAGNETIC SEPARATORMAGNETIC SEPARATOR", "description": "<p className='text-slate-400'>With over 50 year's experience, MECAL now one of the most well-known manufacture of Magnetic Separator.
-        Manufactured in accordance with the latest Australian standard, MECAL is very confident to deliver the best quality equipment to meet customer's requirement in very severe operating conditions such as dusty, hazardous areas, 24/7 operating hours, etc.</p>", 
-        "image": ["/images/yokohama1.jpg", "/images/yokohama2.png", "/images/yokohama3.png", "/images/yokohama4.png"]},
-        
-        {"title": "VACUUM LOADER", "description": "<p className='text-slate-400'>Vacuum Cleaner for Professional Industrial Cleaning.</p>", 
-        "image": ["/images/yokohama1.jpg", "/images/yokohama2.png", "/images/yokohama3.png"]},
-
-        {"title": "TELESCOPIC LOADING CHUTE", "description": "<p className='text-slate-400'>For complete control of fine grain waste, this Open Truck Loading Chute has solved the problem, no more time wasted to clean-up the loading area at the end of each shift.
-        When valuable product is being bulk loaded into Enclosed Trucks, control of the flow rate and elimination of product spill will save money from the day you install the NO DUST Chute.</p>", 
-        "loadingChute": ["Load rate to 2000 TPH", "Extension Length from 0.5m to 20m", "Customized chute inlet and outlet", "High temperature application up to 250˚ C", "Configurations to suit specific applications"],
-        "image": ["/images/yokohama1.jpg"]},
-
-        {"title": "LIFTING MAGNET", "description": "<p className='text-slate-400'>Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.</p>", 
-        "lifting": ["Lift and place operation", "Roll-Over Operation"],
-        "image": ["/images/yokohama1.jpg", "/images/yokohama2.png"]},
-
-        {"title": "BELT CLEANER", "subTitle": ["Option", "Standard Features"], 
-        "option": ["Size for belts 400mm - 2400mm", "Stainless steel construction", "Galvanized finish", "Polytips (mines Department Approved)", "High duro cushions", "One side adjustment", "Heavy duty design available", "Special features to client request"], 
-        "feature": ["Mild steel frames", "Rubber cushions", "Tungsten carbide tips", "Stainless steel fasteners", "Powder coated finish"],
+        {
+          "title": "MAGNETIC SEPARATORMAGNETIC SEPARATOR",
+          "description": "<p className='text-slate-400'>With over 50 year's experience, MECAL now one of the most well-known manufacture of Magnetic Separator. Manufactured in accordance with the latest Australian standard, MECAL is very confident to deliver the best quality equipment to meet customer's requirement in very severe operating conditions such as dusty, hazardous areas, 24/7 operating hours, etc.</p>",
+          "image": [
+            "/images/yokohama1.jpg",
+            "/images/yokohama2.png",
+            "/images/yokohama3.png",
+            "/images/yokohama4.png"
+          ]
+        },
+        {
+          "title": "VACUUM LOADER",
+          "description": "<p className='text-slate-400'>Vacuum Cleaner for Professional Industrial Cleaning.</p>",
+          "image": [
+            "/images/yokohama1.jpg",
+            "/images/yokohama2.png",
+            "/images/yokohama3.png"
+          ]
+        },
+        {
+          "title": "TELESCOPIC LOADING CHUTE",
+          "description": "<p className='text-slate-400'>For complete control of fine grain waste, this Open Truck Loading Chute has solved the problem, no more time wasted to clean-up the loading area at the end of each shift. When valuable product is being bulk loaded into Enclosed Trucks, control of the flow rate and elimination of product spill will save money from the day you install the NO DUST Chute.</p>",
+          "loadingChute": [
+            "Load rate to 2000 TPH",
+            "Extension Length from 0.5m to 20m",
+            "Customized chute inlet and outlet",
+            "High temperature application up to 250˚ C",
+            "Configurations to suit specific applications"
+          ],
+          "image": [
+            "/images/yokohama1.jpg"
+          ]
+        },
+        {
+          "title": "LIFTING MAGNET",
+          "description": "<p className='text-slate-400'>Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.</p>",
+          "lifting": [
+            "Lift and place operation",
+            "Roll-Over Operation"
+          ],
+          "image": [
+            "/images/yokohama1.jpg",
+            "/images/yokohama2.png"
+          ]
+        },
+        {
+          "title": "BELT CLEANER",
+          "range": {
+            "subTitle": "Option",
+            "list": [
+              "Size for belts 400mm - 2400mm",
+              "Stainless steel construction",
+              "Galvanized finish",
+              "Polytips (mines Department Approved)",
+              "High duro cushions",
+              "One side adjustment",
+              "Heavy duty design available",
+              "Special features to client request"
+            ]
+          },
+          "feature": {
+            "subTitle": "Standard Features",
+            "list": [
+              "Mild steel frames",
+              "Rubber cushions",
+              "Tungsten carbide tips",
+              "Stainless steel fasteners",
+              "Powder coated finish"
+            ]
+          }
         }
       ]
     },
@@ -80,29 +186,27 @@
       "title": "TECTRON",
       "slug": "tectron",
       "href": "/products/tectron",
+      "description": "",
       "imagesProduct": [
         "/images/yokohama1.jpg",
         "/images/yokohama2.png",
         "/images/yokohama3.png",
         "/images/yokohama4.png"
       ],
-      "listInfo": [
-        
-      ]
+      "listInfo": []
     },
     {
       "title": "ROBASS",
       "slug": "robass",
       "href": "/products/robass",
+      "description": "",
       "imagesProduct": [
         "/images/yokohama1.jpg",
         "/images/yokohama2.png",
         "/images/yokohama3.png",
         "/images/yokohama4.png"
       ],
-      "listInfo": [
-        
-      ]
+      "listInfo": []
     }
   ],
   "services": [
