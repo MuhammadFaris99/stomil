@@ -18,8 +18,8 @@ const PageCareer = () => {
                     </div>
                 </div>
             </div>
-            <img src="assets/images/bg-shape.png" alt="" className="absolute block -bottom-5 dark:hidden"/>
-            <img src="assets/images/bg-shape-dark.png" alt="" className="absolute hidden -bottom-5 dark:block"/>
+            <img src="/images/career.jpg" alt="" className="absolute block -bottom-5 dark:hidden"/>
+            <img src="/images/career.jpg" alt="" className="absolute hidden -bottom-5 dark:block"/>
             
             <div className="py-20 bg-gray-50 dark:bg-neutral-700">
                 <div className="container mx-auto">

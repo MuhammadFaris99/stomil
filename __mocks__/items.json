@@ -78,7 +78,7 @@
         {
           "type": 1,
           "title": "PROTEX-MF FABRIC BELT",
-          "description": "<p className='text-slate-400'>YOKOHAMA PROTEX Designed to be virtually “Maintenance Free” belt for portable quarry crushing equipment, first and secondary crushers and other high abuse equipment. PROTEX give you greater peace-of-mind with the lowest cost per tonnage and best ROI on the market today.</p>",
+          "description": "YOKOHAMA PROTEX Designed to be virtually “Maintenance Free” belt for portable quarry crushing equipment, first and secondary crushers and other high abuse equipment. PROTEX give you greater peace-of-mind with the lowest cost per tonnage and best ROI on the market today.",
           "feature": {
             "subTitle": "Features & Benefits",
             "list": [
@@ -111,26 +111,26 @@
       "listInfo": [
         {
           "title": "MAGNETIC SEPARATORMAGNETIC SEPARATOR",
-          "description": "<p className='text-slate-400'>With over 50 year's experience, MECAL now one of the most well-known manufacture of Magnetic Separator. Manufactured in accordance with the latest Australian standard, MECAL is very confident to deliver the best quality equipment to meet customer's requirement in very severe operating conditions such as dusty, hazardous areas, 24/7 operating hours, etc.</p>",
+          "description": "With over 50 year's experience, MECAL now one of the most well-known manufacture of Magnetic Separator. Manufactured in accordance with the latest Australian standard, MECAL is very confident to deliver the best quality equipment to meet customer's requirement in very severe operating conditions such as dusty, hazardous areas, 24/7 operating hours, etc.",
           "image": [
-            "/images/yokohama1.jpg",
-            "/images/yokohama2.png",
-            "/images/yokohama3.png",
-            "/images/yokohama4.png"
+            "/images/PM1.jpg",
+            "/images/PM2.jpg",
+            "/images/PM3.jpg",
+            "/images/PM4.jpg"
           ]
         },
         {
           "title": "VACUUM LOADER",
-          "description": "<p className='text-slate-400'>Vacuum Cleaner for Professional Industrial Cleaning.</p>",
+          "description": "Vacuum Cleaner for Professional Industrial Cleaning.",
           "image": [
-            "/images/yokohama1.jpg",
-            "/images/yokohama2.png",
-            "/images/yokohama3.png"
+            "/images/PM5.jpg",
+            "/images/PM6.jpg",
+            "/images/PM7.jpg"
           ]
         },
         {
           "title": "TELESCOPIC LOADING CHUTE",
-          "description": "<p className='text-slate-400'>For complete control of fine grain waste, this Open Truck Loading Chute has solved the problem, no more time wasted to clean-up the loading area at the end of each shift. When valuable product is being bulk loaded into Enclosed Trucks, control of the flow rate and elimination of product spill will save money from the day you install the NO DUST Chute.</p>",
+          "description": "For complete control of fine grain waste, this Open Truck Loading Chute has solved the problem, no more time wasted to clean-up the loading area at the end of each shift. When valuable product is being bulk loaded into Enclosed Trucks, control of the flow rate and elimination of product spill will save money from the day you install the NO DUST Chute.",
           "loadingChute": [
             "Load rate to 2000 TPH",
             "Extension Length from 0.5m to 20m",
@@ -139,19 +139,19 @@
             "Configurations to suit specific applications"
           ],
           "image": [
-            "/images/yokohama1.jpg"
+            "/images/PM8.jpg"
           ]
         },
         {
           "title": "LIFTING MAGNET",
-          "description": "<p className='text-slate-400'>Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.</p>",
+          "description": "Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.",
           "lifting": [
             "Lift and place operation",
             "Roll-Over Operation"
           ],
           "image": [
-            "/images/yokohama1.jpg",
-            "/images/yokohama2.png"
+            "/images/PM9.jpg",
+            "/images/PM10.jpg"
           ]
         },
         {

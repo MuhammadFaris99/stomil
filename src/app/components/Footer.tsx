@@ -23,22 +23,17 @@ const Footer = () => {
                   <ul className="flex gap-3">
                     <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
                       <a href="#">
-                        <i className="uil uil-facebook-f"></i>
+                        <i class="fa-brands fa-facebook"></i>
                       </a>
                     </li>
                     <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
                       <a href="#">
-                        <i className="uil uil-linkedin-alt"></i>
+                        <i class="fa-brands fa-instagram"></i>
                       </a>
                     </li>
                     <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
                       <a href="#">
-                        <i className="uil uil-google"></i>
-                      </a>
-                    </li>
-                    <li className="w-8 h-8 leading-loose text-center text-gray-200 transition-all duration-300 border rounded-full cursor-pointer border-gray-200/50 hover:text-gray-50 group-data-[theme-color=violet]:hover:bg-violet-500 group-data-[theme-color=sky]:hover:bg-sky-500 group-data-[theme-color=red]:hover:bg-red-500 group-data-[theme-color=green]:hover:bg-green-500 group-data-[theme-color=pink]:hover:bg-pink-500 group-data-[theme-color=blue]:hover:bg-blue-500 hover:border-transparent">
-                      <a href="#">
-                        <i className="uil uil-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -46,14 +41,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
-              {/* <p className="mb-6 text-white text-16">Company</p>
-                                <ul className="space-y-4">
-                                    <li className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50">
-                                        <a href="about.html">
-                                            <i className="mdi mdi-chevron-right"></i> About Us
-                                        </a>
-                                    </li>
-                                </ul> */}
+
             </div>
             <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
               <p className="mb-6 text-white text-16">Products</p>

@@ -6,7 +6,7 @@ const PageAboutUs = () => {
             <div className="container mx-auto">
                 <div className="grid items-center grid-cols-12 gap-5">
                     <div className="col-span-12 lg:col-span-6">
-                        <h4 className="text-sm text-gray-900 uppercase dark:text-gray-50/80">About Us</h4>
+                        <h2 className="text-lg text-gray-900 uppercase dark:text-gray-50/80">About Us</h2>
                         {/* <h2 className="mt-1 mb-4 text-gray-900 dark:text-gray-50/80">Why <span className="font-bold text-yellow-500">35,000+</span> People Trust On <br/> Jobcy?</h2> */}
                         <p className="font-light text-gray-500 dark:text-gray-300">Fast growing Indonesian company specialized in bulk material handling, i.e. conveyor system.
                             Established in 2009, PT. STOMIL INDONESIA is inspired by principles of correctness, transparency, honesty and integrity in the management of its activities.
@@ -16,10 +16,16 @@ const PageAboutUs = () => {
                         <div className="grid grid-cols-12 gap-5 mt-8">
                             <div className="col-span-12 md:col-span-6">
                                 <div className="relative">
-                                    <ul className="space-y-4 text-gray-700 about-list dark:text-gray-300">
-                                        <li className="ltr:pl-8 rtl:pr-8"> Trading</li>
-                                        <li className="ltr:pl-8 rtl:pr-8"> Engineering Procurement Construction (EPC)</li>
-                                        <li className="ltr:pl-8 rtl:pr-8"> Service and Maintenance</li>
+                                    <ul className="space-y-2 text-gray-700 about-list dark:text-gray-300">
+                                        <li className="ltr:pl-8 rtl:pr-8">
+                                            <i class="fa-light fa-check">Trading</i>
+                                        </li>
+                                        <li className="ltr:pl-8 rtl:pr-8">
+                                            <i class="fa-light fa-check">Engineering Procurement Construction (EPC)</i>
+                                        </li>
+                                        <li className="ltr:pl-8 rtl:pr-8">
+                                            <i class="fa-light fa-check">Service and Maintenance</i>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
