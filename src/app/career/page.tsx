@@ -5,7 +5,6 @@ const PageCareer = () => {
                 <div className="grid items-center grid-cols-12 rtl:gap-10">
                     <div className="col-span-12 lg:col-span-7">
                         <div className="mb-3 ltr:mr-14 rtl:ml-14">
-                            <h6 className="mb-3 text-sm text-gray-900 uppercase dark:text-gray-50">We have 150,000+ live jobs</h6>
                             <h1 className="mb-3 text-5xl font-semibold leading-tight text-gray-900 dark:text-gray-50">Find your dream jobs <br/> with <span className="font-bold group-data-[theme-color=violet]:text-violet-500 group-data-[theme-color=sky]:text-sky-500 group-data-[theme-color=red]:text-red-500 group-data-[theme-color=green]:text-green-500 group-data-[theme-color=pink]:text-pink-500 group-data-[theme-color=blue]:text-blue-500">Jobcy</span></h1>
                             <p className="text-lg font-light text-gray-500 whitespace-pre-line dark:text-gray-300">Find jobs, create trackable resumes and enrich your
                                     applications.Carefully crafted after analyzing the needs of different 
@@ -14,7 +13,7 @@ const PageCareer = () => {
                     </div>
                     <div className="col-span-5">
                         <div className="mt-5">
-                            <img src="assets/images/process-02.png" alt="" className="mb-5 home-img max-w-none"/> 
+                            <img src="/images/career.jpg" alt="" className="mb-5 home-img max-w-none"/> 
                         </div>
                     </div>
                 </div>

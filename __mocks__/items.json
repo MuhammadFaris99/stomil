@@ -33,7 +33,7 @@
             ]
           },
           "image": [
-            "/images/yokohama1.jpg"
+            "/images/PY1.jpg"
           ]
         },
         {
@@ -58,7 +58,7 @@
             ]
           },
           "image": [
-            "/images/yokohama1.jpg"
+            "/images/PY2.jpg"
           ]
         },
         {
@@ -78,7 +78,7 @@
         {
           "type": 1,
           "title": "PROTEX-MF FABRIC BELT",
-          "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>",
+          "description": "<p className='text-slate-400'>YOKOHAMA PROTEX Designed to be virtually “Maintenance Free” belt for portable quarry crushing equipment, first and secondary crushers and other high abuse equipment. PROTEX give you greater peace-of-mind with the lowest cost per tonnage and best ROI on the market today.</p>",
           "feature": {
             "subTitle": "Features & Benefits",
             "list": [
@@ -90,9 +90,9 @@
             ]
           },
           "image": [
-            "/images/yokohama1.jpg",
-            "/images/yokohama2.jpg",
-            "/images/yokohama3.jpg"
+            "/images/PY3.jpg",
+            "/images/PY4.jpg",
+            "/images/PY5.jpg"
           ]
         }
       ]
