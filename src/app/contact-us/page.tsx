@@ -73,7 +73,7 @@ const PageContactUs = () => {
                         <div className="pt-3 mt-4">
                             <div className="flex items-center mt-2 text-gray-500">
                                 <div className="group-data-[theme-color=violet]:text-violet-500 group-data-[theme-color=sky]:text-sky-500 group-data-[theme-color=red]:text-red-500 group-data-[theme-color=green]:text-green-500 group-data-[theme-color=pink]:text-pink-500 group-data-[theme-color=blue]:text-blue-500 shrink-0 text-22">
-                                    <i class="fa-light fa-location-dot"></i>
+                                    <i className="fa-light fa-location-dot"></i>
                                 </div>
                                 <div className="ltr:ml-2 rtl:mr-2 grow-1">
                                     <p className="mb-0 dark:text-gray-300">Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, <br/>Jakarta Barat – 11830</p>
@@ -81,7 +81,7 @@ const PageContactUs = () => {
                             </div>
                             <div className="flex items-center mt-2 text-gray-500">
                                 <div className="group-data-[theme-color=violet]:text-violet-500 group-data-[theme-color=sky]:text-sky-500 group-data-[theme-color=red]:text-red-500 group-data-[theme-color=green]:text-green-500 group-data-[theme-color=pink]:text-pink-500 group-data-[theme-color=blue]:text-blue-500 shrink-0 text-22">
-                                    <i class="fa-light fa-envelope"></i>
+                                    <i className="fa-light fa-envelope"></i>
                                 </div>
                                 <div className="ltr:ml-2 rtl:mr-2 grow-1">
                                     <p className="mb-0 dark:text-gray-300">stomilindo@cbn.net.id</p>
@@ -89,7 +89,7 @@ const PageContactUs = () => {
                             </div>
                             <div className="flex items-center mt-2 text-gray-500">
                                 <div className="group-data-[theme-color=violet]:text-violet-500 group-data-[theme-color=sky]:text-sky-500 group-data-[theme-color=red]:text-red-500 group-data-[theme-color=green]:text-green-500 group-data-[theme-color=pink]:text-pink-500 group-data-[theme-color=blue]:text-blue-500 shrink-0 text-22">
-                                    <i class="fa-light fa-phone"></i>
+                                    <i className="fa-light fa-phone"></i>
                                 </div>
                                 <div className="ltr:ml-2 rtl:mr-2 grow-1">
                                     <p className="mb-0 dark:text-gray-300">021-5439 4436-37</p>

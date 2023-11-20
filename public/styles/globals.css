@@ -26,10 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-#homeBanner {
-  background: url('../../public/images/1.jpg') center;
-}
-
 .dropdown-menu{
   display: none;
 }
