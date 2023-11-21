@@ -5,12 +5,7 @@ import SliderCandidate from "./components/SliderCandidate";
 export default function Home() {
     return (
         <div className="relative">
-            <section className="py-4 lg:py-36 lg:py-64 w-full table relative px-4 lg:px-24" id="homeBanner">
-                <div className="absolute inset-0 bg-black opacity-80"></div>
-                <RunningText />
-            </section>
-
-
+            <RunningText />
             <section className="relative md:py-24 py-16 bg-zinc-50 dark:bg-gray-800 px-4 lg:px-0" id="about">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 gap-10 items-center">
@@ -18,8 +13,8 @@ export default function Home() {
                             <div className="relative">
                                 <img src="images/c.jpg" className="rounded-lg shadow-lg relative" alt="image about" />
                                 <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
-                                    <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" className="lightbox h-20 w-20 rounded-full shadow-lg shadow-slate-100 dark:shadow-slate-800 inline-flex items-center justify-center bg-white dark:bg-black text-orange-600">
-                                        <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
+                                    <a data-type="youtube" data-id="yba7hPeTSjk" className="lightbox h-20 w-20 rounded-full shadow-lg shadow-slate-100 dark:shadow-slate-800 inline-flex items-center justify-center bg-white dark:bg-black text-orange-600 cursor-pointer">
+                                        <i className="fa fa-play inline-flex items-center justify-center text-2xl"></i>
                                     </a>
                                 </div>
                             </div>

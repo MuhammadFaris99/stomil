@@ -18,13 +18,13 @@ const PageAboutUs = () => {
                                 <div className="relative">
                                     <ul className="space-y-2 text-gray-700 about-list dark:text-gray-300">
                                         <li className="ltr:pl-8 rtl:pr-8">
-                                            <i className="fa-light fa-check">Trading</i>
+                                            <i className="fa fa-check">Trading</i>
                                         </li>
                                         <li className="ltr:pl-8 rtl:pr-8">
-                                            <i className="fa-light fa-check">Engineering Procurement Construction (EPC)</i>
+                                            <i className="fa fa-check">Engineering Procurement Construction (EPC)</i>
                                         </li>
                                         <li className="ltr:pl-8 rtl:pr-8">
-                                            <i className="fa-light fa-check">Service and Maintenance</i>
+                                            <i className="fa fa-check">Service and Maintenance</i>
                                         </li>
                                     </ul>
                                 </div>

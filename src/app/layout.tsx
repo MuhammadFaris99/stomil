@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
+      <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+      </head>
       <body className={inter.className}>
         <Header />
         <main className="mt-[80px]">
