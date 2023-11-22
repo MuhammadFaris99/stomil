@@ -9,7 +9,10 @@
         "/images/yokohama1.jpg",
         "/images/yokohama2.png",
         "/images/yokohama3.png",
-        "/images/yokohama4.png"
+        "/images/yokohama4.png",
+        "/images/yokohama6.png",
+        "/images/yokohama7.png",
+        "/images/yokohama8.png"
       ],
       "listInfo": [
         {
@@ -103,10 +106,11 @@
       "href": "/products/mecal",
       "description": "",
       "imagesProduct": [
-        "/images/yokohama1.jpg",
-        "/images/yokohama2.png",
-        "/images/yokohama3.png",
-        "/images/yokohama4.png"
+        "/images/mecal1.png",
+        "/images/mecal2.png",
+        "/images/mecal3.png",
+        "/images/mecal4.png",
+        "/images/mecal5.png"
       ],
       "listInfo": [
         {
@@ -131,13 +135,15 @@
         {
           "title": "TELESCOPIC LOADING CHUTE",
           "description": "For complete control of fine grain waste, this Open Truck Loading Chute has solved the problem, no more time wasted to clean-up the loading area at the end of each shift. When valuable product is being bulk loaded into Enclosed Trucks, control of the flow rate and elimination of product spill will save money from the day you install the NO DUST Chute.",
-          "loadingChute": [
-            "Load rate to 2000 TPH",
-            "Extension Length from 0.5m to 20m",
-            "Customized chute inlet and outlet",
-            "High temperature application up to 250˚ C",
-            "Configurations to suit specific applications"
-          ],
+          "range": {
+            "list": [
+              "Load rate to 2000 TPH",
+              "Extension Length from 0.5m to 20m",
+              "Customized chute inlet and outlet",
+              "High temperature application up to 250˚ C",
+              "Configurations to suit specific applications"
+            ]
+          },
           "image": [
             "/images/PM8.jpg"
           ]
@@ -145,10 +151,12 @@
         {
           "title": "LIFTING MAGNET",
           "description": "Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.",
-          "lifting": [
-            "Lift and place operation",
-            "Roll-Over Operation"
-          ],
+          "range": {
+            "list": [
+              "Lift and place operation",
+              "Roll-Over Operation"
+            ]
+          },
           "image": [
             "/images/PM9.jpg",
             "/images/PM10.jpg"
@@ -188,10 +196,10 @@
       "href": "/products/tectron",
       "description": "",
       "imagesProduct": [
-        "/images/yokohama1.jpg",
-        "/images/yokohama2.png",
-        "/images/yokohama3.png",
-        "/images/yokohama4.png"
+        "/images/tectron1.png",
+        "/images/tectron2.png",
+        "/images/tectron3.jpg",
+        "/images/tectron4.jpg"
       ],
       "listInfo": []
     },
