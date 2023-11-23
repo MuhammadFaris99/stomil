@@ -196,12 +196,35 @@
       "href": "/products/tectron",
       "description": "",
       "imagesProduct": [
+        "/images/tectron5.jpg",
         "/images/tectron1.png",
         "/images/tectron2.png",
         "/images/tectron3.jpg",
         "/images/tectron4.jpg"
       ],
-      "listInfo": []
+      "listInfo": [
+        {
+          "title": "METAL DETECTOR",
+          "description": "The Tectron® Model 50 is engineered for insstallation on conveyor belts carrying coal, minerals, aggregates, and other bulk materials. Used primarily for stopping bucket teeth, and large pieces of metal from damaging downstream equipment, the model 50 can detect significantly smaller metal (ferrous and non-ferrous), under the right conditions. The Model 50 is available for conveyor belt widths up to 48 inches (1220mm) and can be field adjusted to fit most standard conveyor configurations. The aperture can be changed from 11-23 inches (280-580mm) depending on the height of the product on the belt. Lightweight construction makes it easy to assemble and install without special tools, or the need to cut the belt, and the filed replaceable, microprocessor based controls are easy to operate and maintain. A self-test circuit activates a fault light and dry contact to alert the operator if there ever is a problem with the controls, so you'll never have to wonder if you detector is operating properly.",
+          "image": [
+            "/images/PT1.jpg"
+          ]
+        },
+        {
+          "title": "SPESIFICATION"
+        },
+        {
+          "title": "ACCESSORIES",
+          "image": [
+            "/images/PT2.jpg",
+            "/images/PT3.jpg",
+            "/images/PT4.jpg",
+            "/images/PT5.jpg",
+            "/images/PT6.jpg",
+            "/images/PT7.jpg"
+          ]
+        }
+      ]
     },
     {
       "title": "ROBASS",
@@ -214,7 +237,47 @@
         "/images/yokohama3.png",
         "/images/yokohama4.png"
       ],
-      "listInfo": []
+      "listInfo": [
+        {
+          "title": "COLD SPLICING AND REPAIR MATERIAL",
+          "image": [
+            "/images/PR1.png",
+            "/images/PR2.png",
+            "/images/PR3.png",
+            "/images/PR4.png",
+            "/images/PR5.png"
+          ]
+        },
+        {
+          "title": "PULLEY LAGGING RUBBER",
+          "image": [
+            "/images/PR6.png",
+            "/images/PR7.png",
+            "/images/PR8.png",
+            "/images/PR9.png"
+          ]
+        },
+        {
+          "title": "HOT SPLICING AND REPAIR MATERIAL",
+          "image": [
+            "/images/PR10.png",
+            "/images/PR11.png",
+            "/images/PR12.png",
+            "/images/PR13.png",
+            "/images/PR14.png",
+            "/images/PR15.png"
+          ]
+        },
+        {
+          "title": "ACCESSORIES",
+          "image": [
+            "/images/PR16.png",
+            "/images/PR17.png",
+            "/images/PR18.png",
+            "/images/PR19.png"
+          ]
+        }
+      ]
     }
   ],
   "services": [
