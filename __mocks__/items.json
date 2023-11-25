@@ -283,23 +283,110 @@
   "services": [
     {
       "title": "EPC Material Handling Facility",
-      "href": "/services/epc-material-handling-facility"
+      "href": "/services/epc-material-handling-facility",
+      "imageProduct": [
+        "/images/Sepc1.jpg"
+      ],
+      "listInfo": [
+        {
+          "title": "Material Handling Facility",
+          "range": {
+            "list": [
+              "Engineering Design",
+              "Construction Handling",
+              "Equipment Installation",
+              "Shipment Handling"
+            ]
+          }
+        }
+      ]
     },
     {
       "title": "Conveyor Maintenance System",
-      "href": "/services/conveyor-maintenance-system"
-    },
-    {
-      "title": "Operation & Maintenance Contract",
-      "href": "/services/operation-maintenance-contract"
-    },
-    {
-      "title": "Tire Management System",
-      "href": "/services/tire-management-system"
+      "href": "/services/conveyor-maintenance-system",
+      "description": "Conveyor maintenance services cover belt splicing and rubber component replacement, conveyor idlers and rollers change outs and refurbishment and transfer chute repair. Our services also cover maintenance management system, maintenance procedure development, planning and scheduling, condition monitoring, structural investigations, root cause failure analysis and repairs to conveyor equipment and materials handling machinery. With our depth of experienced managers, engineers, supervisors, belt workers and trades, we have the capacity to mobilize new project sites to carry out effective and efficient maintenance services under long-term contract and alliance arrangements.",
+      "imageProduct": [
+        "/images/Sconveyor1.jpg"
+      ],
+      "listInfo": [
+        {
+          "title": "INSTALLATION CONVEYOR BELT",
+          "description": "Installing conveyor belt properly is important to ensure a good and safe installation process. Making sure that your belt will be used to its full extent, we can install the belt or assist your team in installing it. We ensure every aspect of your belt performs reliable, effective and efficient."
+        },
+        {
+          "title": "COLD & HOT VULCANIZING FOR BELT SPLICING",
+          "description": "We offer both cold & hot vulcanizing of belts with highly skilled service team. The services include jointing of Fabric as well as Steel Cord Beltings.",
+          "image": [
+            "/images/Sconveyor2.jpg"
+          ]
+        },
+        {
+          "title": "Focus on Safety",
+          "description": "Careless use during the installation of a conveyor belt can result in hazardous situations. Focus on safety and take no unnecessary risks by consulting our team to perform the installation.",
+          "image": [
+            "/images/Sconveyor3.jpg"
+          ]
+        },
+        {
+          "title": "LAGGING PULLEY",
+          "description": "Our skilled crews are backed by a team of technical professionals to ensure the components will perform reliably, first time every time. We can remove your worn out pulley lagging, and install the best lagging solution based your changing needs. Pulleys can be re-lagged in the field on your system without removal, or in our service facility. Whatever the application, smooth, rubber, grooved or diamond, or ceramic, re-lagging can be completed to give your pulley its maximum service life, reduce shell wear, increase traction, increase cleaner efficiency, assist belt tracking, increase belt uptime, and eliminate slippage problems.",
+          "image": [
+            "/images/Sconveyor4.jpg"
+          ]
+        },
+        {
+          "title": "BELT SCANNING & INSPECTION",
+          "description": "The primary purpose is to detect steel cord/wire damage (broken & corrosion) and check splice condition. With our Magnetic Flux Leakage equipment is used to detect anomalies or damage within the steel cords and splices of conveyor belting, invisible to the naked eye. The primary purpose is to detect steel cord/wire damage (broken & corrosion) and check splice condition. With our Magnetic Flux Leakage equipment is used to detect anomalies or damage within the steel cords and splices of conveyor belting, invisible to the naked eye.",
+          "image": [
+            "/images/Sconveyor5.jpg"
+          ]
+        }
+      ]
     },
     {
       "title": "Crusher Rental",
-      "href": "/services/crusher-rental"
+      "href": "/services/crusher-rental",
+      "imageProduct": [
+        "/images/Scrusher1.jpg"
+      ],
+      "listInfo": [
+        {
+          "title": "CRUSHER MANUFACTURING & INSTALLATION",
+          "description": "Complete all processes with our partner from designing to manufacturing as well as production & quality control in house. We provide size range of crusher with high-quality cast steel components and durable wear parts, means exceptionally high crusher availability, cost-efficient crushing and low cost per ton."
+        },
+        {
+          "title": "CRUSHER RENTAL",
+          "description": "Provide material processing solution for short term project efficient and cost-effective. By estimate rental payments for the period of use and machines needed, we can help to decide which option best suits your business needs, whether they be rental, ownership or a mix of both."
+        },
+        {
+          "title": "REPAIR & REFURBISHMENT",
+          "range": {
+            "list": [
+              "Inspecting each part thoroughly",
+              "Prepare recommendations to upgrade and effective treatments increasing efficiency and reliability",
+              "Decontamination, cleaning and stripping component down",
+              "Rebuild and upgrade crusher to like new condition, equipped with specialized machinery and tooling"
+            ]
+          }
+        },
+        {
+          "title": "MAINTENANCE & SPAREPART",
+          "description": "Performing regular maintenance on the crusher, and source many tools and parts needed for maintenance and repair. Spare parts are designed and manufactured in consideration of the existing equipment manufacturer’s specifications, producing high performance and offering cost effective solutions.",
+          "image": [
+            "/images/Scrusher2.jpg"
+          ],
+          "range": {
+            "list": [
+              "Roll Crusher",
+              "Segmented Manganese Teeth",
+              "Shafting",
+              "Bearing",
+              "Drive Unit",
+              "etc."
+            ]
+          }
+        }
+      ]
     }
   ],
   "socmed": [
@@ -314,6 +401,404 @@
     {
       "title": "LinkedIn",
       "href": "/socmed/LinkedIn"
+    }
+  ],
+  "supplyRecord": [
+    {
+      "title": "Supply Record",
+      "href": "/supplyrecord",
+      "listInfo": [
+        {
+          "title": "YOKOHAMA",
+          "linkDownload": "",
+          "imageProduct": [
+            "/images/yokohama1.jpg",
+            "/images/yokohama2.jpg",
+            "/images/yokohama3.jpg"
+          ],
+          "List": [
+            {
+              "title": "PT INDOCEMENT TUNGGAL PRAKARSA Tbk.",
+              "description": "One of the leading cement producers in Indonesia which started operating in 1975. Indocement produces premium cement under the Semen Tiga Roda brand which is Indonesia's TOP 100 Most Valuable Brands 2020 & TOP Brand Awards Cement Category.",
+              "image": [
+                "/images/sryokohama1.jpg"
+              ],
+              "table": [
+                {
+                  "coloum1": "Period",
+                  "coloum2": [
+                    "Belt Specification"
+                  ],
+                  "coloum3": [
+                    "Qty (m)"
+                  ]
+                },
+                {
+                  "coloum1": "2022",
+                  "coloum2": [
+                    "ST-1250 BW1200 DIN-M",
+                    "ST-2200 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "1,000",
+                    "2,500"
+                  ]
+                },
+                {
+                  "coloum1": "2021",
+                  "coloum2": [
+                    "ST-950 BW1200 DIN-M",
+                    "ST-2200 BW1200 DIN-M",
+                    "ST-1500 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "1,500",
+                    "4,500",
+                    "2,500"
+                  ]
+                },
+                {
+                  "coloum1": "2020",
+                  "coloum2": [
+                    "ST-2200 BW1200 DIN-M",
+                    "ST-1600 BW1600 DIN-M",
+                    "ST-1500 BW1200 DIN-M",
+                    "ST-1250 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "6,500",
+                    "1,700",
+                    "2,000",
+                    "5,000"
+                  ]
+                },
+                {
+                  "coloum1": "2019",
+                  "coloum2": [
+                    "ST-2200 BW1200 DIN-M",
+                    "ST-1500 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "3,000",
+                    "4,000"
+                  ]
+                },
+                {
+                  "coloum1": "2018",
+                  "coloum2": [
+                    "ST-950 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "1,000"
+                  ]
+                },
+                {
+                  "coloum1": "2017",
+                  "coloum2": [
+                    "ST-2200 BW1200 DIN-M",
+                    "ST-1500 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "500",
+                    "4,500"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PT BUKIT ASAM Tbk.",
+              "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
+              "image": [
+                "/images/sryokohama2.jpg"
+              ],
+              "table": [
+                {
+                  "coloum1": "Period",
+                  "coloum2": [
+                    "Belt Specification"
+                  ],
+                  "coloum3": [
+                    "Qty (m)"
+                  ]
+                },
+                {
+                  "coloum1": "2021",
+                  "coloum2": [
+                    "EP-630/4 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "1,500"
+                  ]
+                },
+                {
+                  "coloum1": "2020",
+                  "coloum2": [
+                    "EP-800/4 BW1200 DIN-M",
+                    "ST-1250 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "5,622",
+                    "8,151"
+                  ]
+                },
+                {
+                  "coloum1": "2015",
+                  "coloum2": [
+                    "ST-1000 BW1200 DIN-M",
+                    "EP630/4 BW1200 DIN-M",
+                    "EP800/4 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "762",
+                    "26",
+                    "88"
+                  ]
+                },
+                {
+                  "coloum1": "2014",
+                  "coloum2": [
+                    "EP-500/4 BW1400 DIN-M",
+                    "ST-1000 BW800 DIN-M",
+                    "EP-630/4 BW1200 DIN-M",
+                    "EP800/4 BW1200 DIN-M",
+                    "ST-630 BW1200 DIN-M"
+                  ],
+                  "coloum3": [
+                    "897",
+                    "8,661",
+                    "1,835",
+                    "2,350",
+                    "1,360"
+                  ]
+                },
+                {
+                  "coloum1": "2005",
+                  "coloum2": [
+                    "ST-3150 BW1600 DIN-X",
+                    "ST-1250 BW1800 DIN-M"
+                  ],
+                  "coloum3": [
+                    "2,500",
+                    "90"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PT BAYAN RESOURCES Tbk.",
+              "description": "Part of the Bayan Group, is an Indonesia-based company primarily engage in integrated coal mining industry in East and South Kalimantan.",
+              "image": [
+                "/images/sryokohama3.jpg"
+              ],
+              "table": [
+                {
+                  "coloum1": "Period",
+                  "coloum2": [
+                    "Belt Specification"
+                  ],
+                  "coloum3": [
+                    "Qty (m)"
+                  ]
+                },
+                {
+                  "coloum1": "2013-2014",
+                  "coloum2": [
+                    "Fabric EP with various specs"
+                  ],
+                  "coloum3": [
+                    "11,683"
+                  ]
+                },
+                {
+                  "coloum1": "2011-2012",
+                  "coloum2": [
+                    "ST & EP with various specs"
+                  ],
+                  "coloum3": [
+                    "3,777"
+                  ]
+                },
+                {
+                  "coloum1": "2009-2010",
+                  "coloum2": [
+                    "ST & EP with various specs"
+                  ],
+                  "coloum3": [
+                    "3,270"
+                  ]
+                },
+                {
+                  "coloum1": "2007-2008",
+                  "coloum2": [
+                    "Fabric EP with various specs"
+                  ],
+                  "coloum3": [
+                    "18,155"
+                  ]
+                },
+                {
+                  "coloum1": "2005-2006",
+                  "coloum2": [
+                    "ST & EP with various specs"
+                  ],
+                  "coloum3": [
+                    "32,047"
+                  ]
+                },
+                {
+                  "coloum1": "2003-2004",
+                  "coloum2": [
+                    "Fabric EP with various specs"
+                  ],
+                  "coloum3": [
+                    "14,064"
+                  ]
+                },
+                {
+                  "coloum1": "2001-2002",
+                  "coloum2": [
+                    "Fabric EP with various specs"
+                  ],
+                  "coloum3": [
+                    "11,235"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MECAL",
+          "linkDownload": "",
+          "imageProduct": [
+            "/images/mecal1.png",
+            "/images/mecal2.png",
+            "/images/mecal3.png"
+          ],
+          "List": [
+            {
+              "title": "PT BUKIT ASAM Tbk.",
+              "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
+              "image": [
+                "/images/srmecal1.jpg"
+              ],
+              "table": [
+                {
+                  "coloum1": "Year",
+                  "coloum2": [
+                    "Model Magnet Separator"
+                  ],
+                  "coloum3": [
+                    "Qty (unit)"
+                  ]
+                },
+                {
+                  "coloum1": "2014",
+                  "coloum2": [
+                    "TMK-140/MC",
+                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1400, Power 13.4kW",
+                    "TMJ-120/MC",
+                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 11.0kW",
+                    "TMI-120/MC",
+                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
+                  ],
+                  "coloum3": [
+                    "1",
+                    "1",
+                    "1",
+                  ]
+                },
+                {
+                  "coloum1": "2016",
+                  "coloum2": [
+                    "LTG-100",
+                    "ElectroMagnet (Oil Cooled) Self-Cleaning, BW-1000, Power 6.0kW"
+                  ],
+                  "coloum3": [
+                    "1"
+                  ]
+                },
+                {
+                  "coloum1": "2017",
+                  "coloum2": [
+                    "TMJ-160/MC",
+                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1600, Power 14.6kW"
+                  ],
+                  "coloum3": [
+                    "1"
+                  ]
+                },
+                {
+                  "coloum1": "2020",
+                  "coloum2": [
+                    "TMI-120/MC/AC",
+                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
+                  ],
+                  "coloum3": [
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PT. BORNEO INDOBARA",
+              "description": "PT. Borneo Indo Bara (BIB) which is a member of Golden Energy Mines, is one of the fastest growing coal mine, located in Bunati, Kalsel.",
+              "image": [
+                "/images/srmecal2.jpg"
+              ],
+              "table": [
+                {
+                  "coloum1": "Year",
+                  "coloum2": [
+                    "Model Magnet Separator"
+                  ],
+                  "coloum3": [
+                    "Qty (unit)"
+                  ]
+                },
+                {
+                  "coloum1": "2020",
+                  "coloum2": [
+                    "TMK-150/MC/HE",
+                    "ElectroMagnet (Oil Cooled), Cross-Belt, Manual Cleaning, BW-1300, Magnet Power approx. 17.5 kW"
+                  ],
+                  "coloum3": [
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PT KOMIPO PEMBANGKITAN JAWA BALI (KPJB) - PLTU Tanjung Jati B Unit 3 & 4",
+              "description": "The Operation and Maintenance (O&M) Company appointed by PT PLN Pembangkitan Tanjung Jati B to operate and maintain Tanjung Jati B Unit 3&4 Coal Fired Power Plant located in Jepara, Central Java, Indonesia.",
+              "image": [
+                "/images/srmecal3.jpg"
+              ],
+              "table": [
+                {
+                  "coloum1": "Year",
+                  "coloum2": [
+                    "Model Magnet Separator"
+                  ],
+                  "coloum3": [
+                    "Qty (unit)"
+                  ]
+                },
+                {
+                  "coloum1": "2020",
+                  "coloum2": [
+                    "TMI-120/MC/AC",
+                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.6kW"
+                  ],
+                  "coloum3": [
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
