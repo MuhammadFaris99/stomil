@@ -40,14 +40,15 @@ const PageProduct = ({ params }: Props) => {
                         <p className="pb-4">{info.description}</p>
                         : null}
                       <dl className="grid grid-cols-12 mb-0">
-                        {info.range && (<div className="lg:col-span-4 px-4">
-                          <strong>{info.range?.subTitle}</strong>
-                          <ul style={{ listStyle: "initial" }}>
-                            {info.range?.list.map(range => (
-                              <li key={range} className="ml-4">{range}</li>
-                            ))}
-                          </ul>
-                        </div>
+                        {info.range.subTitle && (
+                          <div className="lg:col-span-4 px-4">
+                            <strong>{info.range?.subTitle}</strong>
+                            <ul style={{ listStyle: "initial" }}>
+                              {info.range?.list.map(range => (
+                                <li key={range} className="ml-4">{range}</li>
+                              ))}
+                            </ul>
+                          </div>
                         )}
                         {info.feature && (
                           <div className="lg:col-span-4 px-4">
