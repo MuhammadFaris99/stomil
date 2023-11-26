@@ -3,7 +3,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 
 
-const words = ["Yokohama", "Mecal", "All Rubber", "Multotec"]
+const words = ["Yokohama", "Mecal", "Tectron", "Robass"]
 
 function RunningText() {
     const [imageNumber, setImageNumber] = React.useState<number>(1)
