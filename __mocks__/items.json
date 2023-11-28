@@ -76,6 +76,10 @@
               "Perfect Load Support",
               "Excellent Flexibility"
             ]
+          },
+          "range": {
+            "subTitle": "",
+            "list": []
           }
         },
         {
@@ -96,7 +100,11 @@
             "/images/PY3.jpg",
             "/images/PY4.jpg",
             "/images/PY5.jpg"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
         }
       ]
     },
@@ -121,7 +129,11 @@
             "/images/PM2.jpg",
             "/images/PM3.jpg",
             "/images/PM4.jpg"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
         },
         {
           "title": "VACUUM LOADER",
@@ -130,7 +142,11 @@
             "/images/PM5.jpg",
             "/images/PM6.jpg",
             "/images/PM7.jpg"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
         },
         {
           "title": "TELESCOPIC LOADING CHUTE",
@@ -208,13 +224,15 @@
           "description": "The Tectron® Model 50 is engineered for insstallation on conveyor belts carrying coal, minerals, aggregates, and other bulk materials. Used primarily for stopping bucket teeth, and large pieces of metal from damaging downstream equipment, the model 50 can detect significantly smaller metal (ferrous and non-ferrous), under the right conditions. The Model 50 is available for conveyor belt widths up to 48 inches (1220mm) and can be field adjusted to fit most standard conveyor configurations. The aperture can be changed from 11-23 inches (280-580mm) depending on the height of the product on the belt. Lightweight construction makes it easy to assemble and install without special tools, or the need to cut the belt, and the filed replaceable, microprocessor based controls are easy to operate and maintain. A self-test circuit activates a fault light and dry contact to alert the operator if there ever is a problem with the controls, so you'll never have to wonder if you detector is operating properly.",
           "image": [
             "/images/PT1.jpg"
-          ]
-        },
-        {
-          "title": "SPESIFICATION"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
         },
         {
           "title": "ACCESSORIES",
+          "description": "",
           "image": [
             "/images/PT2.jpg",
             "/images/PT3.jpg",
@@ -222,7 +240,11 @@
             "/images/PT5.jpg",
             "/images/PT6.jpg",
             "/images/PT7.jpg"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
         }
       ]
     },
@@ -246,7 +268,12 @@
             "/images/PR3.png",
             "/images/PR4.png",
             "/images/PR5.png"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
         },
         {
           "title": "PULLEY LAGGING RUBBER",
@@ -255,7 +282,12 @@
             "/images/PR7.png",
             "/images/PR8.png",
             "/images/PR9.png"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
         },
         {
           "title": "HOT SPLICING AND REPAIR MATERIAL",
@@ -266,7 +298,12 @@
             "/images/PR13.png",
             "/images/PR14.png",
             "/images/PR15.png"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
         },
         {
           "title": "ACCESSORIES",
@@ -275,7 +312,12 @@
             "/images/PR17.png",
             "/images/PR18.png",
             "/images/PR19.png"
-          ]
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
         }
       ]
     }
