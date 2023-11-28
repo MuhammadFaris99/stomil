@@ -452,7 +452,7 @@
       "listInfo": [
         {
           "title": "YOKOHAMA",
-          "linkDownload": "",
+          "linkDownload": "/images/pdf/Yokohama.pdf",
           "imageProduct": [
             "/images/yokohama1.jpg",
             "/images/yokohama2.jpg",
@@ -711,7 +711,7 @@
         },
         {
           "title": "MECAL",
-          "linkDownload": "",
+          "linkDownload": "/images/pdf/Mecal.pdf",
           "imageProduct": [
             "/images/mecal1.png",
             "/images/mecal2.png",

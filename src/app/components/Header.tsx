@@ -49,7 +49,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="relative dropdown py-5 lg:py-0">
-                <Link href="/supplyrecord" className="py-5 text-gray-800 lg:px-4 dropdown-toggle dark:text-gray-50 lg:h-[70px]" id="supplyrecord" data-bs-toggle="dropdown">Supply Record <i className='align-middle bx bxs-chevron-down ltr:ml-1 rtl:mr-1'></i></Link>
+                <Link href="/supply-record" className="py-5 text-gray-800 lg:px-4 dropdown-toggle dark:text-gray-50 lg:h-[70px]" id="supplyrecord" data-bs-toggle="dropdown">Supply Record <i className='align-middle bx bxs-chevron-down ltr:ml-1 rtl:mr-1'></i></Link>
               </li>
               <li className="relative dropdown py-5 lg:py-0">
                 <Link href="/career" className="py-5 text-gray-800 lg:px-4 dropdown-toggle dark:text-gray-50 lg:h-[70px]" id="career" data-bs-toggle="dropdown">Career <i className='align-middle bx bxs-chevron-down ltr:ml-1 rtl:mr-1'></i></Link>

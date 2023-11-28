@@ -66,7 +66,7 @@ export default function Home() {
 
                                             <div className="flex items-center sm:justify-end gap-3 mt-5">
                                                 {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
-                                                <a href="/supply-record" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
+                                                <a href="/supply-record" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
                                             </div>
                                         </div>
                                     </div>
@@ -83,7 +83,7 @@ export default function Home() {
 
                                             <div className="flex items-center sm:justify-end gap-3 mt-5">
                                                 <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" />
-                                                <a href="/supply-record" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
+                                                <a href="/supply-record" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +104,7 @@ export default function Home() {
 
                                             <div className="flex items-center sm:justify-end gap-3 mt-5">
                                                 {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
-                                                <a href="/supply-record" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
+                                                <a href="/supply-record" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
                                             </div>
                                         </div>
                                     </div>
@@ -121,7 +121,7 @@ export default function Home() {
 
                                             <div className="flex items-center sm:justify-end gap-3 mt-5">
                                                 <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" />
-                                                <a href="/supply-record" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
+                                                <a href="/supply-record" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
                                             </div>
                                         </div>
                                     </div>
