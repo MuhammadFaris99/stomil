@@ -1,3 +1,69 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "airbnb",
+    "next",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "root": true,
+  "rules": {
+    // react
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    // jsx-a11y
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    // import
+    "import/extensions": "off",
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": [
+      0
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    // typescript-eslint
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    // anything else that only have 1 rule overridden
+    "prettier/prettier": 2,
+    "no-underscore-dangle": "off",
+    "jsx-a11y/control-has-associated-label" : "off",
+    "react/no-array-index-key": "off"
+  },
+  "ignorePatterns": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.stories.*"
+  ]
 }

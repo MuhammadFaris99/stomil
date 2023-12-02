@@ -20,10 +20,7 @@
           "title": "STEEL CORD BELT",
           "range": {
             "subTitle": "Production Range",
-            "list": [
-              "Tensile strength: 500 to 5,400 N/mm",
-              "Max. Belt width: 3,200 mm"
-            ]
+            "list": ["Tensile strength: 500 to 5,400 N/mm", "Max. Belt width: 3,200 mm"]
           },
           "feature": {
             "subTitle": "Features & Benefits",
@@ -35,9 +32,7 @@
               "Excellent Durability"
             ]
           },
-          "image": [
-            "/images/PY1.jpg"
-          ]
+          "image": ["/images/PY1.jpg"]
         },
         {
           "type": 1,
@@ -60,9 +55,7 @@
               "Reliable Vulcanized Splices"
             ]
           },
-          "image": [
-            "/images/PY2.jpg"
-          ]
+          "image": ["/images/PY2.jpg"]
         },
         {
           "type": 1,
@@ -96,11 +89,7 @@
               "Best choice in rough operating conditions. i.e. Portable Cone & Jaw Crushers"
             ]
           },
-          "image": [
-            "/images/PY3.jpg",
-            "/images/PY4.jpg",
-            "/images/PY5.jpg"
-          ],
+          "image": ["/images/PY3.jpg", "/images/PY4.jpg", "/images/PY5.jpg"],
           "range": {
             "subTitle": "",
             "list": []
@@ -124,12 +113,7 @@
         {
           "title": "MAGNETIC SEPARATORMAGNETIC SEPARATOR",
           "description": "With over 50 year's experience, MECAL now one of the most well-known manufacture of Magnetic Separator. Manufactured in accordance with the latest Australian standard, MECAL is very confident to deliver the best quality equipment to meet customer's requirement in very severe operating conditions such as dusty, hazardous areas, 24/7 operating hours, etc.",
-          "image": [
-            "/images/PM1.jpg",
-            "/images/PM2.jpg",
-            "/images/PM3.jpg",
-            "/images/PM4.jpg"
-          ],
+          "image": ["/images/PM1.jpg", "/images/PM2.jpg", "/images/PM3.jpg", "/images/PM4.jpg"],
           "range": {
             "subTitle": "",
             "list": []
@@ -138,11 +122,7 @@
         {
           "title": "VACUUM LOADER",
           "description": "Vacuum Cleaner for Professional Industrial Cleaning.",
-          "image": [
-            "/images/PM5.jpg",
-            "/images/PM6.jpg",
-            "/images/PM7.jpg"
-          ],
+          "image": ["/images/PM5.jpg", "/images/PM6.jpg", "/images/PM7.jpg"],
           "range": {
             "subTitle": "",
             "list": []
@@ -160,23 +140,15 @@
               "Configurations to suit specific applications"
             ]
           },
-          "image": [
-            "/images/PM8.jpg"
-          ]
+          "image": ["/images/PM8.jpg"]
         },
         {
           "title": "LIFTING MAGNET",
           "description": "Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.",
           "range": {
-            "list": [
-              "Lift and place operation",
-              "Roll-Over Operation"
-            ]
+            "list": ["Lift and place operation", "Roll-Over Operation"]
           },
-          "image": [
-            "/images/PM9.jpg",
-            "/images/PM10.jpg"
-          ]
+          "image": ["/images/PM9.jpg", "/images/PM10.jpg"]
         },
         {
           "title": "BELT CLEANER",
@@ -222,9 +194,7 @@
         {
           "title": "METAL DETECTOR",
           "description": "The Tectron® Model 50 is engineered for insstallation on conveyor belts carrying coal, minerals, aggregates, and other bulk materials. Used primarily for stopping bucket teeth, and large pieces of metal from damaging downstream equipment, the model 50 can detect significantly smaller metal (ferrous and non-ferrous), under the right conditions. The Model 50 is available for conveyor belt widths up to 48 inches (1220mm) and can be field adjusted to fit most standard conveyor configurations. The aperture can be changed from 11-23 inches (280-580mm) depending on the height of the product on the belt. Lightweight construction makes it easy to assemble and install without special tools, or the need to cut the belt, and the filed replaceable, microprocessor based controls are easy to operate and maintain. A self-test circuit activates a fault light and dry contact to alert the operator if there ever is a problem with the controls, so you'll never have to wonder if you detector is operating properly.",
-          "image": [
-            "/images/PT1.jpg"
-          ],
+          "image": ["/images/PT1.jpg"],
           "range": {
             "subTitle": "",
             "list": []
@@ -277,12 +247,7 @@
         },
         {
           "title": "PULLEY LAGGING RUBBER",
-          "image": [
-            "/images/PR6.png",
-            "/images/PR7.png",
-            "/images/PR8.png",
-            "/images/PR9.png"
-          ],
+          "image": ["/images/PR6.png", "/images/PR7.png", "/images/PR8.png", "/images/PR9.png"],
           "range": {
             "subTitle": "",
             "list": []
@@ -307,12 +272,7 @@
         },
         {
           "title": "ACCESSORIES",
-          "image": [
-            "/images/PR16.png",
-            "/images/PR17.png",
-            "/images/PR18.png",
-            "/images/PR19.png"
-          ],
+          "image": ["/images/PR16.png", "/images/PR17.png", "/images/PR18.png", "/images/PR19.png"],
           "range": {
             "subTitle": "",
             "list": []
@@ -326,9 +286,7 @@
     {
       "title": "EPC Material Handling Facility",
       "href": "/services/epc-material-handling-facility",
-      "imageProduct": [
-        "/images/Sepc1.jpg"
-      ],
+      "imageProduct": ["/images/Sepc1.jpg"],
       "listInfo": [
         {
           "title": "Material Handling Facility",
@@ -347,9 +305,7 @@
       "title": "Conveyor Maintenance System",
       "href": "/services/conveyor-maintenance-system",
       "description": "Conveyor maintenance services cover belt splicing and rubber component replacement, conveyor idlers and rollers change outs and refurbishment and transfer chute repair. Our services also cover maintenance management system, maintenance procedure development, planning and scheduling, condition monitoring, structural investigations, root cause failure analysis and repairs to conveyor equipment and materials handling machinery. With our depth of experienced managers, engineers, supervisors, belt workers and trades, we have the capacity to mobilize new project sites to carry out effective and efficient maintenance services under long-term contract and alliance arrangements.",
-      "imageProduct": [
-        "/images/Sconveyor1.jpg"
-      ],
+      "imageProduct": ["/images/Sconveyor1.jpg"],
       "listInfo": [
         {
           "title": "INSTALLATION CONVEYOR BELT",
@@ -358,39 +314,29 @@
         {
           "title": "COLD & HOT VULCANIZING FOR BELT SPLICING",
           "description": "We offer both cold & hot vulcanizing of belts with highly skilled service team. The services include jointing of Fabric as well as Steel Cord Beltings.",
-          "image": [
-            "/images/Sconveyor2.jpg"
-          ]
+          "image": ["/images/Sconveyor2.jpg"]
         },
         {
           "title": "Focus on Safety",
           "description": "Careless use during the installation of a conveyor belt can result in hazardous situations. Focus on safety and take no unnecessary risks by consulting our team to perform the installation.",
-          "image": [
-            "/images/Sconveyor3.jpg"
-          ]
+          "image": ["/images/Sconveyor3.jpg"]
         },
         {
           "title": "LAGGING PULLEY",
           "description": "Our skilled crews are backed by a team of technical professionals to ensure the components will perform reliably, first time every time. We can remove your worn out pulley lagging, and install the best lagging solution based your changing needs. Pulleys can be re-lagged in the field on your system without removal, or in our service facility. Whatever the application, smooth, rubber, grooved or diamond, or ceramic, re-lagging can be completed to give your pulley its maximum service life, reduce shell wear, increase traction, increase cleaner efficiency, assist belt tracking, increase belt uptime, and eliminate slippage problems.",
-          "image": [
-            "/images/Sconveyor4.jpg"
-          ]
+          "image": ["/images/Sconveyor4.jpg"]
         },
         {
           "title": "BELT SCANNING & INSPECTION",
           "description": "The primary purpose is to detect steel cord/wire damage (broken & corrosion) and check splice condition. With our Magnetic Flux Leakage equipment is used to detect anomalies or damage within the steel cords and splices of conveyor belting, invisible to the naked eye. The primary purpose is to detect steel cord/wire damage (broken & corrosion) and check splice condition. With our Magnetic Flux Leakage equipment is used to detect anomalies or damage within the steel cords and splices of conveyor belting, invisible to the naked eye.",
-          "image": [
-            "/images/Sconveyor5.jpg"
-          ]
+          "image": ["/images/Sconveyor5.jpg"]
         }
       ]
     },
     {
       "title": "Crusher Rental",
       "href": "/services/crusher-rental",
-      "imageProduct": [
-        "/images/Scrusher1.jpg"
-      ],
+      "imageProduct": ["/images/Scrusher1.jpg"],
       "listInfo": [
         {
           "title": "CRUSHER MANUFACTURING & INSTALLATION",
@@ -414,9 +360,7 @@
         {
           "title": "MAINTENANCE & SPAREPART",
           "description": "Performing regular maintenance on the crusher, and source many tools and parts needed for maintenance and repair. Spare parts are designed and manufactured in consideration of the existing equipment manufacturer’s specifications, producing high performance and offering cost effective solutions.",
-          "image": [
-            "/images/Scrusher2.jpg"
-          ],
+          "image": ["/images/Scrusher2.jpg"],
           "range": {
             "list": [
               "Roll Crusher",
@@ -462,29 +406,17 @@
             {
               "title": "PT INDOCEMENT TUNGGAL PRAKARSA Tbk.",
               "description": "One of the leading cement producers in Indonesia which started operating in 1975. Indocement produces premium cement under the Semen Tiga Roda brand which is Indonesia's TOP 100 Most Valuable Brands 2020 & TOP Brand Awards Cement Category.",
-              "image": [
-                "/images/sryokohama1.jpg"
-              ],
+              "image": ["/images/sryokohama1.jpg"],
               "table": [
                 {
                   "coloum1": "Period",
-                  "coloum2": [
-                    "Belt Specification"
-                  ],
-                  "coloum3": [
-                    "Qty (m)"
-                  ]
+                  "coloum2": ["Belt Specification"],
+                  "coloum3": ["Qty (m)"]
                 },
                 {
                   "coloum1": "2022",
-                  "coloum2": [
-                    "ST-1250 BW1200 DIN-M",
-                    "ST-2200 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,000",
-                    "2,500"
-                  ]
+                  "coloum2": ["ST-1250 BW1200 DIN-M", "ST-2200 BW1200 DIN-M"],
+                  "coloum3": ["1,000", "2,500"]
                 },
                 {
                   "coloum1": "2021",
@@ -493,11 +425,7 @@
                     "ST-2200 BW1200 DIN-M",
                     "ST-1500 BW1200 DIN-M"
                   ],
-                  "coloum3": [
-                    "1,500",
-                    "4,500",
-                    "2,500"
-                  ]
+                  "coloum3": ["1,500", "4,500", "2,500"]
                 },
                 {
                   "coloum1": "2020",
@@ -507,81 +435,44 @@
                     "ST-1500 BW1200 DIN-M",
                     "ST-1250 BW1200 DIN-M"
                   ],
-                  "coloum3": [
-                    "6,500",
-                    "1,700",
-                    "2,000",
-                    "5,000"
-                  ]
+                  "coloum3": ["6,500", "1,700", "2,000", "5,000"]
                 },
                 {
                   "coloum1": "2019",
-                  "coloum2": [
-                    "ST-2200 BW1200 DIN-M",
-                    "ST-1500 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "3,000",
-                    "4,000"
-                  ]
+                  "coloum2": ["ST-2200 BW1200 DIN-M", "ST-1500 BW1200 DIN-M"],
+                  "coloum3": ["3,000", "4,000"]
                 },
                 {
                   "coloum1": "2018",
-                  "coloum2": [
-                    "ST-950 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,000"
-                  ]
+                  "coloum2": ["ST-950 BW1200 DIN-M"],
+                  "coloum3": ["1,000"]
                 },
                 {
                   "coloum1": "2017",
-                  "coloum2": [
-                    "ST-2200 BW1200 DIN-M",
-                    "ST-1500 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "500",
-                    "4,500"
-                  ]
+                  "coloum2": ["ST-2200 BW1200 DIN-M", "ST-1500 BW1200 DIN-M"],
+                  "coloum3": ["500", "4,500"]
                 }
               ]
             },
             {
               "title": "PT BUKIT ASAM Tbk.",
               "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
-              "image": [
-                "/images/sryokohama2.jpg"
-              ],
+              "image": ["/images/sryokohama2.jpg"],
               "table": [
                 {
                   "coloum1": "Period",
-                  "coloum2": [
-                    "Belt Specification"
-                  ],
-                  "coloum3": [
-                    "Qty (m)"
-                  ]
+                  "coloum2": ["Belt Specification"],
+                  "coloum3": ["Qty (m)"]
                 },
                 {
                   "coloum1": "2021",
-                  "coloum2": [
-                    "EP-630/4 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,500"
-                  ]
+                  "coloum2": ["EP-630/4 BW1200 DIN-M"],
+                  "coloum3": ["1,500"]
                 },
                 {
                   "coloum1": "2020",
-                  "coloum2": [
-                    "EP-800/4 BW1200 DIN-M",
-                    "ST-1250 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "5,622",
-                    "8,151"
-                  ]
+                  "coloum2": ["EP-800/4 BW1200 DIN-M", "ST-1250 BW1200 DIN-M"],
+                  "coloum3": ["5,622", "8,151"]
                 },
                 {
                   "coloum1": "2015",
@@ -590,11 +481,7 @@
                     "EP630/4 BW1200 DIN-M",
                     "EP800/4 BW1200 DIN-M"
                   ],
-                  "coloum3": [
-                    "762",
-                    "26",
-                    "88"
-                  ]
+                  "coloum3": ["762", "26", "88"]
                 },
                 {
                   "coloum1": "2014",
@@ -605,105 +492,59 @@
                     "EP800/4 BW1200 DIN-M",
                     "ST-630 BW1200 DIN-M"
                   ],
-                  "coloum3": [
-                    "897",
-                    "8,661",
-                    "1,835",
-                    "2,350",
-                    "1,360"
-                  ]
+                  "coloum3": ["897", "8,661", "1,835", "2,350", "1,360"]
                 },
                 {
                   "coloum1": "2005",
-                  "coloum2": [
-                    "ST-3150 BW1600 DIN-X",
-                    "ST-1250 BW1800 DIN-M"
-                  ],
-                  "coloum3": [
-                    "2,500",
-                    "90"
-                  ]
+                  "coloum2": ["ST-3150 BW1600 DIN-X", "ST-1250 BW1800 DIN-M"],
+                  "coloum3": ["2,500", "90"]
                 }
               ]
             },
             {
               "title": "PT BAYAN RESOURCES Tbk.",
               "description": "Part of the Bayan Group, is an Indonesia-based company primarily engage in integrated coal mining industry in East and South Kalimantan.",
-              "image": [
-                "/images/sryokohama3.jpg"
-              ],
+              "image": ["/images/sryokohama3.jpg"],
               "table": [
                 {
                   "coloum1": "Period",
-                  "coloum2": [
-                    "Belt Specification"
-                  ],
-                  "coloum3": [
-                    "Qty (m)"
-                  ]
+                  "coloum2": ["Belt Specification"],
+                  "coloum3": ["Qty (m)"]
                 },
                 {
                   "coloum1": "2013-2014",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "11,683"
-                  ]
+                  "coloum2": ["Fabric EP with various specs"],
+                  "coloum3": ["11,683"]
                 },
                 {
                   "coloum1": "2011-2012",
-                  "coloum2": [
-                    "ST & EP with various specs"
-                  ],
-                  "coloum3": [
-                    "3,777"
-                  ]
+                  "coloum2": ["ST & EP with various specs"],
+                  "coloum3": ["3,777"]
                 },
                 {
                   "coloum1": "2009-2010",
-                  "coloum2": [
-                    "ST & EP with various specs"
-                  ],
-                  "coloum3": [
-                    "3,270"
-                  ]
+                  "coloum2": ["ST & EP with various specs"],
+                  "coloum3": ["3,270"]
                 },
                 {
                   "coloum1": "2007-2008",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "18,155"
-                  ]
+                  "coloum2": ["Fabric EP with various specs"],
+                  "coloum3": ["18,155"]
                 },
                 {
                   "coloum1": "2005-2006",
-                  "coloum2": [
-                    "ST & EP with various specs"
-                  ],
-                  "coloum3": [
-                    "32,047"
-                  ]
+                  "coloum2": ["ST & EP with various specs"],
+                  "coloum3": ["32,047"]
                 },
                 {
                   "coloum1": "2003-2004",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "14,064"
-                  ]
+                  "coloum2": ["Fabric EP with various specs"],
+                  "coloum3": ["14,064"]
                 },
                 {
                   "coloum1": "2001-2002",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "11,235"
-                  ]
+                  "coloum2": ["Fabric EP with various specs"],
+                  "coloum3": ["11,235"]
                 }
               ]
             }
@@ -712,27 +553,17 @@
         {
           "title": "MECAL",
           "linkDownload": "/images/pdf/Mecal.pdf",
-          "imageProduct": [
-            "/images/mecal1.png",
-            "/images/mecal2.png",
-            "/images/mecal3.png"
-          ],
+          "imageProduct": ["/images/mecal1.png", "/images/mecal2.png", "/images/mecal3.png"],
           "List": [
             {
               "title": "PT BUKIT ASAM Tbk.",
               "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
-              "image": [
-                "/images/srmecal1.jpg"
-              ],
+              "image": ["/images/srmecal1.jpg"],
               "table": [
                 {
                   "coloum1": "Year",
-                  "coloum2": [
-                    "Model Magnet Separator"
-                  ],
-                  "coloum3": [
-                    "Qty (unit)"
-                  ]
+                  "coloum2": ["Model Magnet Separator"],
+                  "coloum3": ["Qty (unit)"]
                 },
                 {
                   "coloum1": "2014",
@@ -744,11 +575,7 @@
                     "TMI-120/MC",
                     "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
                   ],
-                  "coloum3": [
-                    "1",
-                    "1",
-                    "1"
-                  ]
+                  "coloum3": ["1", "1", "1"]
                 },
                 {
                   "coloum1": "2016",
@@ -756,9 +583,7 @@
                     "LTG-100",
                     "ElectroMagnet (Oil Cooled) Self-Cleaning, BW-1000, Power 6.0kW"
                   ],
-                  "coloum3": [
-                    "1"
-                  ]
+                  "coloum3": ["1"]
                 },
                 {
                   "coloum1": "2017",
@@ -766,9 +591,7 @@
                     "TMJ-160/MC",
                     "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1600, Power 14.6kW"
                   ],
-                  "coloum3": [
-                    "1"
-                  ]
+                  "coloum3": ["1"]
                 },
                 {
                   "coloum1": "2020",
@@ -776,27 +599,19 @@
                     "TMI-120/MC/AC",
                     "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
                   ],
-                  "coloum3": [
-                    "4"
-                  ]
+                  "coloum3": ["4"]
                 }
               ]
             },
             {
               "title": "PT. BORNEO INDOBARA",
               "description": "PT. Borneo Indo Bara (BIB) which is a member of Golden Energy Mines, is one of the fastest growing coal mine, located in Bunati, Kalsel.",
-              "image": [
-                "/images/srmecal2.jpg"
-              ],
+              "image": ["/images/srmecal2.jpg"],
               "table": [
                 {
                   "coloum1": "Year",
-                  "coloum2": [
-                    "Model Magnet Separator"
-                  ],
-                  "coloum3": [
-                    "Qty (unit)"
-                  ]
+                  "coloum2": ["Model Magnet Separator"],
+                  "coloum3": ["Qty (unit)"]
                 },
                 {
                   "coloum1": "2020",
@@ -804,27 +619,19 @@
                     "TMK-150/MC/HE",
                     "ElectroMagnet (Oil Cooled), Cross-Belt, Manual Cleaning, BW-1300, Magnet Power approx. 17.5 kW"
                   ],
-                  "coloum3": [
-                    "2"
-                  ]
+                  "coloum3": ["2"]
                 }
               ]
             },
             {
               "title": "PT KOMIPO PEMBANGKITAN JAWA BALI (KPJB) - PLTU Tanjung Jati B Unit 3 & 4",
               "description": "The Operation and Maintenance (O&M) Company appointed by PT PLN Pembangkitan Tanjung Jati B to operate and maintain Tanjung Jati B Unit 3&4 Coal Fired Power Plant located in Jepara, Central Java, Indonesia.",
-              "image": [
-                "/images/srmecal3.jpg"
-              ],
+              "image": ["/images/srmecal3.jpg"],
               "table": [
                 {
                   "coloum1": "Year",
-                  "coloum2": [
-                    "Model Magnet Separator"
-                  ],
-                  "coloum3": [
-                    "Qty (unit)"
-                  ]
+                  "coloum2": ["Model Magnet Separator"],
+                  "coloum3": ["Qty (unit)"]
                 },
                 {
                   "coloum1": "2020",
@@ -832,9 +639,7 @@
                     "TMI-120/MC/AC",
                     "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.6kW"
                   ],
-                  "coloum3": [
-                    "2"
-                  ]
+                  "coloum3": ["2"]
                 }
               ]
             }
