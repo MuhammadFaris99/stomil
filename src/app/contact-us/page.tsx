@@ -3,7 +3,7 @@
 const PageContactUs = () => {
     // const [setSubmittedValue, submittedValue] = useState ("");
     return (
-        <section className="pt-16">
+        <section className="pt-5">
             {/* flex/grid */}
             <div className="container mx-auto ">
                 <div className="grid items-center grid-cols-12 mt-5 lg:gap-8 gap-y-8">

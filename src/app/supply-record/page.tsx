@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const PageSupplyRecord = () => {
     return (
-        <section className="lg:py-24 py-16">
+        <section className="lg:py-20 py-16">
             <div className="container" data-aos="fade-up">
                 <div className="grid lg:grid-cols-2 gap-14">
 

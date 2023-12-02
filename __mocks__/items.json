@@ -325,6 +325,7 @@
   "services": [
     {
       "title": "EPC Material Handling Facility",
+      "slug": "epc-material-handling-facility",
       "href": "/services/epc-material-handling-facility",
       "imageProduct": [
         "/images/Sepc1.jpg"
@@ -332,6 +333,10 @@
       "listInfo": [
         {
           "title": "Material Handling Facility",
+          "image": [
+            "/images/Sepc2.jpg",
+            "/images/Sepc3.jpg"
+          ],
           "range": {
             "list": [
               "Engineering Design",

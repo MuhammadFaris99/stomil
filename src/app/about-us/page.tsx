@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const PageAboutUs = () => {
     return (
-        <section className="py-16 px-4 lg:px-0 overflow-hidden dark:bg-neutral-800">
+        <section className="py-14 px-4 lg:px-0 overflow-hidden dark:bg-neutral-800">
             <div className="container mx-auto">
                 <div className="grid items-center grid-cols-12 gap-5">
                     <div className="col-span-12 lg:col-span-6">
