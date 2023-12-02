@@ -16,7 +16,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 gap-10 items-center">
             <div className="lg:col-span-5">
               <div className="relative">
-                <img src="images/c.jpg" className="rounded-lg shadow-lg relative" alt="about" />
+                <img src="images/yokohama1.jpg" className="rounded-lg shadow-lg relative" alt="about" />
                 <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
                   <a
                     data-type="youtube"
