@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import Image from 'next/image'
 import Link from 'next/link'
 import RunningText from './components/RunningText'
 import SliderCandidate from './components/SliderCandidate'
@@ -83,14 +84,21 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="bg-yellow-500/40 rounded-xl p-7">
                   <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                    <img src="images/sryokohama.png" alt="" className="h-10 mx-[10px] sm:me-auto" />
+                    <div className="relative h-20 w-40">
+                      <Image
+                        src="/images/sryokohama.png"
+                        alt="yokohama"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
                     <div className="sm:text-end">
                       <h4>Yokohama</h4>
-                      <p className="text-md text-gray-700 font-light">
+                      <p className="text-sm text-gray-700 font-light">
                         1. PT INDOCEMENT TUNGGAL PRAKARSA Tbk.
                       </p>
-                      <p className="text-md text-gray-700 font-light">2. PT BUKIT ASAM Tbk.</p>
-                      <p className="text-md text-gray-700 font-light">3. PT BAYAN RESOURCES Tbk.</p>
+                      <p className="text-sm text-gray-700 font-light">2. PT BUKIT ASAM Tbk.</p>
+                      <p className="text-sm text-gray-700 font-light">3. PT BAYAN RESOURCES Tbk.</p>
 
                       <div className="flex items-center sm:justify-end gap-3 mt-5">
                         {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
@@ -104,23 +112,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="bg-sky-500/40 rounded-xl p-7">
-                                    <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                                        <img src="/images/archery.png" alt="" className="h-36 mx-auto sm:me-auto" />
-                                        <div className="sm:text-end">
-                                            <h4>Tectron</h4>
-                                            <p className="text-md text-gray-700 font-light">1. PT INDOCEMENT TUNGGAL PRAKARSA Tbk</p>
-                                            <p className="text-md text-gray-700 font-light">2. PT BUKIT ASAM Tbk.</p>
-                                            <p className="text-md text-gray-700 font-light">3. PT BAYAN RESOURCES Tbk.</p>
-
-                                            <div className="flex items-center sm:justify-end gap-3 mt-5">
-                                                <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" />
-                                                <a href="/supply-record" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
               </div>
             </div>
 
@@ -128,12 +119,19 @@ export default function Home() {
               <div className="space-y-6 lg:mt-20">
                 <div className="bg-purple-500/40 rounded-xl p-7">
                   <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                    <img src="images/srmecal.png" alt="" className="h-10 mx-[10px] sm:me-auto" />
+                    <div className="relative h-20 w-40">
+                      <Image
+                        src="/images/srmecal.png"
+                        alt="mecal"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
                     <div className="sm:text-end">
                       <h4>Mecal</h4>
-                      <p className="text-md text-gray-700 font-light">1. PT BUKIT ASAM Tbk.</p>
-                      <p className="text-md text-gray-700 font-light">2. PT BORNEO INDOBARA</p>
-                      <p className="text-md text-gray-700 font-light">
+                      <p className="text-sm text-gray-700 font-light">1. PT BUKIT ASAM Tbk.</p>
+                      <p className="text-sm text-gray-700 font-light">2. PT BORNEO INDOBARA</p>
+                      <p className="text-sm text-gray-700 font-light">
                         3. PT KOMIPO PEMBANGKITAN JAWA BALI (KPJB)
                       </p>
 
@@ -149,23 +147,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="bg-sky-500/40 rounded-xl p-7">
-                                    <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                                        <img src="/images/archery.png" alt="" className="h-36 mx-auto sm:me-auto" />
-                                        <div className="sm:text-end">
-                                            <h4>Robass</h4>
-                                            <p className="text-md text-gray-700 font-light">1. PT INDOCEMENT TUNGGAL PRAKARSA Tbk</p>
-                                            <p className="text-md text-gray-700 font-light">2. PT BUKIT ASAM Tbk.</p>
-                                            <p className="text-md text-gray-700 font-light">3. PT BAYAN RESOURCES Tbk.</p>
-
-                                            <div className="flex items-center sm:justify-end gap-3 mt-5">
-                                                <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" />
-                                                <a href="/supply-record" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
               </div>
             </div>
           </div>
@@ -198,9 +179,6 @@ export default function Home() {
                 className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9"
               />
             </div>
-            {/* <div className="col-span-12 lg:col-span-2">
-                            <img src="images/CH3.png" alt="" className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9" />
-                        </div> */}
             <div className="col-span-12 lg:col-span-3">
               <img
                 src="images/CH4.png"
@@ -215,9 +193,6 @@ export default function Home() {
                 className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9"
               />
             </div>
-            {/* <div className="col-span-12 lg:col-span-2">
-                            <img src="images/CH6.jpg" alt="" className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9" />
-                        </div> */}
           </div>
         </div>
       </section>

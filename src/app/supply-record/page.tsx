@@ -1,4 +1,7 @@
+import items from '../../../__mocks__/items.json'
+
 function PageSupplyRecord() {
+  const { products } = items
   return (
     <section className="lg:py-24 py-16">
       <div className="container" data-aos="fade-up">
@@ -160,69 +163,69 @@ function PageSupplyRecord() {
           </div>
         </div>
 
-        <div className="bg-gray-100 p-8 mb-6">
-          <div>
-            <h3 className="text-2xl">1. PT INDOCEMENT TUNGGAL PRAKARSA Tbk.</h3>
-            <p className="mt-5">
-              One of the leading cement producers in Indonesia which started operating in 1975.
-              Indocement produces premium cement under the Semen Tiga Roda brand which is
-              Indonesia&apos;s TOP 100 Most Valuable Brands 2020 & TOP Brand Awards Cement Category.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16">
-            <div className="relative overflow-x-auto">
-              <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                  <tr>
-                    <th scope="col" className="px-6 py-3">
-                      Period
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Belt Specification
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Qty (m)
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      Apple MacBook Pro 17
-                    </th>
-                    <td className="px-6 py-4">Silver</td>
-                    <td className="px-6 py-4">Laptop</td>
-                  </tr>
-                  <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      Microsoft Surface Pro
-                    </th>
-                    <td className="px-6 py-4">White</td>
-                    <td className="px-6 py-4">Laptop PC</td>
-                  </tr>
-                  <tr className="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      Magic Mouse 2
-                    </th>
-                    <td className="px-6 py-4">Black</td>
-                    <td className="px-6 py-4">Accessories</td>
-                  </tr>
-                </tbody>
-              </table>
+        {products.map((item, key) => (
+          <div className="bg-gray-100 p-8 mb-6" key={item.title}>
+            <div>
+              <h3 className="text-2xl">
+                {key + 1}. {item.title}
+              </h3>
+              <div className="mt-5" dangerouslySetInnerHTML={{ __html: item.description }} />
             </div>
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16">
+              <div className="relative overflow-x-auto">
+                <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                  <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                      <th scope="col" className="px-6 py-3">
+                        Period
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        Belt Specification
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        Qty (m)
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                      <th
+                        scope="row"
+                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      >
+                        Apple MacBook Pro 17
+                      </th>
+                      <td className="px-6 py-4">Silver</td>
+                      <td className="px-6 py-4">Laptop</td>
+                    </tr>
+                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                      <th
+                        scope="row"
+                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      >
+                        Microsoft Surface Pro
+                      </th>
+                      <td className="px-6 py-4">White</td>
+                      <td className="px-6 py-4">Laptop PC</td>
+                    </tr>
+                    <tr className="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      >
+                        Magic Mouse 2
+                      </th>
+                      <td className="px-6 py-4">Black</td>
+                      <td className="px-6 py-4">Accessories</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
-            <img src="/images/sryokohama1.jpg" className="rounded-md" />
+              <img src="/images/sryokohama1.jpg" className="rounded-md" />
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </section>
   )
