@@ -1,0 +1,325 @@
+{
+  "items": [
+    {
+      "title": "YOKOHAMA",
+      "slug": "yokohama",
+      "href": "/products/yokohama",
+      "description": "<p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p><p className='text-slate-400 mt-2'>Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>",
+      "imagesProduct": [
+        "/images/yokohama1.jpg",
+        "/images/yokohama2.png",
+        "/images/yokohama3.png",
+        "/images/yokohama4.png",
+        "/images/yokohama6.png",
+        "/images/yokohama7.png",
+        "/images/yokohama8.png"
+      ],
+      "listInfo": [
+        {
+          "type": 1,
+          "title": "STEEL CORD BELT",
+          "range": {
+            "subTitle": "Production Range",
+            "list": [
+              "Tensile strength: 500 to 5,400 N/mm",
+              "Max. Belt width: 3,200 mm"
+            ]
+          },
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "High Belt Strength",
+              "Available Cover Compounds",
+              "Low Elongation",
+              "Superior Trough ability",
+              "Excellent Durability"
+            ]
+          },
+          "image": [
+            "/images/PY1.jpg"
+          ]
+        },
+        {
+          "type": 1,
+          "title": "GENERAL FABRIC BELT",
+          "range": {
+            "subTitle": "Production Range",
+            "list": [
+              "Carcasses : Polyester/Nylon (EP) & Nylon/Nylon (NN)",
+              "Belt Strength : 100 to 2,500 N/mm",
+              "Belt width : 300 to 2,400 mm"
+            ]
+          },
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "Wide Selection of Belt Strengths",
+              "Cover Compounds and Cover Gauges",
+              "Excellent Durability",
+              "Perfect Load Support",
+              "Reliable Vulcanized Splices"
+            ]
+          },
+          "image": [
+            "/images/PY2.jpg"
+          ]
+        },
+        {
+          "type": 1,
+          "title": "MJ-FABRIC BELT",
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "Excellent Fastener Holding",
+              "Easy and Quick Installation",
+              "Easy Maintenance",
+              "Perfect Load Support",
+              "Excellent Flexibility"
+            ]
+          },
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
+        },
+        {
+          "type": 1,
+          "title": "PROTEX-MF FABRIC BELT",
+          "description": "YOKOHAMA PROTEX Designed to be virtually “Maintenance Free” belt for portable quarry crushing equipment, first and secondary crushers and other high abuse equipment. PROTEX give you greater peace-of-mind with the lowest cost per tonnage and best ROI on the market today.",
+          "feature": {
+            "subTitle": "Features & Benefits",
+            "list": [
+              "Excellent Resistance to Trapped Material and Build-up on Pulleys",
+              "Excellent impact resistance and cut & gouge resistance",
+              "Superior abrasion & wear resistance under extreme conditions",
+              "Less permanent elongation & belt stretch",
+              "Best choice in rough operating conditions. i.e. Portable Cone & Jaw Crushers"
+            ]
+          },
+          "image": [
+            "/images/PY3.jpg",
+            "/images/PY4.jpg",
+            "/images/PY5.jpg"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
+        }
+      ]
+    },
+    {
+      "title": "MECAL",
+      "slug": "mecal",
+      "href": "/products/mecal",
+      "description": "",
+      "imagesProduct": [
+        "/images/mecal1.png",
+        "/images/mecal2.png",
+        "/images/mecal3.png",
+        "/images/mecal4.png",
+        "/images/mecal5.png"
+      ],
+      "listInfo": [
+        {
+          "title": "MAGNETIC SEPARATORMAGNETIC SEPARATOR",
+          "description": "With over 50 year's experience, MECAL now one of the most well-known manufacture of Magnetic Separator. Manufactured in accordance with the latest Australian standard, MECAL is very confident to deliver the best quality equipment to meet customer's requirement in very severe operating conditions such as dusty, hazardous areas, 24/7 operating hours, etc.",
+          "image": [
+            "/images/PM1.jpg",
+            "/images/PM2.jpg",
+            "/images/PM3.jpg",
+            "/images/PM4.jpg"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
+        },
+        {
+          "title": "VACUUM LOADER",
+          "description": "Vacuum Cleaner for Professional Industrial Cleaning.",
+          "image": [
+            "/images/PM5.jpg",
+            "/images/PM6.jpg",
+            "/images/PM7.jpg"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
+        },
+        {
+          "title": "TELESCOPIC LOADING CHUTE",
+          "description": "For complete control of fine grain waste, this Open Truck Loading Chute has solved the problem, no more time wasted to clean-up the loading area at the end of each shift. When valuable product is being bulk loaded into Enclosed Trucks, control of the flow rate and elimination of product spill will save money from the day you install the NO DUST Chute.",
+          "range": {
+            "list": [
+              "Load rate to 2000 TPH",
+              "Extension Length from 0.5m to 20m",
+              "Customized chute inlet and outlet",
+              "High temperature application up to 250˚ C",
+              "Configurations to suit specific applications"
+            ]
+          },
+          "image": [
+            "/images/PM8.jpg"
+          ]
+        },
+        {
+          "title": "LIFTING MAGNET",
+          "description": "Mecal Design and Manufacturers Magnet for lifting scrap steel, plate or coils, Bundles, complete warehouse handling system, etc.",
+          "range": {
+            "list": [
+              "Lift and place operation",
+              "Roll-Over Operation"
+            ]
+          },
+          "image": [
+            "/images/PM9.jpg",
+            "/images/PM10.jpg"
+          ]
+        },
+        {
+          "title": "BELT CLEANER",
+          "range": {
+            "subTitle": "Option",
+            "list": [
+              "Size for belts 400mm - 2400mm",
+              "Stainless steel construction",
+              "Galvanized finish",
+              "Polytips (mines Department Approved)",
+              "High duro cushions",
+              "One side adjustment",
+              "Heavy duty design available",
+              "Special features to client request"
+            ]
+          },
+          "feature": {
+            "subTitle": "Standard Features",
+            "list": [
+              "Mild steel frames",
+              "Rubber cushions",
+              "Tungsten carbide tips",
+              "Stainless steel fasteners",
+              "Powder coated finish"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "TECTRON",
+      "slug": "tectron",
+      "href": "/products/tectron",
+      "description": "",
+      "imagesProduct": [
+        "/images/tectron5.jpg",
+        "/images/tectron1.png",
+        "/images/tectron2.png",
+        "/images/tectron3.jpg",
+        "/images/tectron4.jpg"
+      ],
+      "listInfo": [
+        {
+          "title": "METAL DETECTOR",
+          "description": "The Tectron® Model 50 is engineered for insstallation on conveyor belts carrying coal, minerals, aggregates, and other bulk materials. Used primarily for stopping bucket teeth, and large pieces of metal from damaging downstream equipment, the model 50 can detect significantly smaller metal (ferrous and non-ferrous), under the right conditions. The Model 50 is available for conveyor belt widths up to 48 inches (1220mm) and can be field adjusted to fit most standard conveyor configurations. The aperture can be changed from 11-23 inches (280-580mm) depending on the height of the product on the belt. Lightweight construction makes it easy to assemble and install without special tools, or the need to cut the belt, and the filed replaceable, microprocessor based controls are easy to operate and maintain. A self-test circuit activates a fault light and dry contact to alert the operator if there ever is a problem with the controls, so you'll never have to wonder if you detector is operating properly.",
+          "image": [
+            "/images/PT1.jpg"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
+        },
+        {
+          "title": "ACCESSORIES",
+          "description": "",
+          "image": [
+            "/images/PT2.jpg",
+            "/images/PT3.jpg",
+            "/images/PT4.jpg",
+            "/images/PT5.jpg",
+            "/images/PT6.jpg",
+            "/images/PT7.jpg"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          }
+        }
+      ]
+    },
+    {
+      "title": "ROBASS",
+      "slug": "robass",
+      "href": "/products/robass",
+      "description": "",
+      "imagesProduct": [
+        "/images/yokohama1.jpg",
+        "/images/yokohama2.png",
+        "/images/yokohama3.png",
+        "/images/yokohama4.png"
+      ],
+      "listInfo": [
+        {
+          "title": "COLD SPLICING AND REPAIR MATERIAL",
+          "image": [
+            "/images/PR1.png",
+            "/images/PR2.png",
+            "/images/PR3.png",
+            "/images/PR4.png",
+            "/images/PR5.png"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
+        },
+        {
+          "title": "PULLEY LAGGING RUBBER",
+          "image": [
+            "/images/PR6.png",
+            "/images/PR7.png",
+            "/images/PR8.png",
+            "/images/PR9.png"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
+        },
+        {
+          "title": "HOT SPLICING AND REPAIR MATERIAL",
+          "image": [
+            "/images/PR10.png",
+            "/images/PR11.png",
+            "/images/PR12.png",
+            "/images/PR13.png",
+            "/images/PR14.png",
+            "/images/PR15.png"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
+        },
+        {
+          "title": "ACCESSORIES",
+          "image": [
+            "/images/PR16.png",
+            "/images/PR17.png",
+            "/images/PR18.png",
+            "/images/PR19.png"
+          ],
+          "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

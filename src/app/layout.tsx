@@ -12,21 +12,18 @@ export const metadata: Metadata = {
   description: 'Stomil Web',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="id">
       <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
       </head>
       <body className={inter.className}>
         <Header />
-        <main className="mt-[80px]">
-          {children}
-        </main>
+        <main className="mt-[80px]">{children}</main>
         <Footer />
       </body>
     </html>

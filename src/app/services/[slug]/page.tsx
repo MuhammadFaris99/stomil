@@ -1,53 +1,87 @@
+/* eslint-disable no-script-url */
+/* eslint-disable react/jsx-no-script-url */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 interface Props {
-    params: { [key: string]: string }
+  params: { [key: string]: string }
 }
 
-const PageService = ({ params }: Props) => {
-    // return `product ${params.slug}`
-    return (
-        <section className="lg:py-10 py-10">
-            <div className="container" data-aos="fade-up">
-                <div className="flex flex-col items-center justify-center">
-                    <img src="/images/Sepc1.jpg" className="rounded-md"/>
-                    <p className="text-xs text-gray-500 mt-2 text-center">EPC</p>
-                </div>
-
-                <div>
-                    <h1 className="text-xl mb-3 mt-10">Material Handling Facility</h1>
-                    <ul className="pb-2 mb-4 space-y-4 text-gray-500 about-list dark:text-gray-300">
-                        <li className="ltr:pl-8 rtl:pr-8">
-                            <i className="fa fa-check">Engineering Design</i>
-                        </li>
-                        <li className="ltr:pl-8 rtl:pr-8">
-                            <i className="fa fa-check">Construction Handling</i>
-                        </li>
-                        <li className="ltr:pl-8 rtl:pr-8">
-                            <i className="fa fa-check">Equipment Installation</i>
-                        </li>
-                        <li className="ltr:pl-8 rtl:pr-8">
-                            <i className="fa fa-check">Shipment Handling</i>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <p className="text-sm/relaxed tracking-wider text-gray-600 mb-6">Sed ut perspiciatis unde omnis iste natus the error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda est omnis dolor repellendus.</p>
-                </div>
-
-                <div className="bg-gray-100 p-8 mb-6">
-                    <h5 className="text-base sm:text-lg font-normal text-gray-600 mb-3">Perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beataevitae dicta sunt explicabo tempore cum soluta.</h5>
-                    <p className="text-gray-500 font-light text-sm"><i className="fa-solid fa-minus me-2"></i> Christian Hall</p>
-                </div>
-
-                <div>
-                    <p className="text-sm/relaxed tracking-wider text-gray-600 mb-5">At vero eos et accusamus et iusto odio dignissimos ducimus that qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate provident similique sunt in culpa qui officia deserunt mollitia animi id est laborum et fuga.</p>
-                </div>
-
-            </div>
-            
-           
-        </section>
-    )
+function PageService({ params }: Props) {
+  // return `product ${params.slug}`
+  return (
+    <section className="py-20">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1">
+          <div className="relative">
+            <h5 className="mb-4 text-gray-900 dark:text-gray-50">Use for Jobcy</h5>
+            <ul className="pb-2 mb-4 space-y-4 text-gray-500 about-list dark:text-gray-300">
+              <li className="ltr:pl-7 rtl:pr-7">
+                At Jobcy, accessible at Website.com, one of our main priorities is the privacy of
+                our visitors. This Privacy Policy document contains types of information that is
+                collected and recorded by Jobcy and how we use If you have additional questions or
+                require more information about our Privacy Policy, do not hesitate to contact us
+                through email at <b className="text-red-600">Jobcytechnologypvt.ltd.com</b>
+              </li>
+              <li className="ltr:pl-7 rtl:pr-7">
+                If you have additional questions or require more information about our Privacy
+                Policy
+              </li>
+              <li className="ltr:pl-7 rtl:pr-7">
+                This privacy policy applies only to our online activities and is valid for visitors
+                to our website with regards to the information that they shared and/or collect in
+                Jobcy. This policy is not applicable to any information collected offline or via
+                channels other than this website.
+              </li>
+              <li className="ltr:pl-7 rtl:pr-7">
+                Another part of our priority is adding protection for children while using the
+                internet. We encourage parents and guardians to observe, participate in, and/or
+                monitor and guide their online activity to our website with regards to the
+                information that they shared and/or collect in Jobcy. This policy is not applicable
+                to any information collected offline or via channels other than this website.
+              </li>
+            </ul>
+          </div>
+          <div className="relative mt-4">
+            <h5 className="mb-4 text-gray-900 dark:text-gray-50">We use your information to :</h5>
+            <ul className="pb-2 mb-4 space-y-4 text-gray-500 about-list dark:text-gray-300">
+              <li className="ltr:pl-7 rtl:pr-7">Digital Marketing Solutions for Tomorrow</li>
+              <li className="ltr:pl-7 rtl:pr-7">Our Talented & Experienced Marketing Agency</li>
+              <li className="ltr:pl-7 rtl:pr-7">
+                It is said that song composers of the past used texts.
+              </li>
+              <li className="ltr:pl-7 rtl:pr-7">Create your own skin to match your brand</li>
+            </ul>
+          </div>
+          <div className="relative mt-4">
+            <h5 className="mb-4 text-gray-900 dark:text-gray-50">
+              Privacy and copyright protection :
+            </h5>
+            <ul className="pb-2 mb-4 space-y-4 text-gray-500 about-list dark:text-gray-300">
+              <li className="ltr:pl-7 rtl:pr-7">
+                There is now an <b className="text-red-600">abundance</b> of readable dummy texts.
+                These are usually used when a text is required purely to fill a space. These
+                alternatives to the classic Lorem Ipsum texts are often amusing and tell short,
+                funny or nonsensical stories.
+              </li>
+              <li className="ltr:pl-7 rtl:pr-7">
+                It seems that only fragments of the original text remain in the Lorem Ipsum texts
+                used today. One may speculate that over the course of time certain letters were
+                added or deleted at various positions within the text.
+              </li>
+            </ul>
+          </div>
+          <div className="mt-8 mb-2 text-end">
+            <a
+              href="javascript:void(0)"
+              className="text-white border-transparent btn ltr:mr-2 rtl:ml-2 group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500 focus:ring focus:ring-custom-500/30"
+            >
+              {' '}
+              <i className="uil uil-print ltr:mr-2 rtl:ml-2" /> Print
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
 
 export default PageService
