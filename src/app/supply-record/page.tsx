@@ -1,13 +1,16 @@
-import suppliers from '../../../__mocks__/supplyRecord.json'
+import supplyRecord from '../../../__mocks__/supplyRecord.json'
+import SliderImage from '../products/[slug]/components/SliderImage'
 
 function PageSupplyRecord() {
-  const { items } = suppliers
+  const { items } = supplyRecord
   return (
     <section className="lg:py-24 py-16">
       <div className="container" data-aos="fade-up">
         <div className="grid lg:grid-cols-2 gap-14">
           <div className="order-2 lg:order-1">
+            {/* supplyRecord.listInfo.map(info => ()) key={info.title} */}
             <h1 className="text-3xl mb-7">Yokohama</h1>
+            {/* supplyRecord.listInfo.map(info => ()) key={info.description} */}
             <p className="text-sm/relaxed tracking-wider text-gray-600 mb-5">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, fuga voluptate
               rerum commodi dolor laboriosam. Magnam voluptas hic at ab, quos accusantium deserunt,
@@ -18,6 +21,7 @@ function PageSupplyRecord() {
             <br />
             <br />
             <div className="flex items-center">
+              {/* supplyRecord.listInfo.map(info => ()) key={info.linkDownload} */}
               <a
                 target="_blank"
                 href="/images/pdf/Yokohama.pdf"
@@ -33,6 +37,7 @@ function PageSupplyRecord() {
             <div id="default-carousel" className="relative w-full" data-carousel="slide">
               <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                  {/* supplyRecord.listInfo.map(info => ()) key={info.imageProduct} */}
                   <img
                     src="/images/yokohama1.jpg"
                     className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -169,61 +174,48 @@ function PageSupplyRecord() {
               <h3 className="text-2xl">
                 {key + 1}. {item.title}
               </h3>
-              {/* <div className="mt-5" dangerouslySetInnerHTML={{ __html: item.description }} /> */}
+              <div className="mt-5" dangerouslySetInnerHTML={{ __html: item.description }} />
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16">
-              <div className="relative overflow-x-auto">
-                <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                  <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                    <tr>
-                      <th scope="col" className="px-6 py-3">
-                        Period
-                      </th>
-                      <th scope="col" className="px-6 py-3">
-                        Belt Specification
-                      </th>
-                      <th scope="col" className="px-6 py-3">
-                        Qty (m)
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th
-                        scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                      >
-                        Apple MacBook Pro 17
-                      </th>
-                      <td className="px-6 py-4">Silver</td>
-                      <td className="px-6 py-4">Laptop</td>
-                    </tr>
-                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                      <th
-                        scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                      >
-                        Microsoft Surface Pro
-                      </th>
-                      <td className="px-6 py-4">White</td>
-                      <td className="px-6 py-4">Laptop PC</td>
-                    </tr>
-                    <tr className="bg-white dark:bg-gray-800">
-                      <th
-                        scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                      >
-                        Magic Mouse 2
-                      </th>
-                      <td className="px-6 py-4">Black</td>
-                      <td className="px-6 py-4">Accessories</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            {item.List.map(list => (
+              <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16" key={list.title}>
+                <div className="relative overflow-x-auto">
+                  <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                      <tr>
+                        <th scope="col" className="px-6 py-3">
+                          Period
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                          Belt Specification
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                          Qty (m)
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {list.table.map(table => (
+                        <tr
+                          className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                          key={table.coloum1}
+                        >
+                          <th
+                            scope="row"
+                            className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                          >
+                            {table.coloum1}
+                          </th>
+                          <td className="px-6 py-4"> {table.coloum2}</td>
+                          <td className="px-6 py-4"> {table.coloum3}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
 
-              <img src="/images/sryokohama1.jpg" className="rounded-md" />
-            </div>
+                <SliderImage images={list.image} />
+              </div>
+            ))}
           </div>
         ))}
       </div>
