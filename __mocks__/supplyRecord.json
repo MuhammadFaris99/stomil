@@ -1,395 +1,389 @@
 {
   "items": [
     {
-      "title": "Supply Record",
-      "href": "/supplyrecord",
-      "listInfo": [
+      "title": "YOKOHAMA",
+      "linkDownload": "/images/pdf/Yokohama.pdf",
+      "imageProduct": [
+        "/images/yokohama1.jpg",
+        "/images/yokohama2.jpg",
+        "/images/yokohama3.jpg"
+      ],
+      "List": [
         {
-          "title": "YOKOHAMA",
-          "linkDownload": "/images/pdf/Yokohama.pdf",
-          "imageProduct": [
-            "/images/yokohama1.jpg",
-            "/images/yokohama2.jpg",
-            "/images/yokohama3.jpg"
+          "title": "PT INDOCEMENT TUNGGAL PRAKARSA Tbk.",
+          "description": "One of the leading cement producers in Indonesia which started operating in 1975. Indocement produces premium cement under the Semen Tiga Roda brand which is Indonesia's TOP 100 Most Valuable Brands 2020 & TOP Brand Awards Cement Category.",
+          "image": [
+            "/images/sryokohama1.jpg"
           ],
-          "List": [
+          "table": [
             {
-              "title": "PT INDOCEMENT TUNGGAL PRAKARSA Tbk.",
-              "description": "One of the leading cement producers in Indonesia which started operating in 1975. Indocement produces premium cement under the Semen Tiga Roda brand which is Indonesia's TOP 100 Most Valuable Brands 2020 & TOP Brand Awards Cement Category.",
-              "image": [
-                "/images/sryokohama1.jpg"
+              "coloum1": "Period",
+              "coloum2": [
+                "Belt Specification"
               ],
-              "table": [
-                {
-                  "coloum1": "Period",
-                  "coloum2": [
-                    "Belt Specification"
-                  ],
-                  "coloum3": [
-                    "Qty (m)"
-                  ]
-                },
-                {
-                  "coloum1": "2022",
-                  "coloum2": [
-                    "ST-1250 BW1200 DIN-M",
-                    "ST-2200 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,000",
-                    "2,500"
-                  ]
-                },
-                {
-                  "coloum1": "2021",
-                  "coloum2": [
-                    "ST-950 BW1200 DIN-M",
-                    "ST-2200 BW1200 DIN-M",
-                    "ST-1500 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,500",
-                    "4,500",
-                    "2,500"
-                  ]
-                },
-                {
-                  "coloum1": "2020",
-                  "coloum2": [
-                    "ST-2200 BW1200 DIN-M",
-                    "ST-1600 BW1600 DIN-M",
-                    "ST-1500 BW1200 DIN-M",
-                    "ST-1250 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "6,500",
-                    "1,700",
-                    "2,000",
-                    "5,000"
-                  ]
-                },
-                {
-                  "coloum1": "2019",
-                  "coloum2": [
-                    "ST-2200 BW1200 DIN-M",
-                    "ST-1500 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "3,000",
-                    "4,000"
-                  ]
-                },
-                {
-                  "coloum1": "2018",
-                  "coloum2": [
-                    "ST-950 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,000"
-                  ]
-                },
-                {
-                  "coloum1": "2017",
-                  "coloum2": [
-                    "ST-2200 BW1200 DIN-M",
-                    "ST-1500 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "500",
-                    "4,500"
-                  ]
-                }
+              "coloum3": [
+                "Qty (m)"
               ]
             },
             {
-              "title": "PT BUKIT ASAM Tbk.",
-              "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
-              "image": [
-                "/images/sryokohama2.jpg"
+              "coloum1": "2022",
+              "coloum2": [
+                "ST-1250 BW1200 DIN-M",
+                "ST-2200 BW1200 DIN-M"
               ],
-              "table": [
-                {
-                  "coloum1": "Period",
-                  "coloum2": [
-                    "Belt Specification"
-                  ],
-                  "coloum3": [
-                    "Qty (m)"
-                  ]
-                },
-                {
-                  "coloum1": "2021",
-                  "coloum2": [
-                    "EP-630/4 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "1,500"
-                  ]
-                },
-                {
-                  "coloum1": "2020",
-                  "coloum2": [
-                    "EP-800/4 BW1200 DIN-M",
-                    "ST-1250 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "5,622",
-                    "8,151"
-                  ]
-                },
-                {
-                  "coloum1": "2015",
-                  "coloum2": [
-                    "ST-1000 BW1200 DIN-M",
-                    "EP630/4 BW1200 DIN-M",
-                    "EP800/4 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "762",
-                    "26",
-                    "88"
-                  ]
-                },
-                {
-                  "coloum1": "2014",
-                  "coloum2": [
-                    "EP-500/4 BW1400 DIN-M",
-                    "ST-1000 BW800 DIN-M",
-                    "EP-630/4 BW1200 DIN-M",
-                    "EP800/4 BW1200 DIN-M",
-                    "ST-630 BW1200 DIN-M"
-                  ],
-                  "coloum3": [
-                    "897",
-                    "8,661",
-                    "1,835",
-                    "2,350",
-                    "1,360"
-                  ]
-                },
-                {
-                  "coloum1": "2005",
-                  "coloum2": [
-                    "ST-3150 BW1600 DIN-X",
-                    "ST-1250 BW1800 DIN-M"
-                  ],
-                  "coloum3": [
-                    "2,500",
-                    "90"
-                  ]
-                }
+              "coloum3": [
+                "1,000",
+                "2,500"
               ]
             },
             {
-              "title": "PT BAYAN RESOURCES Tbk.",
-              "description": "Part of the Bayan Group, is an Indonesia-based company primarily engage in integrated coal mining industry in East and South Kalimantan.",
-              "image": [
-                "/images/sryokohama3.jpg"
+              "coloum1": "2021",
+              "coloum2": [
+                "ST-950 BW1200 DIN-M",
+                "ST-2200 BW1200 DIN-M",
+                "ST-1500 BW1200 DIN-M"
               ],
-              "table": [
-                {
-                  "coloum1": "Period",
-                  "coloum2": [
-                    "Belt Specification"
-                  ],
-                  "coloum3": [
-                    "Qty (m)"
-                  ]
-                },
-                {
-                  "coloum1": "2013-2014",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "11,683"
-                  ]
-                },
-                {
-                  "coloum1": "2011-2012",
-                  "coloum2": [
-                    "ST & EP with various specs"
-                  ],
-                  "coloum3": [
-                    "3,777"
-                  ]
-                },
-                {
-                  "coloum1": "2009-2010",
-                  "coloum2": [
-                    "ST & EP with various specs"
-                  ],
-                  "coloum3": [
-                    "3,270"
-                  ]
-                },
-                {
-                  "coloum1": "2007-2008",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "18,155"
-                  ]
-                },
-                {
-                  "coloum1": "2005-2006",
-                  "coloum2": [
-                    "ST & EP with various specs"
-                  ],
-                  "coloum3": [
-                    "32,047"
-                  ]
-                },
-                {
-                  "coloum1": "2003-2004",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "14,064"
-                  ]
-                },
-                {
-                  "coloum1": "2001-2002",
-                  "coloum2": [
-                    "Fabric EP with various specs"
-                  ],
-                  "coloum3": [
-                    "11,235"
-                  ]
-                }
+              "coloum3": [
+                "1,500",
+                "4,500",
+                "2,500"
+              ]
+            },
+            {
+              "coloum1": "2020",
+              "coloum2": [
+                "ST-2200 BW1200 DIN-M",
+                "ST-1600 BW1600 DIN-M",
+                "ST-1500 BW1200 DIN-M",
+                "ST-1250 BW1200 DIN-M"
+              ],
+              "coloum3": [
+                "6,500",
+                "1,700",
+                "2,000",
+                "5,000"
+              ]
+            },
+            {
+              "coloum1": "2019",
+              "coloum2": [
+                "ST-2200 BW1200 DIN-M",
+                "ST-1500 BW1200 DIN-M"
+              ],
+              "coloum3": [
+                "3,000",
+                "4,000"
+              ]
+            },
+            {
+              "coloum1": "2018",
+              "coloum2": [
+                "ST-950 BW1200 DIN-M"
+              ],
+              "coloum3": [
+                "1,000"
+              ]
+            },
+            {
+              "coloum1": "2017",
+              "coloum2": [
+                "ST-2200 BW1200 DIN-M",
+                "ST-1500 BW1200 DIN-M"
+              ],
+              "coloum3": [
+                "500",
+                "4,500"
               ]
             }
           ]
         },
         {
-          "title": "MECAL",
-          "linkDownload": "/images/pdf/Mecal.pdf",
-          "imageProduct": [
-            "/images/mecal1.png",
-            "/images/mecal2.png",
-            "/images/mecal3.png"
+          "title": "PT BUKIT ASAM Tbk.",
+          "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
+          "image": [
+            "/images/sryokohama2.jpg"
           ],
-          "List": [
+          "table": [
             {
-              "title": "PT BUKIT ASAM Tbk.",
-              "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
-              "image": [
-                "/images/srmecal1.jpg"
+              "coloum1": "Period",
+              "coloum2": [
+                "Belt Specification"
               ],
-              "table": [
-                {
-                  "coloum1": "Year",
-                  "coloum2": [
-                    "Model Magnet Separator"
-                  ],
-                  "coloum3": [
-                    "Qty (unit)"
-                  ]
-                },
-                {
-                  "coloum1": "2014",
-                  "coloum2": [
-                    "TMK-140/MC",
-                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1400, Power 13.4kW",
-                    "TMJ-120/MC",
-                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 11.0kW",
-                    "TMI-120/MC",
-                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
-                  ],
-                  "coloum3": [
-                    "1",
-                    "1",
-                    "1"
-                  ]
-                },
-                {
-                  "coloum1": "2016",
-                  "coloum2": [
-                    "LTG-100",
-                    "ElectroMagnet (Oil Cooled) Self-Cleaning, BW-1000, Power 6.0kW"
-                  ],
-                  "coloum3": [
-                    "1"
-                  ]
-                },
-                {
-                  "coloum1": "2017",
-                  "coloum2": [
-                    "TMJ-160/MC",
-                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1600, Power 14.6kW"
-                  ],
-                  "coloum3": [
-                    "1"
-                  ]
-                },
-                {
-                  "coloum1": "2020",
-                  "coloum2": [
-                    "TMI-120/MC/AC",
-                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
-                  ],
-                  "coloum3": [
-                    "4"
-                  ]
-                }
+              "coloum3": [
+                "Qty (m)"
               ]
             },
             {
-              "title": "PT. BORNEO INDOBARA",
-              "description": "PT. Borneo Indo Bara (BIB) which is a member of Golden Energy Mines, is one of the fastest growing coal mine, located in Bunati, Kalsel.",
-              "image": [
-                "/images/srmecal2.jpg"
+              "coloum1": "2021",
+              "coloum2": [
+                "EP-630/4 BW1200 DIN-M"
               ],
-              "table": [
-                {
-                  "coloum1": "Year",
-                  "coloum2": [
-                    "Model Magnet Separator"
-                  ],
-                  "coloum3": [
-                    "Qty (unit)"
-                  ]
-                },
-                {
-                  "coloum1": "2020",
-                  "coloum2": [
-                    "TMK-150/MC/HE",
-                    "ElectroMagnet (Oil Cooled), Cross-Belt, Manual Cleaning, BW-1300, Magnet Power approx. 17.5 kW"
-                  ],
-                  "coloum3": [
-                    "2"
-                  ]
-                }
+              "coloum3": [
+                "1,500"
               ]
             },
             {
-              "title": "PT KOMIPO PEMBANGKITAN JAWA BALI (KPJB) - PLTU Tanjung Jati B Unit 3 & 4",
-              "description": "The Operation and Maintenance (O&M) Company appointed by PT PLN Pembangkitan Tanjung Jati B to operate and maintain Tanjung Jati B Unit 3&4 Coal Fired Power Plant located in Jepara, Central Java, Indonesia.",
-              "image": [
-                "/images/srmecal3.jpg"
+              "coloum1": "2020",
+              "coloum2": [
+                "EP-800/4 BW1200 DIN-M",
+                "ST-1250 BW1200 DIN-M"
               ],
-              "table": [
-                {
-                  "coloum1": "Year",
-                  "coloum2": [
-                    "Model Magnet Separator"
-                  ],
-                  "coloum3": [
-                    "Qty (unit)"
-                  ]
-                },
-                {
-                  "coloum1": "2020",
-                  "coloum2": [
-                    "TMI-120/MC/AC",
-                    "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.6kW"
-                  ],
-                  "coloum3": [
-                    "2"
-                  ]
-                }
+              "coloum3": [
+                "5,622",
+                "8,151"
+              ]
+            },
+            {
+              "coloum1": "2015",
+              "coloum2": [
+                "ST-1000 BW1200 DIN-M",
+                "EP630/4 BW1200 DIN-M",
+                "EP800/4 BW1200 DIN-M"
+              ],
+              "coloum3": [
+                "762",
+                "26",
+                "88"
+              ]
+            },
+            {
+              "coloum1": "2014",
+              "coloum2": [
+                "EP-500/4 BW1400 DIN-M",
+                "ST-1000 BW800 DIN-M",
+                "EP-630/4 BW1200 DIN-M",
+                "EP800/4 BW1200 DIN-M",
+                "ST-630 BW1200 DIN-M"
+              ],
+              "coloum3": [
+                "897",
+                "8,661",
+                "1,835",
+                "2,350",
+                "1,360"
+              ]
+            },
+            {
+              "coloum1": "2005",
+              "coloum2": [
+                "ST-3150 BW1600 DIN-X",
+                "ST-1250 BW1800 DIN-M"
+              ],
+              "coloum3": [
+                "2,500",
+                "90"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PT BAYAN RESOURCES Tbk.",
+          "description": "Part of the Bayan Group, is an Indonesia-based company primarily engage in integrated coal mining industry in East and South Kalimantan.",
+          "image": [
+            "/images/sryokohama3.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Period",
+              "coloum2": [
+                "Belt Specification"
+              ],
+              "coloum3": [
+                "Qty (m)"
+              ]
+            },
+            {
+              "coloum1": "2013-2014",
+              "coloum2": [
+                "Fabric EP with various specs"
+              ],
+              "coloum3": [
+                "11,683"
+              ]
+            },
+            {
+              "coloum1": "2011-2012",
+              "coloum2": [
+                "ST & EP with various specs"
+              ],
+              "coloum3": [
+                "3,777"
+              ]
+            },
+            {
+              "coloum1": "2009-2010",
+              "coloum2": [
+                "ST & EP with various specs"
+              ],
+              "coloum3": [
+                "3,270"
+              ]
+            },
+            {
+              "coloum1": "2007-2008",
+              "coloum2": [
+                "Fabric EP with various specs"
+              ],
+              "coloum3": [
+                "18,155"
+              ]
+            },
+            {
+              "coloum1": "2005-2006",
+              "coloum2": [
+                "ST & EP with various specs"
+              ],
+              "coloum3": [
+                "32,047"
+              ]
+            },
+            {
+              "coloum1": "2003-2004",
+              "coloum2": [
+                "Fabric EP with various specs"
+              ],
+              "coloum3": [
+                "14,064"
+              ]
+            },
+            {
+              "coloum1": "2001-2002",
+              "coloum2": [
+                "Fabric EP with various specs"
+              ],
+              "coloum3": [
+                "11,235"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "MECAL",
+      "linkDownload": "/images/pdf/Mecal.pdf",
+      "imageProduct": [
+        "/images/mecal1.png",
+        "/images/mecal2.png",
+        "/images/mecal3.png"
+      ],
+      "List": [
+        {
+          "title": "PT BUKIT ASAM Tbk.",
+          "description": "State-owned Enterprise (BUMN) that aims to develop the national mining industry, particularly coal mining in Indonesia. Founded in 1981, the company is one of the five largest coal producers in Indonesia with its domestic sales rank second.",
+          "image": [
+            "/images/srmecal1.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Year",
+              "coloum2": [
+                "Model Magnet Separator"
+              ],
+              "coloum3": [
+                "Qty (unit)"
+              ]
+            },
+            {
+              "coloum1": "2014",
+              "coloum2": [
+                "TMK-140/MC",
+                "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1400, Power 13.4kW",
+                "TMJ-120/MC",
+                "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 11.0kW",
+                "TMI-120/MC",
+                "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
+              ],
+              "coloum3": [
+                "1",
+                "1",
+                "1"
+              ]
+            },
+            {
+              "coloum1": "2016",
+              "coloum2": [
+                "LTG-100",
+                "ElectroMagnet (Oil Cooled) Self-Cleaning, BW-1000, Power 6.0kW"
+              ],
+              "coloum3": [
+                "1"
+              ]
+            },
+            {
+              "coloum1": "2017",
+              "coloum2": [
+                "TMJ-160/MC",
+                "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1600, Power 14.6kW"
+              ],
+              "coloum3": [
+                "1"
+              ]
+            },
+            {
+              "coloum1": "2020",
+              "coloum2": [
+                "TMI-120/MC/AC",
+                "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.7kW"
+              ],
+              "coloum3": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PT. BORNEO INDOBARA",
+          "description": "PT. Borneo Indo Bara (BIB) which is a member of Golden Energy Mines, is one of the fastest growing coal mine, located in Bunati, Kalsel.",
+          "image": [
+            "/images/srmecal2.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Year",
+              "coloum2": [
+                "Model Magnet Separator"
+              ],
+              "coloum3": [
+                "Qty (unit)"
+              ]
+            },
+            {
+              "coloum1": "2020",
+              "coloum2": [
+                "TMK-150/MC/HE",
+                "ElectroMagnet (Oil Cooled), Cross-Belt, Manual Cleaning, BW-1300, Magnet Power approx. 17.5 kW"
+              ],
+              "coloum3": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PT KOMIPO PEMBANGKITAN JAWA BALI (KPJB) - PLTU Tanjung Jati B Unit 3 & 4",
+          "description": "The Operation and Maintenance (O&M) Company appointed by PT PLN Pembangkitan Tanjung Jati B to operate and maintain Tanjung Jati B Unit 3&4 Coal Fired Power Plant located in Jepara, Central Java, Indonesia.",
+          "image": [
+            "/images/srmecal3.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Year",
+              "coloum2": [
+                "Model Magnet Separator"
+              ],
+              "coloum3": [
+                "Qty (unit)"
+              ]
+            },
+            {
+              "coloum1": "2020",
+              "coloum2": [
+                "TMI-120/MC/AC",
+                "ElectroMagnet (Oil Cooled) Manual Cleaning, BW-1200, Power 9.6kW"
+              ],
+              "coloum3": [
+                "2"
               ]
             }
           ]

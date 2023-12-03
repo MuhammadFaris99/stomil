@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
-import items from '../../../../__mocks__/items.json'
+import products from '../../../../__mocks__/products.json'
 import SliderImage from './components/SliderImage'
 
 interface Props {
@@ -7,8 +7,8 @@ interface Props {
 }
 
 function PageProduct({ params }: Props) {
-  const { products } = items
-  const product = products.find(x => x.slug === params.slug.toLowerCase())
+  const { items } = products
+  const product = items.find(x => x.slug === params.slug.toLowerCase())
   if (!product) {
     return redirect('/')
   }

@@ -1,7 +1,7 @@
-import items from '../../../__mocks__/items.json'
+import suppliers from '../../../__mocks__/supplyRecord.json'
 
 function PageSupplyRecord() {
-  const { products } = items
+  const { items } = suppliers
   return (
     <section className="lg:py-24 py-16">
       <div className="container" data-aos="fade-up">
@@ -163,13 +163,13 @@ function PageSupplyRecord() {
           </div>
         </div>
 
-        {products.map((item, key) => (
+        {items.map((item, key) => (
           <div className="bg-gray-100 p-8 mb-6" key={item.title}>
             <div>
               <h3 className="text-2xl">
                 {key + 1}. {item.title}
               </h3>
-              <div className="mt-5" dangerouslySetInnerHTML={{ __html: item.description }} />
+              {/* <div className="mt-5" dangerouslySetInnerHTML={{ __html: item.description }} /> */}
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16">
               <div className="relative overflow-x-auto">

@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Image from 'next/image'
 import Link from 'next/link'
-import items from '../../../__mocks__/items.json'
+import products from '../../../__mocks__/products.json'
+import services from '../../../__mocks__/services.json'
+import socmed from '../../../__mocks__/socmed.json'
 
 function Footer() {
   return (
@@ -53,7 +55,7 @@ function Footer() {
             <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
               <p className="mb-6 text-white text-16">Products</p>
               <ul className="space-y-4">
-                {items.products.map((item, i) => (
+                {products.items.map((item, i) => (
                   <li
                     key={i}
                     className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50"
@@ -68,7 +70,7 @@ function Footer() {
             <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
               <p className="mb-6 text-white text-16">Services</p>
               <ul className="space-y-4">
-                {items.services.map((item, i) => (
+                {services.items.map((item, i) => (
                   <li
                     key={i}
                     className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50"
@@ -83,7 +85,7 @@ function Footer() {
             <div className="col-span-12 mt-8 md:col-span-6 xl:col-span-2 md:mt-0">
               <p className="mb-6 text-white text-16">Social Media</p>
               <ul className="space-y-4">
-                {items.socmed.map((item, i) => (
+                {socmed.items.map((item, i) => (
                   <li
                     key={i}
                     className="text-sm transition-all duration-500 ease-in-out text-white/50 hover:text-gray-50 hover:text-base dark:text-gray-300 dark:hover:text-gray-50"
