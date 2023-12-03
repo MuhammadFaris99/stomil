@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "YOKOHAMA",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, fuga voluptate rerum commodi dolor laboriosam. Magnam voluptas hic at ab, quos accusantium deserunt, repellat dolores eaque corporis, labore molestiae. Molestiae?",
+      "description": "Yokohama adalah bla bla, berikut top 3 ..",
       "linkDownload": "/images/pdf/Yokohama.pdf",
       "imageProduct": [
         "/images/yokohama1.jpg",
@@ -17,6 +17,15 @@
             "/images/sryokohama1.jpg"
           ],
           "table": [
+            {
+              "coloum1": "Period",
+              "coloum2": [
+                "Belt Specification"
+              ],
+              "coloum3": [
+                "Qty (m)"
+              ]
+            },
             {
               "coloum1": "2022",
               "coloum2": [
@@ -253,7 +262,7 @@
     },
     {
       "title": "MECAL",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, fuga voluptate rerum commodi dolor laboriosam. Magnam voluptas hic at ab, quos accusantium deserunt, repellat dolores eaque corporis, labore molestiae. Molestiae?",
+      "description": "Mecal adalah bla bla, berikut top 3 ..",
       "linkDownload": "/images/pdf/Mecal.pdf",
       "imageProduct": [
         "/images/mecal1.png",

@@ -5,26 +5,26 @@ function PageSupplyRecord() {
   const { items } = supplyRecord
   return (
     <section className="lg:py-24 py-16">
+      {items.map((item) => (
       <div className="container" data-aos="fade-up">
-        <div className="grid lg:grid-cols-2 gap-14">
+      
+        <div className="grid lg:grid-cols-2 gap-14" key={item.title}>
           <div className="order-2 lg:order-1">
             {/* supplyRecord.listInfo.map(info => ()) key={info.title} */}
-            <h1 className="text-3xl mb-7">Yokohama</h1>
+            <h1 className="text-3xl mb-7">{item.title}</h1>
             {/* supplyRecord.listInfo.map(info => ()) key={info.description} */}
             <p className="text-sm/relaxed tracking-wider text-gray-600 mb-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, fuga voluptate
-              rerum commodi dolor laboriosam. Magnam voluptas hic at ab, quos accusantium deserunt,
-              repellat dolores eaque corporis, labore molestiae. Molestiae?
+              {item.description}
             </p>
             <br />
             <br />
             <br />
             <br />
-            <div className="flex items-center">
+            <div className="flex items-center" key={item.linkDownload}>
               {/* supplyRecord.listInfo.map(info => ()) key={info.linkDownload} */}
               <a
                 target="_blank"
-                href="/images/pdf/Yokohama.pdf"
+                href={item.linkDownload}
                 download
                 className="bg-orange-500 p-2 rounded-lg text-white"
               >
@@ -36,16 +36,16 @@ function PageSupplyRecord() {
           <div className="order-1 lg:order-2">
             <div id="default-carousel" className="relative w-full" data-carousel="slide">
               <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <div className="hidden duration-700 ease-in-out" data-carousel-item key={item.linkDownload}>
                   {/* supplyRecord.listInfo.map(info => ()) key={info.imageProduct} */}
                   <img
-                    src="/images/yokohama1.jpg"
+                    src={item.linkDownload}
                     className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="..."
                   />
                 </div>
 
-                <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
                   <img
                     src="/images/yokohama2.jpg"
                     className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -75,7 +75,8 @@ function PageSupplyRecord() {
                     className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="..."
                   />
-                </div>
+                </div> */}
+
               </div>
 
               <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -167,22 +168,25 @@ function PageSupplyRecord() {
             </div>
           </div>
         </div>
+      
+        
 
-        {items.map((item, key) => (
-          <div className="bg-gray-100 p-8 mb-6" key={item.title}>
+        {item.List.map((list) => (
+          <div className="bg-gray-100 p-8 mb-6" key={list.title}>
             <div>
               <h3 className="text-2xl">
-                {key + 1}. {item.title}
+                {list.title}
               </h3>
-              <div className="mt-5" dangerouslySetInnerHTML={{ __html: item.description }} />
+              <div className="mt-5" dangerouslySetInnerHTML={{ __html: list.description }} />
             </div>
-            {item.List.map(list => (
-              <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16" key={list.title}>
+
+              <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-16">
                 <div className="relative overflow-x-auto">
+                  {/* {list.table.map((table) =>( */}
                   <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                       <tr>
-                        <th scope="col" className="px-6 py-3">
+                        {/* <th scope="col" className="px-6 py-3">
                           Period
                         </th>
                         <th scope="col" className="px-6 py-3">
@@ -190,7 +194,7 @@ function PageSupplyRecord() {
                         </th>
                         <th scope="col" className="px-6 py-3">
                           Qty (m)
-                        </th>
+                        </th> */}
                       </tr>
                     </thead>
                     <tbody>
@@ -211,14 +215,16 @@ function PageSupplyRecord() {
                       ))}
                     </tbody>
                   </table>
+                   {/* ))} */}
                 </div>
 
                 <SliderImage images={list.image} />
               </div>
-            ))}
+
           </div>
         ))}
       </div>
+      ))}
     </section>
   )
 }
