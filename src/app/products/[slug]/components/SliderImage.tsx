@@ -1,25 +1,26 @@
 'use client'
 
-import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
 import 'swiper/css'
-import 'swiper/css/pagination'
 import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules'
 import Image from 'next/image'
+import { Navigation, Pagination } from 'swiper/modules'
 
 interface Props {
   images?: string[]
+  className?: string
 }
 
-export default function SliderImage({ images }: Props) {
+export default function SliderImage({ images, className }: Props) {
   return images?.length ? (
     <Swiper
+      className={className}
       pagination={{
         dynamicBullets: true,
       }}

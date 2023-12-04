@@ -3,7 +3,7 @@
     {
       "title": "YOKOHAMA",
       "description": "Yokohama adalah bla bla, berikut top 3 ..",
-      "linkDownload": "/images/pdf/Yokohama.pdf",
+      "linkDownload": "/pdf/Yokohama.pdf",
       "imageProduct": [
         "/images/yokohama1.jpg",
         "/images/yokohama2.jpg",
@@ -263,7 +263,7 @@
     {
       "title": "MECAL",
       "description": "Mecal adalah bla bla, berikut top 3 ..",
-      "linkDownload": "/images/pdf/Mecal.pdf",
+      "linkDownload": "/pdf/Mecal.pdf",
       "imageProduct": [
         "/images/mecal1.png",
         "/images/mecal2.png",
