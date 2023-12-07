@@ -26,7 +26,7 @@ function RunningText() {
         transition: 'all 500ms ease-in 0s',
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-80" />
+      <div className="absolute inset-0 bg-black opacity-40" />
       <div className="relative">
         <div className="grid grid-cols-1 mt-12">
           <h4 className="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">

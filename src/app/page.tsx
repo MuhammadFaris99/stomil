@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className="relative">
       <RunningText />
+      {/* About us Home */}
       <section
         className="relative md:py-24 py-16 bg-zinc-50 dark:bg-gray-800 px-4 lg:px-0"
         id="about"
@@ -61,6 +62,12 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Product Home */}
+      <section>
+        
+      </section>
+
+      {/* Supply Record Home */}
       <section className="py-14">
         <div className="container">
           <div className="float-right hidden sm:block">
@@ -112,6 +119,38 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+
+                <div className="bg-orange-500/40 rounded-xl p-7">
+                  <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
+                    <div className="relative h-20 w-40">
+                      <Image
+                        src="/images/sryokohama.png"
+                        alt="yokohama"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                    <div className="sm:text-end">
+                      <h4>Tectron</h4>
+                      <p className="text-sm text-gray-700 font-light">
+                        1.  PT. Komipo Pembangkitan Jawa Bali (KPJB)
+                      </p>
+                      <p className="text-sm text-gray-700 font-light">2. PT. Indexim Coalindo</p>
+                      <p className="text-sm text-gray-700 font-light">3. PT. Indonesia Bulk Terminal</p>
+
+                      <div className="flex items-center sm:justify-end gap-3 mt-5">
+                        {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
+                        <a
+                          href="/supply-record"
+                          className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                        >
+                          Read more
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
@@ -147,6 +186,39 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+
+                <div className="bg-pink-500/40 rounded-xl p-7">
+                  <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
+                    <div className="relative h-20 w-40">
+                      <Image
+                        src="/images/srmecal.png"
+                        alt="mecal"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                    <div className="sm:text-end">
+                      <h4>Robas</h4>
+                      <p className="text-sm text-gray-700 font-light">1. </p>
+                      <p className="text-sm text-gray-700 font-light">2. </p>
+                      <p className="text-sm text-gray-700 font-light">
+                        3. 
+                      </p>
+
+                      <div className="flex items-center sm:justify-end gap-3 mt-5">
+                        {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
+                        <a
+                          href="/supply-record"
+                          className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                        >
+                          Read more
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
           </div>
