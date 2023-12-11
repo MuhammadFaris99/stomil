@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 import RunningText from './components/RunningText'
 import SliderCandidate from './components/SliderCandidate'
@@ -17,10 +17,9 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 gap-10 items-center">
             <div className="lg:col-span-5">
               <div className="relative">
-                <Image
+                <img
                   src="/images/yokohama1.jpg"
                   className="rounded-lg shadow-lg relative"
-                  fill
                   alt="about"
                 />
                 <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
@@ -43,7 +42,6 @@ export default function Home() {
                 <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">
                   Our Company Story
                 </h3>
-
                 <p className="text-slate-400 dark:text-slate-300 max-w-2xl mx-auto">
                   Start working with Upwind that can provide everything you need to generate
                   awareness, drive traffic, connect. Dummy text is text that is used in the
@@ -73,7 +71,7 @@ export default function Home() {
         <div className="bg-gray-100 w-full min-h-screen gap-4 flex-wrap flex justify-center items-center">
           <div className="w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
             <div className="h-[40] w-[40]">
-              <Image className="object-cover rounded-xl" src="/images/CH2.jpg" alt="" fill />
+              <img className="object-cover rounded-xl" src="/images/CH2.jpg" alt="" />
             </div>
             <div className="p-2">
               <h2 className="font-bold text-lg mb-2 ">Yokohama</h2>
@@ -93,7 +91,7 @@ export default function Home() {
           </div>
           <div className="w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
             <div className="h-[40] w-[40]">
-              <Image className="object-cover rounded-xl" src="/images/CH1.jpg" alt="" fill />
+              <img className="object-cover rounded-xl" src="/images/CH1.jpg" alt="" />
             </div>
             <div className="p-2">
               <h2 className="font-bold text-lg mb-2 ">Mecal</h2>
@@ -114,7 +112,7 @@ export default function Home() {
 
           <div className="w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
             <div className="h-[40] w-[40]">
-              <Image className="object-cover rounded-xl" src="/images/CH4.png" alt="" fill />
+              <img className="object-cover rounded-xl" src="/images/CH4.png" alt="" />
             </div>
             <div className="p-2">
               <h2 className="font-bold text-lg mb-2 ">Tectron</h2>
@@ -134,7 +132,7 @@ export default function Home() {
           </div>
           <div className="w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
             <div className="h-[40] w-[40]">
-              <Image className="object-cover rounded-xl" src="/images/CH5.png" alt="" fill />
+              <img className="object-cover rounded-xl" src="/images/CH5.png" alt="" />
             </div>
             <div className="p-2">
               <h2 className="font-bold text-lg mb-2 ">Robass</h2>
@@ -162,10 +160,9 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -181,10 +178,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -200,10 +196,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -219,10 +214,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -247,10 +241,9 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -273,10 +266,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -297,10 +289,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -323,10 +314,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -349,10 +339,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -375,10 +364,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -401,10 +389,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -427,10 +414,9 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-[96] w-[72]">
-                <Image
+                <img
                   className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                   src="/images/yokohama1.jpg"
-                  fill
                   alt=""
                 />
               </div>
@@ -460,12 +446,11 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-5">
             <div className="col-span-12 lg:col-span-3">
-              <div className="mx-[auto]">
-                <Image
+              <div className="">
+                <img
                   src="/images/CH1.jpg"
                   alt=""
-                  className="cursor-pointer h-9 lg:h-6 xl:h-9"
-                  fill
+                  className="mx-auto cursor-pointer h-9 lg:h-6 xl:h-9"
                   data-tooltip-target="tooltip-default"
                 />
               </div>
@@ -479,31 +464,28 @@ export default function Home() {
               </div>
             </div>
             <div className="col-span-12 lg:col-span-3">
-              <div className="mx-[auto]">
-                <Image
+              <div className="">
+                <img
                   src="/images/CH2.jpg"
                   alt=""
-                  fill
                   className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9"
                 />
               </div>
             </div>
             <div className="col-span-12 lg:col-span-3">
-              <div className="mx-[auto]">
-                <Image
-                  src="/images/CH.jpg"
+              <div className="">
+                <img
+                  src="/images/CH4.png"
                   alt=""
-                  fill
                   className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9"
                 />
               </div>
             </div>
             <div className="col-span-12 lg:col-span-3">
-              <div className="mx-[auto]">
-                <Image
-                  src="/images/CH5.jpg"
+              <div className="">
+                <img
+                  src="/images/CH5.png"
                   alt=""
-                  fill
                   className="mx-auto cursor-pointer h-9 lg:h-7 xl:h-9"
                 />
               </div>
@@ -535,8 +517,8 @@ export default function Home() {
       <section className="py-14">
         <div className="container">
           <div className="float-right hidden sm:block">
-            <div className="h-[36] w-[36]">
-              <Image src="/images/trophy.png" alt="" className="" fill />
+            <div className="">
+              <img src="/images/trophy.png" alt="" className="h-36" />
             </div>
           </div>
 
@@ -557,13 +539,8 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="bg-yellow-500/40 rounded-xl p-7">
                   <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                    <div className="relative h-[20] w-[40]">
-                      <Image
-                        src="/images/sryokohama.png"
-                        alt="yokohama"
-                        fill
-                        className="object-contain"
-                      />
+                    <div className="relative h-20 w-40">
+                      <img src="/images/sryokohama.png" alt="yokohama" className="object-contain" />
                     </div>
                     <div className="sm:text-end">
                       <h4>Yokohama</h4>
@@ -574,7 +551,7 @@ export default function Home() {
                       <p className="text-sm text-gray-700 font-light">3. PT BAYAN RESOURCES Tbk.</p>
 
                       <div className="flex items-center sm:justify-end gap-3 mt-5">
-                        {/* <Image src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
+                        {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
                         <a
                           href="/supply-record"
                           className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -588,13 +565,8 @@ export default function Home() {
 
                 <div className="bg-orange-500/40 rounded-xl p-7">
                   <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                    <div className="relative h-[20] w-[40]">
-                      <Image
-                        src="/images/sryokohama.png"
-                        alt="yokohama"
-                        fill
-                        className="object-contain"
-                      />
+                    <div className="relative h-20 w-40">
+                      <img src="/images/sryokohama.png" alt="yokohama" className="object-contain" />
                     </div>
                     <div className="sm:text-end">
                       <h4>Tectron</h4>
@@ -607,7 +579,7 @@ export default function Home() {
                       </p>
 
                       <div className="flex items-center sm:justify-end gap-3 mt-5">
-                        {/* <Image src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
+                        {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
                         <a
                           href="/supply-record"
                           className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -625,13 +597,8 @@ export default function Home() {
               <div className="space-y-6 lg:mt-20">
                 <div className="bg-purple-500/40 rounded-xl p-7">
                   <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                    <div className="relative h-[20] w-[40]">
-                      <Image
-                        src="/images/srmecal.png"
-                        alt="mecal"
-                        fill
-                        className="object-contain"
-                      />
+                    <div className="relative h-20 w-40">
+                      <img src="/images/srmecal.png" alt="mecal" className="object-contain" />
                     </div>
                     <div className="sm:text-end">
                       <h4>Mecal</h4>
@@ -642,7 +609,7 @@ export default function Home() {
                       </p>
 
                       <div className="flex items-center sm:justify-end gap-3 mt-5">
-                        {/* <Image src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
+                        {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
                         <a
                           href="/supply-record"
                           className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -656,13 +623,8 @@ export default function Home() {
 
                 <div className="bg-pink-500/40 rounded-xl p-7">
                   <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-10">
-                    <div className="relative h-[20] w-[40]">
-                      <Image
-                        src="/images/srmecal.png"
-                        alt="mecal"
-                        fill
-                        className="object-contain"
-                      />
+                    <div className="relative h-20 w-40">
+                      <img src="/images/srmecal.png" alt="mecal" className="object-contain" />
                     </div>
                     <div className="sm:text-end">
                       <h4>Robas</h4>
@@ -671,7 +633,7 @@ export default function Home() {
                       <p className="text-sm text-gray-700 font-light">3.</p>
 
                       <div className="flex items-center sm:justify-end gap-3 mt-5">
-                        {/* <Image src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
+                        {/* <img src="assets/images/avatars/img-1.png" alt="" className="rounded-full h-8" /> */}
                         <a
                           href="/supply-record"
                           className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
