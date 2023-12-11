@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { redirect } from 'next/navigation'
 import products from '../../../../__mocks__/products.json'
 import SliderImage from './components/SliderImage'
@@ -19,7 +20,7 @@ function PageProduct({ params }: Props) {
           <div className="lg:col-span-5 md:col-span-6">
             <div className="grid grid-cols-1 gap-[30px]">
               {product.imagesProduct.map(item => (
-                <img src={item} key={item} className="rounded-md w-full object-cover" alt="" />
+                <Image src={item} key={item} className="rounded-md w-full object-cover" alt="" />
               ))}
             </div>
           </div>

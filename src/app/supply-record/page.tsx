@@ -6,6 +6,7 @@ function PageSupplyRecord() {
   const { items } = supplyRecord
   return (
     <section className="lg:py-24 py-16">
+      <h2 className="container">Supply Record</h2>
       {items.map(item => (
         <div className="container my-4" data-aos="fade-up" key={item.title}>
           <div className="grid lg:grid-cols-2 gap-14 mb-10" key={item.title}>

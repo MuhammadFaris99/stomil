@@ -138,6 +138,7 @@ function PageContactUs() {
               >
                 <iframe
                   className="w-full h-[500px]"
+                  title="myFrame"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.00487528595!2d106.7045112750947!3d-6.13004499385672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a02a4be56ed0b%3A0x2514e3aff0c03a31!2sPT%20Stomil%20Indonesia!5e0!3m2!1sen!2sid!4v1698600544309!5m2!1sen!2sid"
                   frameBorder="0"
                 />
@@ -174,9 +175,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Email</h5>
-              <a href="#" className="text-gray-500 my-1">
-                stomilindo@cbn.net.id
-              </a>
+              <a className="text-gray-500 my-1">stomilindo@cbn.net.id</a>
             </div>
           </div>
 
@@ -207,9 +206,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Phone</h5>
-              <a href="#" className="text-gray-500 my-1">
-                021-5439 4436-37
-              </a>
+              <a className="text-gray-500 my-1">021-5439 4436-37</a>
             </div>
           </div>
 
@@ -240,9 +237,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Fax</h5>
-              <a href="#" className="text-gray-500 my-1">
-                021-5439-4439
-              </a>
+              <a className="text-gray-500 my-1">021-5439-4439</a>
             </div>
           </div>
 
@@ -267,7 +262,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Address</h5>
-              <a href="#" className="text-gray-500 my-1">
+              <a className="text-gray-500 my-1">
                 Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, Jakarta Barat -
                 11830
               </a>
