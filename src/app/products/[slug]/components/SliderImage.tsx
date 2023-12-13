@@ -15,9 +15,10 @@ import { Navigation, Pagination } from 'swiper/modules'
 interface Props {
   images?: string[]
   className?: string
+  navigation?: boolean
 }
 
-export default function SliderImage({ images, className }: Props) {
+export default function SliderImage({ images, className, navigation = false }: Props) {
   return images?.length ? (
     <Swiper
       className={className}
@@ -26,6 +27,7 @@ export default function SliderImage({ images, className }: Props) {
       }}
       modules={[Pagination, Navigation]}
       loop
+      navigation={navigation}
     >
       {images.map(item => (
         <SwiperSlide key={item} className="relative">

@@ -32,7 +32,11 @@ function PageSupplyRecord() {
             </div>
 
             <div className="order-1 lg:order-2">
-              <SliderImage images={item.imageProduct} className="!h-[300px] slider-main" />
+              <SliderImage
+                images={item.imageProduct}
+                className="!h-[300px] slider-main"
+                navigation
+              />
             </div>
           </div>
 

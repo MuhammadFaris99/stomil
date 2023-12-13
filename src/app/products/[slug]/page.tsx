@@ -1,6 +1,6 @@
+import Image from 'next/image'
 import { redirect } from 'next/navigation'
 import products from '../../../../__mocks__/products.json'
-import SliderImage from './components/SliderImage'
 
 interface Props {
   params: { [key: string]: string }
@@ -67,8 +67,17 @@ function PageProduct({ params }: Props) {
                             </ul>
                           </div>
                         )}
-                        <div className="lg:col-span-4 flex-col items-center justify-center h-[50%]">
-                          <SliderImage images={info?.image ?? []} />
+                        <div className="lg:col-span-4 flex flex-col gap-4 items-center justify-center h-[100%]">
+                          {info?.image?.map(image => (
+                            <div key={image} className="relative w-full h-24">
+                              <Image
+                                src={image}
+                                alt="product image"
+                                fill
+                                className="object-cover"
+                              />
+                            </div>
+                          ))}
                         </div>
                       </dl>
                     </div>
