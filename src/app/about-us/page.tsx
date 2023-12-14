@@ -6,7 +6,9 @@ function PageAboutUs() {
       <div className="container mx-auto">
         <div className="grid items-center grid-cols-12 gap-5">
           <div className="col-span-12 lg:col-span-6">
-            <h2 className="text-lg text-gray-900 uppercase dark:text-gray-50/80">About Us</h2>
+            <h2 className="text-lg text-gray-900 uppercase dark:text-gray-50/80 font-bold mb-4">
+              About Us
+            </h2>
             {/* <h2 className="mt-1 mb-4 text-gray-900 dark:text-gray-50/80">Why <span className="font-bold text-yellow-500">35,000+</span> People Trust On <br/> Jobcy?</h2> */}
             <p className="font-light text-gray-500 dark:text-gray-300">
               Fast growing Indonesian company specialized in bulk material handling, i.e. conveyor
@@ -26,15 +28,17 @@ function PageAboutUs() {
             <div className="grid grid-cols-12 gap-5 mt-8">
               <div className="col-span-12 md:col-span-6">
                 <div className="relative">
-                  <ul className="space-y-2 text-gray-700 about-list dark:text-gray-300">
+                  <ul className="space-y-2 text-gray-700 about-list dark:text-gray-300 w-max">
                     <li className="ltr:pl-8 rtl:pr-8">
-                      <i className="fa fa-check">Trading</i>
+                      <i className="fa fa-check">&nbsp;Trading</i>
                     </li>
                     <li className="ltr:pl-8 rtl:pr-8">
-                      <i className="fa fa-check">Engineering Procurement Construction (EPC)</i>
+                      <i className="fa fa-check">
+                        &nbsp;Engineering Procurement Construction (EPC)
+                      </i>
                     </li>
                     <li className="ltr:pl-8 rtl:pr-8">
-                      <i className="fa fa-check">Service and Maintenance</i>
+                      <i className="fa fa-check">&nbsp;Service and Maintenance</i>
                     </li>
                   </ul>
                 </div>
@@ -47,21 +51,19 @@ function PageAboutUs() {
             </div>
           </div>
         </div>
-        <div className="grid items-center grid-cols-12 gap-5">
-          <div className="col-span-12 lg:col-span-4">
-            <h2 className="text-lg text-gray-900 uppercase dark:text-gray-50/80">
-              Our Sister Company
-            </h2>
-            <div className="lg:w-[25%] h-[15vh] relative">
-              <Image fill src="/images/bmc.jpg" alt="" className="rounded-lg" />
+        <div className="grid items-center grid-cols-12 gap-5 mt-10">
+          <div className="col-span-12">
+            <h2 className="text-lg text-gray-900 uppercase font-bold">Our Sister Company</h2>
+            <div className="flex gap-2 items-center">
+              <div className="w-[200px] h-[100px] relative rounded-lg">
+                <Image fill src="/images/bmc.jpg" alt="" className="object-contain" />
+              </div>
+              <p>
+                PT. BINTANG MAKMUR CIPTARAYA, Operation & Maintenance Conveyor System. Specialized
+                in Conveyor Belt Splicing & Installation, Pulley Lagging, Steel Cord Belt Scanning,
+                Conveyor System Maintenance.
+              </p>
             </div>
-          </div>
-          <div className="col-span-12 lg:col-span-8">
-            <p>
-              PT. BINTANG MAKMUR CIPTARAYA, Operation & Maintenance Conveyor System. Specialized in
-              Conveyor Belt Splicing & Installation, Pulley Lagging, Steel Cord Belt Scanning,
-              Conveyor System Maintenance.
-            </p>
           </div>
         </div>
       </div>
