@@ -69,7 +69,7 @@ function PageProduct({ params }: Props) {
                         )}
                         <div className="lg:col-span-4 flex flex-col gap-4 items-center justify-center h-[100%]">
                           {info?.image?.map(image => (
-                            <div key={image} className="relative w-full h-24">
+                            <div key={image} className="relative w-full h-28">
                               <Image
                                 src={image}
                                 alt="product image"

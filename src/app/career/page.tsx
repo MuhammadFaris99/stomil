@@ -12,7 +12,7 @@ function PageCareer() {
                 </span>
               </h1>
               <p className="text-lg font-light whitespace-pre-line dark:text-gray-300 text-white">
-                Find jobs, create trackable resumes and enrich your applications.Carefully crafted
+                Find jobs, create trackable resumes and enrich your applications. Carefully crafted
                 after analyzing the needs of different industries.
               </p>
             </div>

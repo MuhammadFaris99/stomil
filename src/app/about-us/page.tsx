@@ -47,6 +47,23 @@ function PageAboutUs() {
             </div>
           </div>
         </div>
+        <div className="grid items-center grid-cols-12 gap-5">
+          <div className="col-span-12 lg:col-span-4">
+            <h2 className="text-lg text-gray-900 uppercase dark:text-gray-50/80">
+              Our Sister Company
+            </h2>
+            <div className="lg:w-[25%] h-[15vh] relative">
+              <Image fill src="/images/bmc.jpg" alt="" className="rounded-lg" />
+            </div>
+          </div>
+          <div className="col-span-12 lg:col-span-8">
+            <p>
+              PT. BINTANG MAKMUR CIPTARAYA, Operation & Maintenance Conveyor System. Specialized in
+              Conveyor Belt Splicing & Installation, Pulley Lagging, Steel Cord Belt Scanning,
+              Conveyor System Maintenance.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )

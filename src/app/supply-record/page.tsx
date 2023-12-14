@@ -5,8 +5,20 @@ import './style.css'
 function PageSupplyRecord() {
   const { items } = supplyRecord
   return (
-    <section className="lg:py-24 py-16">
-      <h2 className="container">Supply Record</h2>
+    <section className="lg:pb-24 py-1 relative">
+      <div className="pt-28 lg:pt-44 pb-28 group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500 dark:bg-neutral-900 bg-[url('/images/page-title.png')] bg-center bg-cover relative">
+        <div className="container mx-auto">
+          <div className="grid">
+            <div className="col-span-12">
+              <div className="text-center text-white">
+                <h3 className="mb-4 text-[26px]">Supply Record</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/images/shape.png" className="absolute block bg-cover -bottom-0 dark:hidden" />
+        <img src="/images/shape2.png" className="absolute hidden bg-cover -bottom-0 dark:block" />
+      </div>
       {items.map(item => (
         <div className="container my-4" data-aos="fade-up" key={item.title}>
           <div className="grid lg:grid-cols-2 gap-14 mb-10" key={item.title}>

@@ -6,8 +6,8 @@
       "linkDownload": "/pdf/Yokohama.pdf",
       "imageProduct": [
         "/images/yokohama1.jpg",
-        "/images/yokohama2.jpg",
-        "/images/yokohama3.jpg"
+        "/images/yokohama2.png",
+        "/images/yokohama3.png"
       ],
       "List": [
         {
@@ -386,6 +386,101 @@
               ],
               "coloum3": [
                 "2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tectron",
+      "description": "Tectron adalah bla bla, berikut top 3 ..",
+      "linkDownload": "/pdf/Tectron.pdf",
+      "imageProduct": [
+        "/images/tectron1.png",
+        "/images/tectron2.png",
+        "/images/tectron3.jpg"
+      ],
+      "List": [
+        {
+          "title": "PT. Komipo Pembangkitan Jawa Bali (KPJB)",
+          "description": "As the Operation and Maintenance Company, PT KPJB is responsible for power plant operation and maintenance, coal handling, jetty and port management for Tanjung Jati B Unit 3&4 (2×660 MW)Coal Fired Power Plant (CFPP) under the O&M Agreement with PT PLN (Persero) Pembangkitan Tanjung Jati B. In carrying out the O&M Services, KPJB applies World Class Management Standard supported by experienced and competence employees and also supported by experienced and trusted mother companies engaged in power plant business.",
+          "image": [
+            "/images/srtectron1.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Year",
+              "coloum2": [
+                "Specification"
+              ],
+              "coloum3": [
+                "Qty (unit)"
+              ]
+            },
+            {
+              "coloum1": "2016",
+              "coloum2": [
+                "Metal Detector MD-140/DU/SS",
+                "Metal Detector MD-120/DU/SS"
+              ],
+              "coloum3": [
+                "2",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PT. Indexim Coalindo",
+          "description": "PT Indexim Coalindo is a coal mining company operating in East Kutai Regency - East Kalimantan Province.",
+          "image": [
+            "/images/srtectron2.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Year",
+              "coloum2": [
+                "Specification"
+              ],
+              "coloum3": [
+                "Qty (unit)"
+              ]
+            },
+            {
+              "coloum1": "2019",
+              "coloum2": [
+                "Metal Detector MD-150/HFT/FM"
+              ],
+              "coloum3": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PT. Indonesia Bulk Terminal",
+          "description": "PT Indonesia Bulk Terminal develops and operates Pulau Laut Coal Terminal providing coal discharging and loading services. The company was founded in 1997 and is based in Jakarta, Indonesia. PT Indonesia Bulk Terminal operates as a subsidiary of PT Adaro Energy Tbk.",
+          "image": [
+            "/images/srtectron3.jpg"
+          ],
+          "table": [
+            {
+              "coloum1": "Year",
+              "coloum2": [
+                "Specification"
+              ],
+              "coloum3": [
+                "Qty (unit)"
+              ]
+            },
+            {
+              "coloum1": "2022",
+              "coloum2": [
+                "Metal Detector 50SST"
+              ],
+              "coloum3": [
+                "1"
               ]
             }
           ]
