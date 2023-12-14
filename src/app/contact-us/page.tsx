@@ -186,7 +186,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Email</h5>
-              <a href="#" className="text-gray-500 my-1">
+              <a href="mailto:stomilindo@cbn.net.id" className="text-gray-500 my-1">
                 stomilindo@cbn.net.id
               </a>
             </div>
@@ -219,7 +219,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Phone</h5>
-              <a href="#" className="text-gray-500 my-1">
+              <a href="/" className="text-gray-500 my-1">
                 021-5439 4436-37
               </a>
             </div>
@@ -252,7 +252,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Fax</h5>
-              <a href="#" className="text-gray-500 my-1">
+              <a href="/" className="text-gray-500 my-1">
                 021-5439-4439
               </a>
             </div>
@@ -279,7 +279,7 @@ function PageContactUs() {
             </span>
             <div className="grow">
               <h5 className="text-base text-gray-700">Address</h5>
-              <a href="#" className="text-gray-500 my-1">
+              <a href="/" className="text-gray-500 my-1">
                 Komplek Permata Taman Palem Blok D-9 no.35 Pegadungan, Kalideres, Jakarta Barat -
                 11830
               </a>
