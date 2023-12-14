@@ -3,8 +3,8 @@
 function PageContactUs() {
   // const [setSubmittedValue, submittedValue] = useState ("");
   return (
-    <section className="lg:pb-24 py-6 relative">
-      <div className="pt-28 lg:pt-44 pb-28 group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500 dark:bg-neutral-900 bg-[url('/images/page-title.png')] bg-center bg-cover relative">
+    <section className="lg:pb-24 py-16 relative">
+      {/* <div className="pt-28 lg:pt-44 pb-28 group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500 dark:bg-neutral-900 bg-[url('/images/page-title.png')] bg-center bg-cover relative">
         <div className="container mx-auto">
           <div className="grid">
             <div className="col-span-12">
@@ -16,7 +16,7 @@ function PageContactUs() {
         </div>
         <img src="/images/shape.png" className="absolute block bg-cover -bottom-0 dark:hidden" />
         <img src="/images/shape2.png" className="absolute hidden bg-cover -bottom-0 dark:block" />
-      </div>
+      </div> */}
       <div className="container">
         <div className="lg:flex align-items-center">
           <div className="lg:w-1/2">

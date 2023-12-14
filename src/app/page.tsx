@@ -274,7 +274,7 @@ export default function Home() {
                       <Image
                         src="/images/sryokohama.png"
                         alt="yokohama"
-                        className="object-contain"
+                        className="object-cover"
                         fill
                       />
                     </div>

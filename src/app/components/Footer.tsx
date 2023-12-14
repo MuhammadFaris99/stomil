@@ -8,7 +8,7 @@ import socmed from '../../../__mocks__/socmed.json'
 function Footer() {
   return (
     <footer className="footer max-w-screen-2xl mx-auto">
-      <section className="py-12 bg-zinc-800 dark:bg-neutral-900">
+      <section className="py-12 bg-gray-800">
         <div className="container mx-auto">
           <div className="grid grid-cols-12 lg:gap-10">
             <div className="col-span-12 xl:col-span-4">
@@ -101,7 +101,7 @@ function Footer() {
         </div>
       </section>
 
-      <section className="py-6 border-t bg-zinc-800 border-gray-100/10 dark:bg-neutral-900">
+      <section className="py-6 border-t bg-gray-800 border-gray-100/10 dark:bg-neutral-900">
         <div className="container mx-auto">
           <div className="text-center">
             <p className="mb-0 text-center text-white/50">
