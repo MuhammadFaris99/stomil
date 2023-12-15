@@ -3,7 +3,7 @@
 function PageContactUs() {
   // const [setSubmittedValue, submittedValue] = useState ("");
   return (
-    <section className="lg:pb-24 py-16 relative">
+    <section className="lg:pb-24 py-16 relative bg-white">
       {/* <div className="pt-28 lg:pt-44 pb-28 group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500 dark:bg-neutral-900 bg-[url('/images/page-title.png')] bg-center bg-cover relative">
         <div className="container mx-auto">
           <div className="grid">
@@ -33,13 +33,13 @@ function PageContactUs() {
                       <div className="mb-5">
                         <label
                           htmlFor="exampleInputName"
-                          className="block text-sm font-medium mb-1 text-gray-600"
+                          className="block text-sm font-medium mb-1 text-gray-700"
                         >
                           Name <span className="text-red-500">*</span>
                         </label>
                         <input
                           type="text"
-                          className="py-2 px-4 leading-6 block w-full border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
+                          className="py-2 px-4 leading-6 block w-full border-gray-800 rounded text-sm focus:border-gray-500 focus:ring-0"
                           id="exampleInputName"
                           placeholder="Your Name"
                         />
@@ -49,7 +49,7 @@ function PageContactUs() {
                       <div className="mb-5">
                         <label
                           htmlFor="exampleInputEmail"
-                          className="block text-sm font-medium mb-1 text-gray-600"
+                          className="block text-sm font-medium mb-1 text-gray-700"
                         >
                           Email <span className="text-red-500">*</span>
                         </label>
@@ -67,7 +67,7 @@ function PageContactUs() {
                       <div className="mb-5">
                         <label
                           htmlFor="exampleInputCompany"
-                          className="block text-sm font-medium mb-1 text-gray-600"
+                          className="block text-sm font-medium mb-1 text-gray-700"
                         >
                           Company <span className="text-red-500">*</span>
                         </label>
@@ -83,7 +83,7 @@ function PageContactUs() {
                       <div className="mb-5">
                         <label
                           htmlFor="exampleInputPhone"
-                          className="block text-sm font-medium mb-1 text-gray-600"
+                          className="block text-sm font-medium mb-1 text-gray-700"
                         >
                           Phone <span className="text-red-500">*</span>
                         </label>
@@ -100,7 +100,7 @@ function PageContactUs() {
                     <div className="mb-5">
                       <label
                         htmlFor="exampleInputEmail1"
-                        className="block text-sm font-medium mb-1 text-gray-600"
+                        className="block text-sm font-medium mb-1 text-gray-700"
                       >
                         Email <span className="text-red-500">*</span>
                       </label>
@@ -114,7 +114,7 @@ function PageContactUs() {
                     <div className="mb-5">
                       <label
                         htmlFor="exampleFormControlTextarea1"
-                        className="block text-sm font-medium mb-1 text-gray-600"
+                        className="block text-sm font-medium mb-1 text-gray-700"
                       >
                         Message <span className="text-red-500">*</span>
                       </label>

@@ -1,3 +1,4 @@
+import services from '../../../../__mocks__/services.json'
 /* eslint-disable no-script-url */
 /* eslint-disable react/jsx-no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -6,20 +7,23 @@ interface Props {
 }
 
 function PageService({ params }: Props) {
-  // return `product ${params.slug}`
+  const { items } = services
   return (
-    <section className="py-20">
+    <section className="py-20 bg-white">
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-y-10 lg:gap-10">
           <div className="col-span-12 lg:col-span-8">
             <div className="border rounded-md border-gray-100/30 dark:border-neutral-600/80">
               <div className="relative">
-                <img src="/images/Sepc1.jpg" alt="" className="rounded-md img-fluid mb-7" />
+                {items.map(item => (
+                  <img src={item.imagesProduct} className="rounded-md img-fluid mb-7" />
+                ))}
               </div>
               <div className="p-6">
                 <div className="grid grid-cols-12">
                   <div className="col-span-12 lg:col-span-8">
                     <div className="relative">
+                      {/* items.title */}
                       <h5 className="mb-1 text-gray-900 dark:text-gray-50">
                         Product Designer / UI Designer
                       </h5>
@@ -42,22 +46,10 @@ function PageService({ params }: Props) {
                 </div>
 
                 <div className="mt-5">
-                  <h5 className="mb-3 text-gray-900 dark:text-gray-50">Job Description</h5>
-                  <div>
-                    <p className="mb-0 text-gray-500 dark:text-gray-300">
-                      As a Product Designer, you will work within a Product Delivery Team fused with
-                      UX, engineering, product and data talent. You will help the team design
-                      beautiful interfaces that solve business challenges for our clients. We work
-                      with a number of Tier 1 banks on building web-based applications for AML, KYC
-                      and Sanctions List management workflows. This role is ideal if you are looking
-                      to segue your career into the FinTech or Big Data arenas.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="mt-5">
+                  {/* listInfo.title */}
                   <h5 className="mb-3 text-gray-900 dark:text-gray-50">Responsibilities</h5>
                   <div>
+                    {/* listInfo.list */}
                     <p className="mb-3 text-gray-500 dark:text-gray-300">
                       As a Product Designer, you will work within a Product Delivery Team fused with
                       UX, engineering, product and data talent.
@@ -85,6 +77,20 @@ function PageService({ params }: Props) {
                         to create a unified aesthetic for our brand materials
                       </li>
                     </ul>
+                  </div>
+                </div>
+
+                <div className="mt-5">
+                  <h5 className="mb-3 text-gray-900 dark:text-gray-50">Job Description</h5>
+                  <div>
+                    <p className="mb-0 text-gray-500 dark:text-gray-300">
+                      As a Product Designer, you will work within a Product Delivery Team fused with
+                      UX, engineering, product and data talent. You will help the team design
+                      beautiful interfaces that solve business challenges for our clients. We work
+                      with a number of Tier 1 banks on building web-based applications for AML, KYC
+                      and Sanctions List management workflows. This role is ideal if you are looking
+                      to segue your career into the FinTech or Big Data arenas.
+                    </p>
                   </div>
                 </div>
 

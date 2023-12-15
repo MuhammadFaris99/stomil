@@ -5,7 +5,7 @@ import './style.css'
 function PageSupplyRecord() {
   const { items } = supplyRecord
   return (
-    <section className="lg:py-24 pb-1 relative">
+    <section className="lg:py-24 pb-1 relative bg-white">
       {/* <div className="pt-28 lg:pt-44 pb-28 group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500 dark:bg-neutral-900 bg-[url('/images/page-title.png')] bg-center bg-cover relative">
         <div className="container mx-auto">
           <div className="grid">

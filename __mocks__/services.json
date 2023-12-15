@@ -3,7 +3,7 @@
     {
       "title": "EPC Material Handling Facility",
       "href": "/services/epc-material-handling-facility",
-      "imageProduct": [
+      "imagesProduct": [
         "/images/Sepc1.jpg"
       ],
       "listInfo": [
@@ -24,7 +24,7 @@
       "title": "Conveyor Maintenance System",
       "href": "/services/conveyor-maintenance-system",
       "description": "Conveyor maintenance services cover belt splicing and rubber component replacement, conveyor idlers and rollers change outs and refurbishment and transfer chute repair. Our services also cover maintenance management system, maintenance procedure development, planning and scheduling, condition monitoring, structural investigations, root cause failure analysis and repairs to conveyor equipment and materials handling machinery. With our depth of experienced managers, engineers, supervisors, belt workers and trades, we have the capacity to mobilize new project sites to carry out effective and efficient maintenance services under long-term contract and alliance arrangements.",
-      "imageProduct": [
+      "imagesProduct": [
         "/images/Sconveyor1.jpg"
       ],
       "listInfo": [
@@ -65,7 +65,7 @@
     {
       "title": "Crusher Rental",
       "href": "/services/crusher-rental",
-      "imageProduct": [
+      "imagesProduct": [
         "/images/Scrusher1.jpg"
       ],
       "listInfo": [

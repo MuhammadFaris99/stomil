@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function PageAboutUs() {
   return (
-    <section className="py-16 px-4 lg:px-0 overflow-hidden dark:bg-neutral-800">
+    <section className="py-16 px-4 lg:px-0 overflow-hidden bg-white">
       <div className="container mx-auto">
         <div className="grid items-center grid-cols-12 gap-5">
           <div className="col-span-12 lg:col-span-6">
@@ -10,7 +10,7 @@ function PageAboutUs() {
               About Us
             </h2>
             {/* <h2 className="mt-1 mb-4 text-gray-900 dark:text-gray-50/80">Why <span className="font-bold text-yellow-500">35,000+</span> People Trust On <br/> Jobcy?</h2> */}
-            <p className="font-light text-gray-500 dark:text-gray-300">
+            <p className="text-gray-900 dark:text-gray-900">
               Fast growing Indonesian company specialized in bulk material handling, i.e. conveyor
               system. Established in 2009, PT. STOMIL INDONESIA is inspired by principles of
               correctness, transparency, honesty and integrity in the management of its activities.

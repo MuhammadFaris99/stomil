@@ -13,7 +13,7 @@ function PageProduct({ params }: Props) {
     return redirect('/')
   }
   return (
-    <section className="relative md:py-24 py-16">
+    <section className="relative md:py-24 py-16 bg-white">
       <div className="container">
         <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
           <div className="lg:col-span-5 md:col-span-6">
@@ -29,7 +29,7 @@ function PageProduct({ params }: Props) {
               <div className="grid lg:grid-cols-12 grid-cols-1 gap-[30px]">
                 <div className="lg:col-span-12">
                   <div className="work-details">
-                    <h4 className="text-xl font-medium mb-3 border-b border-gray-100 dark:border-gray-700 pb-3">
+                    <h4 className="text-xl font-medium mb-3 border-b border-gray-500 dark:border-gray-700 pb-3">
                       Project Detail :
                     </h4>
                     <div dangerouslySetInnerHTML={{ __html: product.description }} />
@@ -37,8 +37,8 @@ function PageProduct({ params }: Props) {
                 </div>
                 {product.listInfo.map(info => (
                   <div className="lg:col-span-12" key={info.title}>
-                    <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
-                      <h5 className="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-3 mb-3">
+                    <div className="bg-gray-100 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-md">
+                      <h5 className="text-lg font-medium border-b border-gray-500 dark:border-gray-700 pb-3 mb-3">
                         {info.title}
                       </h5>
                       {info.description ? <p className="pb-4">{info.description}</p> : null}

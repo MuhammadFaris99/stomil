@@ -10,7 +10,7 @@ function Header() {
   const [isOpen, setIsOpen] = React.useState<boolean>(false)
   return (
     <nav
-      className="navbar fixed right-0 left-0 top-0 transition-all duration-500 ease shadow-lg shadow-gray-200/20 bg-[#27272A] border-gray-200 dark:bg-neutral-800 z-40 dark:shadow-neutral-900 max-w-screen-2xl mx-auto"
+      className="navbar fixed right-0 left-0 top-0 transition-all duration-500 ease shadow-lg shadow-gray-200/20 bg-gray-800 border-gray-200 dark:bg-neutral-800 z-40 dark:shadow-neutral-900 max-w-screen-2xl mx-auto"
       id="navbar"
     >
       <div className="mx-auto container">
@@ -89,7 +89,7 @@ function Header() {
                   Products <i className="align-middle bx bxs-chevron-down ltr:ml-1 rtl:mr-1" />
                 </button>
                 <ul
-                  className="relative top-auto z-50 py-2 list-none bg-[#27272A] border-0 rounded dropdown-menu lg:border border-gray-500/20 lg:absolute ltr:-left-3 rtl:-right-3  lg:shadow-lg dark:bg-neutral-800"
+                  className="relative top-auto z-50 py-2 list-none bg-gray-800 border-0 rounded dropdown-menu lg:border border-gray-500/20 lg:absolute ltr:-left-3 rtl:-right-3  lg:shadow-lg dark:bg-neutral-800"
                   aria-labelledby="product"
                 >
                   {products.items.map((item, i) => (
@@ -113,7 +113,7 @@ function Header() {
                   Services <i className="align-middle bx bxs-chevron-down ltr:ml-1 rtl:mr-1" />
                 </button>
                 <ul
-                  className="relative top-auto z-50 py-2 list-none bg-[#27272A] border-0 rounded dropdown-menu lg:border border-gray-500/20 lg:absolute ltr:-left-3 rtl:-right-3  lg:shadow-lg dark:bg-neutral-800"
+                  className="relative top-auto z-50 py-2 list-none bg-gray-800 border-0 rounded dropdown-menu lg:border border-gray-500/20 lg:absolute ltr:-left-3 rtl:-right-3  lg:shadow-lg dark:bg-neutral-800"
                   aria-labelledby="product"
                 >
                   {services.items.map((item, i) => (
