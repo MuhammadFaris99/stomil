@@ -133,6 +133,10 @@
           "range": {
             "subTitle": "",
             "list": []
+          },
+          "feature": {
+            "subTitle": "",
+            "list": []
           }
         },
         {
@@ -144,6 +148,10 @@
             "/images/PM7.jpg"
           ],
           "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "feature": {
             "subTitle": "",
             "list": []
           }
@@ -161,6 +169,10 @@
               "Configurations to suit specific applications"
             ]
           },
+          "feature": {
+            "subTitle": "",
+            "list": []
+          },
           "image": [
             "/images/PM8.jpg"
           ]
@@ -174,6 +186,10 @@
               "Lift and place operation",
               "Roll-Over Operation"
             ]
+          },
+          "feature": {
+            "subTitle": "",
+            "list": []
           },
           "image": [
             "/images/PM9.jpg",
@@ -230,6 +246,10 @@
           "range": {
             "subTitle": "",
             "list": []
+          },
+          "feature": {
+            "subTitle": "",
+            "list": []
           }
         },
         {
@@ -251,6 +271,10 @@
             "/images/PT7.jpg"
           ],
           "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "feature": {
             "subTitle": "",
             "list": []
           }
@@ -282,6 +306,10 @@
             "subTitle": "",
             "list": []
           },
+          "feature": {
+            "subTitle": "",
+            "list": []
+          },
           "description": ""
         },
         {
@@ -293,6 +321,10 @@
             "/images/PR9.png"
           ],
           "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "feature": {
             "subTitle": "",
             "list": []
           },
@@ -312,6 +344,10 @@
             "subTitle": "",
             "list": []
           },
+          "feature": {
+            "subTitle": "",
+            "list": []
+          },
           "description": ""
         },
         {
@@ -323,6 +359,10 @@
             "/images/PR19.png"
           ],
           "range": {
+            "subTitle": "",
+            "list": []
+          },
+          "feature": {
             "subTitle": "",
             "list": []
           },

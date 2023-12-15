@@ -55,7 +55,7 @@ function PageProduct({ params }: Props) {
                             </ul>
                           </div>
                         )}
-                        {info.feature && (
+                        {info?.feature?.subTitle && info?.feature?.list && (
                           <div className="lg:col-span-4 px-4">
                             <strong>{info.feature?.subTitle}</strong>
                             <ul style={{ listStyle: 'initial' }}>

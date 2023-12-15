@@ -1,92 +1,94 @@
 {
   "items": [
     {
+      "slug": "epc-material-handling-facility",
       "title": "EPC Material Handling Facility",
       "href": "/services/epc-material-handling-facility",
-      "imagesProduct": [
-        "/images/Sepc1.jpg"
-      ],
+      "imagesProduct": "/images/Sepc1.jpg",
       "listInfo": [
         {
           "title": "Material Handling Facility",
-          "range": {
-            "list": [
-              "Engineering Design",
-              "Construction Handling",
-              "Equipment Installation",
-              "Shipment Handling"
-            ]
-          }
+          "description": "",
+          "range": [
+            "Engineering Design",
+            "Construction Handling",
+            "Equipment Installation",
+            "Shipment Handling"
+          ]
         }
       ]
     },
     {
+      "slug": "conveyor-maintenance-system",
       "title": "Conveyor Maintenance System",
       "href": "/services/conveyor-maintenance-system",
       "description": "Conveyor maintenance services cover belt splicing and rubber component replacement, conveyor idlers and rollers change outs and refurbishment and transfer chute repair. Our services also cover maintenance management system, maintenance procedure development, planning and scheduling, condition monitoring, structural investigations, root cause failure analysis and repairs to conveyor equipment and materials handling machinery. With our depth of experienced managers, engineers, supervisors, belt workers and trades, we have the capacity to mobilize new project sites to carry out effective and efficient maintenance services under long-term contract and alliance arrangements.",
-      "imagesProduct": [
-        "/images/Sconveyor1.jpg"
-      ],
+      "imagesProduct": "/images/Sconveyor1.jpg",
       "listInfo": [
         {
           "title": "INSTALLATION CONVEYOR BELT",
-          "description": "Installing conveyor belt properly is important to ensure a good and safe installation process. Making sure that your belt will be used to its full extent, we can install the belt or assist your team in installing it. We ensure every aspect of your belt performs reliable, effective and efficient."
+          "description": "Installing conveyor belt properly is important to ensure a good and safe installation process. Making sure that your belt will be used to its full extent, we can install the belt or assist your team in installing it. We ensure every aspect of your belt performs reliable, effective and efficient.",
+          "range": []
         },
         {
           "title": "COLD & HOT VULCANIZING FOR BELT SPLICING",
           "description": "We offer both cold & hot vulcanizing of belts with highly skilled service team. The services include jointing of Fabric as well as Steel Cord Beltings.",
           "image": [
             "/images/Sconveyor2.jpg"
-          ]
+          ],
+          "range": []
         },
         {
           "title": "Focus on Safety",
           "description": "Careless use during the installation of a conveyor belt can result in hazardous situations. Focus on safety and take no unnecessary risks by consulting our team to perform the installation.",
           "image": [
             "/images/Sconveyor3.jpg"
-          ]
+          ],
+          "range": []
         },
         {
           "title": "LAGGING PULLEY",
           "description": "Our skilled crews are backed by a team of technical professionals to ensure the components will perform reliably, first time every time. We can remove your worn out pulley lagging, and install the best lagging solution based your changing needs. Pulleys can be re-lagged in the field on your system without removal, or in our service facility. Whatever the application, smooth, rubber, grooved or diamond, or ceramic, re-lagging can be completed to give your pulley its maximum service life, reduce shell wear, increase traction, increase cleaner efficiency, assist belt tracking, increase belt uptime, and eliminate slippage problems.",
           "image": [
             "/images/Sconveyor4.jpg"
-          ]
+          ],
+          "range": []
         },
         {
           "title": "BELT SCANNING & INSPECTION",
           "description": "The primary purpose is to detect steel cord/wire damage (broken & corrosion) and check splice condition. With our Magnetic Flux Leakage equipment is used to detect anomalies or damage within the steel cords and splices of conveyor belting, invisible to the naked eye. The primary purpose is to detect steel cord/wire damage (broken & corrosion) and check splice condition. With our Magnetic Flux Leakage equipment is used to detect anomalies or damage within the steel cords and splices of conveyor belting, invisible to the naked eye.",
           "image": [
             "/images/Sconveyor5.jpg"
-          ]
+          ],
+          "range": []
         }
       ]
     },
     {
+      "slug": "crusher-rental",
       "title": "Crusher Rental",
       "href": "/services/crusher-rental",
-      "imagesProduct": [
-        "/images/Scrusher1.jpg"
-      ],
+      "imagesProduct": "/images/Scrusher1.jpg",
       "listInfo": [
         {
           "title": "CRUSHER MANUFACTURING & INSTALLATION",
-          "description": "Complete all processes with our partner from designing to manufacturing as well as production & quality control in house. We provide size range of crusher with high-quality cast steel components and durable wear parts, means exceptionally high crusher availability, cost-efficient crushing and low cost per ton."
+          "description": "Complete all processes with our partner from designing to manufacturing as well as production & quality control in house. We provide size range of crusher with high-quality cast steel components and durable wear parts, means exceptionally high crusher availability, cost-efficient crushing and low cost per ton.",
+          "range": []
         },
         {
           "title": "CRUSHER RENTAL",
-          "description": "Provide material processing solution for short term project efficient and cost-effective. By estimate rental payments for the period of use and machines needed, we can help to decide which option best suits your business needs, whether they be rental, ownership or a mix of both."
+          "description": "Provide material processing solution for short term project efficient and cost-effective. By estimate rental payments for the period of use and machines needed, we can help to decide which option best suits your business needs, whether they be rental, ownership or a mix of both.",
+          "range": []
         },
         {
           "title": "REPAIR & REFURBISHMENT",
-          "range": {
-            "list": [
-              "Inspecting each part thoroughly",
-              "Prepare recommendations to upgrade and effective treatments increasing efficiency and reliability",
-              "Decontamination, cleaning and stripping component down",
-              "Rebuild and upgrade crusher to like new condition, equipped with specialized machinery and tooling"
-            ]
-          }
+          "description": "",
+          "range": [
+            "Inspecting each part thoroughly",
+            "Prepare recommendations to upgrade and effective treatments increasing efficiency and reliability",
+            "Decontamination, cleaning and stripping component down",
+            "Rebuild and upgrade crusher to like new condition, equipped with specialized machinery and tooling"
+          ]
         },
         {
           "title": "MAINTENANCE & SPAREPART",
@@ -94,16 +96,14 @@
           "image": [
             "/images/Scrusher2.jpg"
           ],
-          "range": {
-            "list": [
-              "Roll Crusher",
-              "Segmented Manganese Teeth",
-              "Shafting",
-              "Bearing",
-              "Drive Unit",
-              "etc."
-            ]
-          }
+          "range": [
+            "Roll Crusher",
+            "Segmented Manganese Teeth",
+            "Shafting",
+            "Bearing",
+            "Drive Unit",
+            "etc."
+          ]
         }
       ]
     }

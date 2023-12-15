@@ -20,7 +20,7 @@ function PageCareer() {
           <div className="col-span-12 flex items-center justify-center mt-20">
             <a
               target="_blank"
-              href="/images/pdf/Career.pdf"
+              href="/pdf/Career.pdf"
               download
               className="bg-red-400 p-4 rounded-lg text-white"
             >
